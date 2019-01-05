@@ -1411,3 +1411,731 @@ Script call stack:
 [2019.01.05-05.56.16:889][746]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameModeF0A91D014943277F5B4F94B1F8E7C2D7.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset'
 [2019.01.05-05.57.57:015][704]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Barrel_Hopper_Map771E619F48A3B243318678AF689973F7.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Levels/Barrel_Hopper_Map.umap'
 [2019.01.05-05.57.57:197][704]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Barrel_Hopper_Map_BuiltData0D247B0D44E3A99CD124079F1C9BCFEF.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Levels/Barrel_Hopper_Map_BuiltData.uasset'
+[2019.01.05-06.05.44:156][992]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.05-06.07.56:596][791]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BarrelHopper/Levels/Barrel_Hopper_Map' took 0.034
+[2019.01.05-06.09.18:762][628]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.05-06.09.18:785][628]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.09.18:785][628]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-06.09.18:785][628]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 6. 오전 12:09:18)
+[2019.01.05-06.09.18:785][628]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.05-06.09.18:796][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011034s)
+[2019.01.05-06.09.18:797][628]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.05-06.09.18:797][628]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2019.01.05-06.09.18:797][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.011773s)
+[2019.01.05-06.09.18:870][628]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.05-06.09.18:875][628]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.05-15.09.18
+[2019.01.05-06.09.18:876][628]LogWorld: Bringing up level for play took: 0.004956
+[2019.01.05-06.09.18:894][628]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.825
+[2019.01.05-06.09.18:895][628]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.09.24:011][236]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_CustomEvent', from offset 0
+[2019.01.05-06.09.24:011][236]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BarrelHopper/GameMode/BH_GameMode.BH_GameMode_C:Char_Respawn
+
+[2019.01.05-06.09.24:013][236]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.05-06.09.31:882][537]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.09.31:883][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-06.09.31:917][537]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-06.09.31:918][537]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.09.31:952][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-06.09.31:990][540]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.01.05-06.13.17:919][384]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.05-06.21.30:375][ 78]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.05-06.21.30:397][ 78]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.21.30:397][ 78]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-06.21.30:397][ 78]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 6. 오전 12:21:30)
+[2019.01.05-06.21.30:397][ 78]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.05-06.21.30:409][ 78]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011748s)
+[2019.01.05-06.21.30:409][ 78]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.05-06.21.30:409][ 78]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2019.01.05-06.21.30:409][ 78]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.012515s)
+[2019.01.05-06.21.30:471][ 78]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.05-06.21.30:473][ 78]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.05-15.21.30
+[2019.01.05-06.21.30:473][ 78]LogWorld: Bringing up level for play took: 0.001545
+[2019.01.05-06.21.30:486][ 78]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.417
+[2019.01.05-06.21.30:487][ 78]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.21.58:167][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-06.22.25:021][558]LogEditorViewport: Clicking on Actor (LMB): BH_Character_C (BH_Character1)
+[2019.01.05-06.22.36:209][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-06.22.53:191][780]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-06.23.14:793][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-06.23.14:930][ 98]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.23.14:930][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-06.23.14:969][ 98]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-06.23.14:970][ 98]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.23.15:005][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-06.23.15:035][100]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.01.05-06.29.54:005][100]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BarrelHopper/Levels/Barrel_Hopper_Map' took 0.033
+[2019.01.05-06.29.54:006][100]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BarrelHopper/Character/BH_Character] ([1] browsable assets)...
+[2019.01.05-06.29.54:019][100]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BarrelHopper/Character/BH_Character.BH_Character]
+[2019.01.05-06.29.54:019][100]OBJ SavePackage: Finished generating thumbnails for package [/Game/BarrelHopper/Character/BH_Character]
+[2019.01.05-06.29.54:058][100]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_Character_Auto1EA3F5EA1470B65B45CD8969E8A309005.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Autosaves/Game/BarrelHopper/Character/BH_Character_Auto1.uasset'
+[2019.01.05-06.29.54:059][100]LogFileHelpers: Auto-saving content packages took 0.053
+[2019.01.05-06.38.21:715][655]BlueprintLog: New page: BH_Character 컴파일
+[2019.01.05-06.38.21:732][655]LogBlueprint: Error: [Compiler BH_Character] Camera at Depth  와 연관된 프로퍼티를 찾지 못했습니다.
+[2019.01.05-06.38.21:890][655]LogBlueprint: Warning: [Compiler BH_Character] [0519.83] BH_Character 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 174 ms] (/Game/BarrelHopper/Character/BH_Character.BH_Character)
+[2019.01.05-06.38.34:720][ 59]BlueprintLog: New page: BH_GameMode 컴파일
+[2019.01.05-06.38.35:500][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/GameMode/BH_GameMode" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset" SILENT=true
+[2019.01.05-06.38.35:526][128]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameMode105E236B48355E3FDCFF1E9E86AD6F69.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset'
+[2019.01.05-06.38.37:347][317]BlueprintLog: New page: BH_Character 컴파일
+[2019.01.05-06.38.38:852][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/Character/BH_Character" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset" SILENT=true
+[2019.01.05-06.38.38:892][447]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_Character3BFEDA3D4E8C145D8BE6698CBD371615.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset'
+[2019.01.05-06.39.05:481][572]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.05-06.41.16:190][116]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BarrelHopper/Levels/Barrel_Hopper_Map' took 0.033
+[2019.01.05-06.41.16:192][116]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BarrelHopper/GameMode/BH_GameMode] ([1] browsable assets)...
+[2019.01.05-06.41.16:192][116]OBJ SavePackage: Finished generating thumbnails for package [/Game/BarrelHopper/GameMode/BH_GameMode]
+[2019.01.05-06.41.16:214][116]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameMode_Auto2A948DE1D4A649074A46DADAA698A12A7.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Autosaves/Game/BarrelHopper/GameMode/BH_GameMode_Auto2.uasset'
+[2019.01.05-06.41.16:215][116]LogFileHelpers: Auto-saving content packages took 0.023
+[2019.01.05-06.44.55:212][ 15]LogEditorTransaction: Undo 핀 링크 생성
+[2019.01.05-06.45.05:254][196]LogEditorTransaction: Undo 핀 링크 생성
+[2019.01.05-06.45.05:669][233]LogEditorTransaction: Undo 핀 링크 생성
+[2019.01.05-06.45.06:305][304]LogEditorTransaction: Undo 핀 링크 생성
+[2019.01.05-06.45.06:719][349]LogEditorTransaction: Undo 노드 추가
+[2019.01.05-06.45.21:870][143]LogEditorTransaction: Undo 핀 링크 생성
+[2019.01.05-06.45.26:309][658]LogEditorTransaction: Undo 핀 링크 생성
+[2019.01.05-06.45.27:163][746]LogEditorTransaction: Undo 노드 이동
+[2019.01.05-06.45.27:800][818]LogEditorTransaction: Undo 노드 추가
+[2019.01.05-06.45.28:419][888]LogEditorTransaction: Undo 노드 추가
+[2019.01.05-06.45.37:276][927]LogEditorTransaction: Undo 핀 링크 생성
+[2019.01.05-06.45.56:077][148]LogEditorTransaction: Undo 핀 링크 생성
+[2019.01.05-06.50.38:070][663]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.05-06.50.38:092][663]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.50.38:092][663]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2019.01.05-06.50.38:106][663]LogPlayLevel: [PlayLevel] Compiling BH_GameMode before play...
+[2019.01.05-06.50.38:267][663]LogPlayLevel: PlayLevel: Blueprint regeneration took 175 ms (1 blueprints)
+[2019.01.05-06.50.38:268][663]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 6. 오전 12:50:38)
+[2019.01.05-06.50.38:268][663]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.05-06.50.38:280][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012407s)
+[2019.01.05-06.50.38:281][663]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.05-06.50.38:281][663]LogPlayLevel: PIE: World Init took: (0.000567s)
+[2019.01.05-06.50.38:281][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.013105s)
+[2019.01.05-06.50.38:346][663]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.05-06.50.38:353][663]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.05-15.50.38
+[2019.01.05-06.50.38:353][663]LogWorld: Bringing up level for play took: 0.004769
+[2019.01.05-06.50.38:369][663]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.299
+[2019.01.05-06.50.38:369][663]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.51.20:442][392]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.51.20:467][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-06.51.20:509][392]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-06.51.20:510][392]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.51.20:548][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-06.51.20:566][393]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2019.01.05-06.54.19:796][475]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BarrelHopper/Levels/Barrel_Hopper_Map' took 0.035
+[2019.01.05-06.54.19:798][475]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BarrelHopper/GameMode/BH_GameMode] ([1] browsable assets)...
+[2019.01.05-06.54.19:798][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/BarrelHopper/GameMode/BH_GameMode]
+[2019.01.05-06.54.19:831][475]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameMode_Auto3EC657DAF4F67EA52D54908BA174A6A98.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Autosaves/Game/BarrelHopper/GameMode/BH_GameMode_Auto3.uasset'
+[2019.01.05-06.54.19:832][475]LogFileHelpers: Auto-saving content packages took 0.035
+[2019.01.05-06.54.31:365][833]BlueprintLog: New page: BH_GameMode 컴파일
+[2019.01.05-06.54.32:456][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/GameMode/BH_GameMode" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset" SILENT=true
+[2019.01.05-06.54.32:483][920]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameMode3168A8F340F3D1013D806CB1CB94C379.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset'
+[2019.01.05-06.54.34:962][205]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.05-06.54.34:982][205]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.54.34:983][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-06.54.34:983][205]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 6. 오전 12:54:34)
+[2019.01.05-06.54.34:983][205]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.05-06.54.34:994][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011255s)
+[2019.01.05-06.54.34:995][205]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.05-06.54.34:995][205]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2019.01.05-06.54.34:995][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.011952s)
+[2019.01.05-06.54.35:059][205]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.05-06.54.35:065][205]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.05-15.54.35
+[2019.01.05-06.54.35:065][205]LogWorld: Bringing up level for play took: 0.004163
+[2019.01.05-06.54.35:085][205]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 1.015
+[2019.01.05-06.54.35:085][205]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.54.54:315][332]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-06.55.03:226][336]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-06.55.07:479][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-06.55.14:024][453]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-06.55.14:126][465]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.55.14:126][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-06.55.14:159][465]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-06.55.14:159][465]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.55.14:191][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-06.55.14:233][468]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.01.05-06.56.30:736][ 43]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.05-06.56.30:759][ 43]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.56.30:759][ 43]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2019.01.05-06.56.30:768][ 43]LogPlayLevel: [PlayLevel] Compiling BH_GameMode before play...
+[2019.01.05-06.56.30:928][ 43]LogPlayLevel: PlayLevel: Blueprint regeneration took 169 ms (1 blueprints)
+[2019.01.05-06.56.30:928][ 43]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 6. 오전 12:56:30)
+[2019.01.05-06.56.30:928][ 43]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.05-06.56.30:940][ 43]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011600s)
+[2019.01.05-06.56.30:940][ 43]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.05-06.56.30:940][ 43]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2019.01.05-06.56.30:940][ 43]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.012310s)
+[2019.01.05-06.56.31:002][ 43]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.05-06.56.31:004][ 43]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.05-15.56.31
+[2019.01.05-06.56.31:005][ 43]LogWorld: Bringing up level for play took: 0.001481
+[2019.01.05-06.56.31:017][ 43]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.948
+[2019.01.05-06.56.31:018][ 43]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.56.32:525][168]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.56.32:526][168]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-06.56.32:558][168]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-06.56.32:559][168]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.56.32:593][168]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-06.56.32:633][171]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2019.01.05-06.56.33:948][314]BlueprintLog: New page: BH_GameMode 컴파일
+[2019.01.05-06.56.34:659][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/GameMode/BH_GameMode" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset" SILENT=true
+[2019.01.05-06.56.34:687][356]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameModeAD290A4B47EA41E4EC0462B75DF17ADD.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset'
+[2019.01.05-06.56.35:671][463]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.05-06.56.35:691][463]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.56.35:691][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-06.56.35:691][463]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 6. 오전 12:56:35)
+[2019.01.05-06.56.35:691][463]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.05-06.56.35:702][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010975s)
+[2019.01.05-06.56.35:703][463]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.05-06.56.35:703][463]LogPlayLevel: PIE: World Init took: (0.000486s)
+[2019.01.05-06.56.35:703][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.011581s)
+[2019.01.05-06.56.35:768][463]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.05-06.56.35:771][463]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.05-15.56.35
+[2019.01.05-06.56.35:771][463]LogWorld: Bringing up level for play took: 0.002120
+[2019.01.05-06.56.35:790][463]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: -0.28
+[2019.01.05-06.56.35:790][463]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.56.39:361][852]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_SetViewTargetWithBlend', from offset 495
+[2019.01.05-06.56.39:361][852]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BarrelHopper/GameMode/BH_GameMode.BH_GameMode_C:Char_Respawn
+	Function /Game/BarrelHopper/GameMode/BH_GameMode.BH_GameMode_C:ExecuteUbergraph_BH_GameMode
+
+[2019.01.05-06.56.39:364][852]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.05-06.56.50:805][675]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.56.50:806][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-06.56.50:838][675]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-06.56.50:838][675]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.56.50:869][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-06.56.50:917][677]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2019.01.05-06.56.53:275][948]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-06.57.00:806][811]BlueprintLog: New page: BH_GameMode 컴파일
+[2019.01.05-06.57.01:529][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/GameMode/BH_GameMode" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset" SILENT=true
+[2019.01.05-06.57.01:558][855]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameModeA6797F7F4487E8B706DCE49469B5E679.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset'
+[2019.01.05-06.57.02:951][ 12]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.05-06.57.02:970][ 12]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.57.02:971][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-06.57.02:971][ 12]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 6. 오전 12:57:02)
+[2019.01.05-06.57.02:971][ 12]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.05-06.57.02:982][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011442s)
+[2019.01.05-06.57.02:983][ 12]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.05-06.57.02:983][ 12]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2019.01.05-06.57.02:983][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.012140s)
+[2019.01.05-06.57.03:047][ 12]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.05-06.57.03:053][ 12]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.05-15.57.03
+[2019.01.05-06.57.03:053][ 12]LogWorld: Bringing up level for play took: 0.003950
+[2019.01.05-06.57.03:073][ 12]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 1.004
+[2019.01.05-06.57.03:074][ 12]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.57.13:812][259]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.57.13:812][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-06.57.13:845][259]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-06.57.13:845][259]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-06.57.13:895][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-06.57.13:921][260]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2019.01.05-06.57.16:091][508]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-06.57.22:367][223]BlueprintLog: New page: BH_GameMode 컴파일
+[2019.01.05-06.57.23:058][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/GameMode/BH_GameMode" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset" SILENT=true
+[2019.01.05-06.57.23:086][264]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameMode1C4919794BA44962156BE9823BC7FE38.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset'
+[2019.01.05-07.03.24:504][208]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.05-07.03.24:527][208]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.03.24:527][208]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2019.01.05-07.03.24:541][208]LogPlayLevel: [PlayLevel] Compiling BH_GameMode before play...
+[2019.01.05-07.03.24:703][208]LogPlayLevel: PlayLevel: Blueprint regeneration took 175 ms (1 blueprints)
+[2019.01.05-07.03.24:703][208]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 6. 오전 1:03:24)
+[2019.01.05-07.03.24:703][208]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.05-07.03.24:715][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011801s)
+[2019.01.05-07.03.24:715][208]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.05-07.03.24:715][208]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2019.01.05-07.03.24:715][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.012578s)
+[2019.01.05-07.03.24:788][208]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.05-07.03.24:792][208]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.05-16.03.24
+[2019.01.05-07.03.24:792][208]LogWorld: Bringing up level for play took: 0.002258
+[2019.01.05-07.03.24:809][208]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.739
+[2019.01.05-07.03.24:809][208]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.03.31:474][996]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.03.31:475][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-07.03.31:510][996]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-07.03.31:511][996]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.03.31:541][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-07.03.31:576][998]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2019.01.05-07.03.33:859][267]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-07.05.50:255][544]BlueprintLog: New page: BH_GameMode 컴파일
+[2019.01.05-07.05.51:327][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/GameMode/BH_GameMode" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset" SILENT=true
+[2019.01.05-07.05.51:363][647]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameModeF66F839E45DF6173443BF980A74900DA.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset'
+[2019.01.05-07.05.53:678][920]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.05-07.05.53:698][920]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.05.53:698][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-07.05.53:698][920]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 6. 오전 1:05:53)
+[2019.01.05-07.05.53:699][920]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.05-07.05.53:710][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011081s)
+[2019.01.05-07.05.53:710][920]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.05-07.05.53:710][920]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2019.01.05-07.05.53:710][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.011779s)
+[2019.01.05-07.05.53:767][920]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.05-07.05.53:769][920]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.05-16.05.53
+[2019.01.05-07.05.53:769][920]LogWorld: Bringing up level for play took: 0.001374
+[2019.01.05-07.05.53:782][920]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: -0.288
+[2019.01.05-07.05.53:782][920]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.06.11:112][993]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.06.11:112][993]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-07.06.11:151][993]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-07.06.11:151][993]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.06.11:196][993]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-07.06.11:220][994]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2019.01.05-07.06.14:898][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-07.06.55:162][239]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BarrelHopper/Levels/Barrel_Hopper_Map' took 0.032
+[2019.01.05-07.07.31:054][518]BlueprintLog: New page: BH_GameMode 컴파일
+[2019.01.05-07.07.32:604][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/GameMode/BH_GameMode" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset" SILENT=true
+[2019.01.05-07.07.32:634][678]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameMode889793B44D24217957E23C86FD866CEF.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset'
+[2019.01.05-07.08.16:811][718]BlueprintLog: New page: BH_GameMode 컴파일
+[2019.01.05-07.08.17:403][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/GameMode/BH_GameMode" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset" SILENT=true
+[2019.01.05-07.08.17:435][764]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameMode0CB602244C2679DE5F26EAB3BBD253C0.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset'
+[2019.01.05-07.08.22:028][298]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.05-07.08.22:048][298]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.08.22:049][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-07.08.22:049][298]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 6. 오전 1:08:22)
+[2019.01.05-07.08.22:049][298]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.05-07.08.22:060][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011936s)
+[2019.01.05-07.08.22:060][298]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.05-07.08.22:060][298]LogPlayLevel: PIE: World Init took: (0.000566s)
+[2019.01.05-07.08.22:061][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.012632s)
+[2019.01.05-07.08.22:127][298]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.05-07.08.22:129][298]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.05-16.08.22
+[2019.01.05-07.08.22:129][298]LogWorld: Bringing up level for play took: 0.001346
+[2019.01.05-07.08.22:143][298]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.073
+[2019.01.05-07.08.22:143][298]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.08.31:762][443]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.08.31:762][443]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-07.08.31:798][443]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-07.08.31:798][443]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.08.31:854][443]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-07.08.31:879][444]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2019.01.05-07.08.32:897][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-07.09.16:569][749]BlueprintLog: New page: BH_GameMode 컴파일
+[2019.01.05-07.09.17:197][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/GameMode/BH_GameMode" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset" SILENT=true
+[2019.01.05-07.09.17:230][800]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameMode9B640D594245C0DC794CFAB43FAE7E16.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset'
+[2019.01.05-07.09.18:270][923]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.05-07.09.18:290][923]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.09.18:290][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-07.09.18:290][923]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 6. 오전 1:09:18)
+[2019.01.05-07.09.18:290][923]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.05-07.09.18:302][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011952s)
+[2019.01.05-07.09.18:302][923]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.05-07.09.18:303][923]LogPlayLevel: PIE: World Init took: (0.000501s)
+[2019.01.05-07.09.18:303][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.012599s)
+[2019.01.05-07.09.18:367][923]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.05-07.09.18:368][923]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.05-16.09.18
+[2019.01.05-07.09.18:369][923]LogWorld: Bringing up level for play took: 0.001517
+[2019.01.05-07.09.18:382][923]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.313
+[2019.01.05-07.09.18:383][923]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.09.35:135][927]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.09.35:135][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-07.09.35:174][927]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-07.09.35:174][927]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.09.35:212][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-07.09.35:237][928]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2019.01.05-07.09.36:351][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-07.09.45:882][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/GameMode/BH_GameMode" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset" SILENT=true
+[2019.01.05-07.09.45:912][197]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameMode4CC01FEF4D6468238DF5C28C1FD4029B.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset'
+[2019.01.05-07.09.46:467][262]BlueprintLog: New page: BH_GameMode 컴파일
+[2019.01.05-07.09.47:237][331]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2019.01.05-07.09.48:700][493]LogEditorTransaction: Redo 현 선택을 삭제합니다.
+[2019.01.05-07.09.50:367][687]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.05-07.09.50:388][687]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.09.50:388][687]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2019.01.05-07.09.50:396][687]LogPlayLevel: [PlayLevel] Compiling BH_GameMode before play...
+[2019.01.05-07.09.50:550][687]LogPlayLevel: PlayLevel: Blueprint regeneration took 162 ms (1 blueprints)
+[2019.01.05-07.09.50:550][687]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 6. 오전 1:09:50)
+[2019.01.05-07.09.50:550][687]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.05-07.09.50:561][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011487s)
+[2019.01.05-07.09.50:562][687]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.05-07.09.50:562][687]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2019.01.05-07.09.50:562][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.012147s)
+[2019.01.05-07.09.50:625][687]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.05-07.09.50:633][687]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.05-16.09.50
+[2019.01.05-07.09.50:634][687]LogWorld: Bringing up level for play took: 0.006417
+[2019.01.05-07.09.50:654][687]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.584
+[2019.01.05-07.09.50:655][687]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.10.01:496][956]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.10.01:496][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-07.10.01:535][956]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-07.10.01:535][956]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.10.01:566][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-07.10.01:601][958]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2019.01.05-07.10.02:515][ 66]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-07.10.11:539][147]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2019.01.05-07.11.01:751][142]BlueprintLog: New page: BH_GameMode 컴파일
+[2019.01.05-07.11.02:335][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/GameMode/BH_GameMode" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset" SILENT=true
+[2019.01.05-07.11.02:374][187]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameMode148724744D33095434E9078AD2AA285A.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset'
+[2019.01.05-07.11.09:627][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/Character/BH_Character" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset" SILENT=true
+[2019.01.05-07.11.09:668][932]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_CharacterAFA717EF4DD12FA0D221E0A3E18B1BCC.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset'
+[2019.01.05-07.11.11:161][ 93]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.05-07.11.11:181][ 93]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.11.11:181][ 93]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2019.01.05-07.11.11:190][ 93]LogPlayLevel: [PlayLevel] Compiling BH_Character before play...
+[2019.01.05-07.11.11:196][ 93]LogBlueprint: Error: [Compiler BH_Character] 이 블루프린트(셀프)는 SceneComponent 이지 않으므로, ' 타깃 ' 에 연결이 있어야 합니다.
+[2019.01.05-07.11.11:196][ 93]LogBlueprint: Error: [Compiler BH_Character] 이 블루프린트(셀프)는 SceneComponent 이지 않으므로, ' 타깃 ' 에 연결이 있어야 합니다.
+[2019.01.05-07.11.11:199][ 93]LogBlueprint: Warning: [Compiler BH_Character] [2489.14] BH_Character 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 0 회, [소요시간 14 ms] (/Game/BarrelHopper/Character/BH_Character.BH_Character)
+[2019.01.05-07.11.11:346][ 93]LogPlayLevel: PlayLevel: Blueprint regeneration took 166 ms (1 blueprints)
+[2019.01.05-07.11.11:346][ 93]BlueprintLog: BH_Character 블루프린트 컴파일에 실패했습니다.
+[2019.01.05-07.11.17:380][ 93]LogSlate: Window '메시지' being destroyed
+[2019.01.05-07.11.23:578][764]LogEditorTransaction: Undo 컴포넌트 제거
+[2019.01.05-07.11.27:038][102]BlueprintLog: New page: BH_Character 컴파일
+[2019.01.05-07.11.28:269][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/Character/BH_Character" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset" SILENT=true
+[2019.01.05-07.11.28:305][198]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_Character11B53BE046FA96B3756E10ACFB175669.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset'
+[2019.01.05-07.12.17:945][ 55]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.05-07.12.17:966][ 55]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.12.17:966][ 55]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2019.01.05-07.12.17:981][ 55]LogPlayLevel: [PlayLevel] Compiling BH_GameMode before play...
+[2019.01.05-07.12.18:141][ 55]LogPlayLevel: PlayLevel: Blueprint regeneration took 174 ms (1 blueprints)
+[2019.01.05-07.12.18:141][ 55]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 6. 오전 1:12:18)
+[2019.01.05-07.12.18:141][ 55]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.05-07.12.18:154][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013090s)
+[2019.01.05-07.12.18:155][ 55]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.05-07.12.18:155][ 55]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2019.01.05-07.12.18:155][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.013813s)
+[2019.01.05-07.12.18:222][ 55]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.05-07.12.18:224][ 55]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.05-16.12.18
+[2019.01.05-07.12.18:225][ 55]LogWorld: Bringing up level for play took: 0.001917
+[2019.01.05-07.12.18:238][ 55]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.168
+[2019.01.05-07.12.18:238][ 55]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.12.25:237][856]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.12.25:237][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-07.12.25:277][856]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-07.12.25:277][856]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.05-07.12.25:320][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-07.12.25:344][857]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2019.01.05-07.12.26:048][938]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-07.12.28:347][211]BlueprintLog: New page: BH_GameMode 컴파일
+[2019.01.05-07.12.28:850][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/GameMode/BH_GameMode" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset" SILENT=true
+[2019.01.05-07.12.28:880][248]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameMode299EA48C44A0D019FF41A19930B3D189.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset'
+[2019.01.05-07.19.08:517][447]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.05-07.19.08:578][447]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.05-07.19.08:668][447]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.05-07.19.08:737][447]LogSlate: Window 'BH_BarrelKiller_Blueprint' being destroyed
+[2019.01.05-07.19.08:742][447]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.05-07.19.08:804][447]LogSlate: Window 'BarrelHopper - 언리얼 에디터' being destroyed
+[2019.01.05-07.19.08:807][447]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2019.01.05-07.19.09:044][448]Cmd: QUIT_EDITOR
+[2019.01.05-07.19.09:532][448]LogExit: Preparing to exit.
+[2019.01.05-07.19.10:290][448]LogExit: Editor shut down
+[2019.01.05-07.19.10:291][448]LogExit: Transaction tracking system shut down
+[2019.01.05-07.19.10:588][448]LogExit: Object subsystem successfully closed.
+[2019.01.05-07.19.10:602][448]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.01.05-07.19.10:622][448]LogD3D11RHI: Shutdown
+[2019.01.05-07.19.10:622][448]LogD3D11RHI: CleanupD3DDevice
+[2019.01.05-07.19.10:769][448]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.05-07.19.10:778][448]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (630)
+[2019.01.05-07.19.10:778][448]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (628)
+[2019.01.05-07.19.10:778][448]LogModuleManager: Shutting down and abandoning module Voice (626)
+[2019.01.05-07.19.10:778][448]LogModuleManager: Shutting down and abandoning module BlueprintGraph (624)
+[2019.01.05-07.19.10:778][448]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (622)
+[2019.01.05-07.19.10:778][448]LogModuleManager: Shutting down and abandoning module SceneOutliner (620)
+[2019.01.05-07.19.10:778][448]LogModuleManager: Shutting down and abandoning module AddContentDialog (618)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module WidgetCarousel (617)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module EditorWidgets (614)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module CollectionManager (612)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module StatsViewer (610)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module FoliageEdit (608)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module LandscapeEditor (606)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module MeshPaintMode (604)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (602)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module ActorPickerMode (600)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module GeometryMode (598)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module TextureAlignMode (596)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module BspMode (594)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (592)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (590)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module AutomationWorker (588)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (586)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (584)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (582)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module PlacementMode (581)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module MaterialEditor (580)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (576)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (574)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (572)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (570)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module WebMMedia (568)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (566)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (564)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module SequenceRecorder (563)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (560)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (558)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (556)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (554)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (552)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (550)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (548)
+[2019.01.05-07.19.10:779][448]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (546)
+[2019.01.05-07.19.10:780][448]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (544)
+[2019.01.05-07.19.10:780][448]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (542)
+[2019.01.05-07.19.10:780][448]LogModuleManager: Shutting down and abandoning module CharacterAI (540)
+[2019.01.05-07.19.10:780][448]LogModuleManager: Shutting down and abandoning module SmartSnapping (538)
+[2019.01.05-07.19.10:780][448]LogModuleManager: Shutting down and abandoning module SessionServices (536)
+[2019.01.05-07.19.10:780][448]LogModuleManager: Shutting down and abandoning module ViewportSnapping (534)
+[2019.01.05-07.19.10:780][448]LogModuleManager: Shutting down and abandoning module ViewportInteraction (532)
+[2019.01.05-07.19.10:780][448]LogModuleManager: Shutting down and abandoning module ClothPainter (530)
+[2019.01.05-07.19.10:780][448]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (529)
+[2019.01.05-07.19.10:780][448]LogModuleManager: Shutting down and abandoning module LogVisualizer (526)
+[2019.01.05-07.19.10:780][448]LogModuleManager: Shutting down and abandoning module IntroTutorials (524)
+[2019.01.05-07.19.10:780][448]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (523)
+[2019.01.05-07.19.10:780][448]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (520)
+[2019.01.05-07.19.10:780][448]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (518)
+[2019.01.05-07.19.10:780][448]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (516)
+[2019.01.05-07.19.10:780][448]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (514)
+[2019.01.05-07.19.10:780][448]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (513)
+[2019.01.05-07.19.11:254][448]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (510)
+[2019.01.05-07.19.11:254][448]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (508)
+[2019.01.05-07.19.11:254][448]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (506)
+[2019.01.05-07.19.11:254][448]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (504)
+[2019.01.05-07.19.11:254][448]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (502)
+[2019.01.05-07.19.11:254][448]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.01.05-07.19.11:254][448]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.01.05-07.19.11:254][448]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.01.05-07.19.11:254][448]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.01.05-07.19.11:254][448]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.01.05-07.19.11:254][448]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.01.05-07.19.11:254][448]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.01.05-07.19.11:254][448]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.01.05-07.19.11:254][448]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.01.05-07.19.11:254][448]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.01.05-07.19.11:255][448]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.01.05-07.19.11:255][448]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.01.05-07.19.11:255][448]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.01.05-07.19.11:255][448]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.01.05-07.19.11:255][448]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.01.05-07.19.11:255][448]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.01.05-07.19.11:255][448]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.01.05-07.19.11:255][448]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.01.05-07.19.11:310][448]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.01.05-07.19.11:310][448]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.01.05-07.19.11:310][448]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.01.05-07.19.11:310][448]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.01.05-07.19.11:310][448]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.01.05-07.19.11:310][448]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.01.05-07.19.11:310][448]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.01.05-07.19.11:310][448]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.01.05-07.19.11:310][448]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.01.05-07.19.11:310][448]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.01.05-07.19.11:314][448]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.01.05-07.19.11:314][448]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.01.05-07.19.11:315][448]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.01.05-07.19.11:315][448]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.01.05-07.19.11:315][448]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.01.05-07.19.11:315][448]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.01.05-07.19.11:315][448]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.01.05-07.19.11:315][448]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.01.05-07.19.11:315][448]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.01.05-07.19.11:315][448]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.01.05-07.19.11:315][448]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.01.05-07.19.11:315][448]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.01.05-07.19.11:315][448]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.01.05-07.19.11:315][448]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.01.05-07.19.11:315][448]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.01.05-07.19.11:315][448]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.01.05-07.19.11:315][448]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.01.05-07.19.11:316][448]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.01.05-07.19.11:316][448]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.01.05-07.19.11:316][448]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.01.05-07.19.11:316][448]LogModuleManager: Shutting down and abandoning module DesktopPlatform (404)
+[2019.01.05-07.19.11:316][448]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (402)
+[2019.01.05-07.19.11:318][448]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.01.05-07.19.11:516][448]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.01.05-07.19.11:516][448]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.01.05-07.19.11:516][448]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.01.05-07.19.11:516][448]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.01.05-07.19.11:516][448]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.01.05-07.19.11:516][448]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.01.05-07.19.11:516][448]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.01.05-07.19.11:516][448]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.01.05-07.19.11:516][448]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.01.05-07.19.11:516][448]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.01.05-07.19.11:516][448]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.01.05-07.19.11:516][448]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.01.05-07.19.11:516][448]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.01.05-07.19.11:516][448]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.01.05-07.19.11:517][448]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.01.05-07.19.11:517][448]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.01.05-07.19.11:517][448]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.01.05-07.19.11:524][448]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.01.05-07.19.11:524][448]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.01.05-07.19.11:524][448]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.01.05-07.19.11:524][448]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.01.05-07.19.11:524][448]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.01.05-07.19.11:524][448]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2019.01.05-07.19.11:524][448]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.01.05-07.19.11:524][448]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.01.05-07.19.11:524][448]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.01.05-07.19.11:524][448]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.01.05-07.19.11:524][448]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.01.05-07.19.11:524][448]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2019.01.05-07.19.11:524][448]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2019.01.05-07.19.11:524][448]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.01.05-07.19.11:525][448]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.01.05-07.19.11:525][448]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.01.05-07.19.11:525][448]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.01.05-07.19.11:525][448]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.01.05-07.19.11:525][448]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.01.05-07.19.11:525][448]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.01.05-07.19.11:525][448]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.01.05-07.19.11:525][448]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.01.05-07.19.11:526][448]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.01.05-07.19.11:526][448]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.01.05-07.19.11:526][448]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.01.05-07.19.11:526][448]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.01.05-07.19.11:526][448]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.01.05-07.19.11:526][448]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.01.05-07.19.11:526][448]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2019.01.05-07.19.11:526][448]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2019.01.05-07.19.11:526][448]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2019.01.05-07.19.11:526][448]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2019.01.05-07.19.11:526][448]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2019.01.05-07.19.11:527][448]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2019.01.05-07.19.11:527][448]LogModuleManager: Shutting down and abandoning module MeshPaint (297)
+[2019.01.05-07.19.11:527][448]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.01.05-07.19.11:527][448]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.01.05-07.19.11:527][448]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.01.05-07.19.11:527][448]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
+[2019.01.05-07.19.11:527][448]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.01.05-07.19.11:527][448]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.01.05-07.19.11:527][448]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.01.05-07.19.11:629][448]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.01.05-07.19.11:730][448]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.01.05-07.19.11:730][448]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.01.05-07.19.11:730][448]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.01.05-07.19.11:730][448]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.01.05-07.19.11:730][448]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.01.05-07.19.11:730][448]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.01.05-07.19.11:730][448]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.01.05-07.19.11:730][448]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.01.05-07.19.11:730][448]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.01.05-07.19.11:731][448]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.01.05-07.19.11:731][448]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.01.05-07.19.11:731][448]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.01.05-07.19.11:732][448]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.01.05-07.19.11:732][448]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.01.05-07.19.11:732][448]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.01.05-07.19.11:732][448]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.01.05-07.19.11:732][448]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.01.05-07.19.11:732][448]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.01.05-07.19.11:732][448]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.01.05-07.19.11:733][448]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.01.05-07.19.11:740][448]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.01.05-07.19.11:740][448]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.01.05-07.19.11:740][448]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.01.05-07.19.11:740][448]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.01.05-07.19.11:740][448]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.01.05-07.19.11:740][448]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.01.05-07.19.11:740][448]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.01.05-07.19.11:740][448]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.01.05-07.19.11:740][448]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.01.05-07.19.11:740][448]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.01.05-07.19.11:740][448]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.01.05-07.19.11:740][448]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.01.05-07.19.11:740][448]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.01.05-07.19.11:741][448]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.01.05-07.19.11:741][448]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.01.05-07.19.11:741][448]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.01.05-07.19.11:741][448]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.01.05-07.19.11:741][448]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.01.05-07.19.11:741][448]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.01.05-07.19.11:741][448]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.01.05-07.19.11:744][448]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.01.05-07.19.11:744][448]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.01.05-07.19.11:744][448]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.01.05-07.19.11:744][448]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.01.05-07.19.11:744][448]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.01.05-07.19.11:745][448]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.01.05-07.19.11:745][448]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.01.05-07.19.11:745][448]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.01.05-07.19.11:745][448]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.01.05-07.19.11:745][448]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.01.05-07.19.11:745][448]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.01.05-07.19.11:745][448]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.01.05-07.19.11:745][448]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.01.05-07.19.11:745][448]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.01.05-07.19.11:745][448]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.01.05-07.19.11:745][448]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.01.05-07.19.11:745][448]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.01.05-07.19.11:745][448]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.01.05-07.19.11:796][448]LogDerivedDataCache: Shutdown
+[2019.01.05-07.19.11:796][448]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.01.05-07.19.11:797][448]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.01.05-07.19.11:797][448]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.01.05-07.19.11:797][448]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.01.05-07.19.11:797][448]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.01.05-07.19.11:797][448]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.01.05-07.19.11:797][448]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.01.05-07.19.11:797][448]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.01.05-07.19.11:797][448]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.01.05-07.19.11:797][448]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.01.05-07.19.11:797][448]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.01.05-07.19.11:798][448]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.01.05-07.19.11:798][448]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.01.05-07.19.11:798][448]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.01.05-07.19.11:798][448]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.01.05-07.19.11:798][448]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.01.05-07.19.11:798][448]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.01.05-07.19.11:798][448]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.01.05-07.19.11:805][448]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.01.05-07.19.11:805][448]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.01.05-07.19.11:805][448]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.01.05-07.19.11:805][448]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.01.05-07.19.11:805][448]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.01.05-07.19.11:806][448]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.01.05-07.19.11:806][448]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.01.05-07.19.11:807][448]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.01.05-07.19.11:807][448]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.01.05-07.19.11:817][448]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.01.05-07.19.11:817][448]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.01.05-07.19.11:817][448]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.01.05-07.19.11:817][448]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.01.05-07.19.11:817][448]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.01.05-07.19.11:817][448]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.01.05-07.19.11:817][448]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.01.05-07.19.11:817][448]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.01.05-07.19.11:817][448]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.01.05-07.19.11:817][448]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.01.05-07.19.11:817][448]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.01.05-07.19.11:817][448]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.01.05-07.19.11:817][448]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.01.05-07.19.11:817][448]LogHMD: Freeing OpenVRDLLHandle.
+[2019.01.05-07.19.11:817][448]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.01.05-07.19.11:817][448]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.01.05-07.19.11:817][448]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.01.05-07.19.11:817][448]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.01.05-07.19.11:817][448]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.01.05-07.19.11:818][448]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.01.05-07.19.11:818][448]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.01.05-07.19.11:840][448]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.01.05-07.19.11:840][448]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2019.01.05-07.19.11:840][448]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE5FE0A34-422B-2626-313E-55B4B7BF467A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.1-4613538%2B%2B%2BUE4%2BRelease-4.21&UserID=50625edb47a7268c77073488e0608e2b%7C7f43d58c1277444caf8b50d9bee346ac%7C4d50dd5b-6309-4969-8c08-c3c83096462a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.01.05-07.19.11:840][448]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE5FE0A34-422B-2626-313E-55B4B7BF467A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.1-4613538%2B%2B%2BUE4%2BRelease-4.21&UserID=50625edb47a7268c77073488e0608e2b%7C7f43d58c1277444caf8b50d9bee346ac%7C4d50dd5b-6309-4969-8c08-c3c83096462a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.01.05-07.19.11:875][448]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.01.05-07.19.11:876][448]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.01.05-07.19.11:876][448]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.01.05-07.19.11:876][448]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.01.05-07.19.11:876][448]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.01.05-07.19.11:876][448]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.01.05-07.19.11:876][448]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.01.05-07.19.11:877][448]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.01.05-07.19.11:877][448]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.01.05-07.19.11:877][448]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.01.05-07.19.11:877][448]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.01.05-07.19.11:877][448]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.01.05-07.19.11:877][448]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.01.05-07.19.11:878][448]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.01.05-07.19.11:878][448]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.01.05-07.19.11:878][448]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.01.05-07.19.11:878][448]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.01.05-07.19.11:878][448]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.01.05-07.19.11:880][448]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.01.05-07.19.11:880][448]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.01.05-07.19.11:880][448]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.01.05-07.19.11:880][448]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.01.05-07.19.11:880][448]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.01.05-07.19.11:880][448]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.01.05-07.19.11:880][448]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.01.05-07.19.11:880][448]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.01.05-07.19.11:880][448]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.01.05-07.19.11:880][448]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.01.05-07.19.11:880][448]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.01.05-07.19.11:884][448]LogExit: Exiting.
+[2019.01.05-07.19.11:892][448]Log file closed, 01/05/19 16:19:11
