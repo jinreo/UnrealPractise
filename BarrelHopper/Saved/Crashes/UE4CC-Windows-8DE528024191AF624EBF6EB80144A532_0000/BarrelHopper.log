@@ -1,0 +1,1319 @@
+﻿Log file open, 01/08/19 15:43:16
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: BarrelHopper
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.234747
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.070s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4613538
+LogInit: Engine Version: 4.21.1-4613538+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz, GPU: NVIDIA GeForce GTX 1050
+LogInit: Compiled (64-bit): Nov 30 2018 04:13:25
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line:  -EpicPortal -epicusername=jinreo -epicuserid=7f43d58c1277444caf8b50d9bee346ac -epiclocale=ko-KR
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Engine.ini]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Engine.ini]
+[2019.01.08-06.43.17:216][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Engine.ini]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Engine.ini]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.01.08-06.43.17:216][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.01.08-06.43.17:217][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.01.08-06.43.17:217][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Engine.ini]
+[2019.01.08-06.43.17:217][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Engine.ini]
+[2019.01.08-06.43.17:224][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Scalability.ini]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Scalability.ini]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Scalability.ini]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Scalability.ini]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Scalability.ini]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Scalability.ini]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.08-06.43.17:224][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.08-06.43.17:225][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.08-06.43.17:225][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.08-06.43.17:225][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.08-06.43.17:225][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.08-06.43.17:225][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.08-06.43.17:225][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.08-06.43.17:225][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.08-06.43.17:225][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.08-06.43.17:225][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.08-06.43.17:225][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.08-06.43.17:225][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Scalability.ini]
+[2019.01.08-06.43.17:225][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.08-06.43.17:225][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.08-06.43.17:225][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.08-06.43.17:225][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.08-06.43.17:239][  0]LogHAL: Display: Platform has ~ 16 GB [17096851456 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.01.08-06.43.17:239][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.08-06.43.17:239][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Scalability.ini]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Scalability.ini]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Scalability.ini]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.08-06.43.17:239][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Scalability.ini]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Scalability.ini]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Scalability.ini]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Scalability.ini]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.01.08-06.43.17:240][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.01.08-06.43.17:240][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Config/Windows/Engine.ini]
+[2019.01.08-06.43.17:240][  0]LogInit: Computer: DESKTOP-RQ4MHCV
+[2019.01.08-06.43.17:240][  0]LogInit: User: user
+[2019.01.08-06.43.17:240][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.01.08-06.43.17:240][  0]LogInit: High frequency timer resolution =2.929691 MHz
+[2019.01.08-06.43.17:241][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.08-06.43.17:241][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.08-06.43.17:241][  0]LogMemory: Process Physical Memory: 102.92 MB used, 102.92 MB peak
+[2019.01.08-06.43.17:241][  0]LogMemory: Process Virtual Memory: 85.43 MB used, 85.43 MB peak
+[2019.01.08-06.43.17:241][  0]LogMemory: Physical Memory: 8341.89 MB used,  7962.94 MB free, 16304.83 MB total
+[2019.01.08-06.43.17:241][  0]LogMemory: Virtual Memory: 4642.54 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.01.08-06.43.17:259][  0]LogInit: Using OS detected language (ko-KR).
+[2019.01.08-06.43.17:259][  0]LogInit: Using OS detected locale (ko-KR).
+[2019.01.08-06.43.17:259][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2019.01.08-06.43.17:594][  0]LogStreaming: Display: Took  0.335s to InitEngineTextLocalization.
+[2019.01.08-06.43.17:594][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.08-06.43.17:626][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.08-06.43.17:626][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.08-06.43.17:808][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.08-06.43.17:808][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.08-06.43.17:870][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.01.08-06.43.17:870][  0]LogD3D11RHI:       1987/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.08-06.43.17:872][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.08-06.43.17:872][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.08-06.43.17:872][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.08-06.43.17:879][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.08-06.43.17:879][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.08-06.43.17:879][  0]LogWindows: EnumDisplayDevices:
+[2019.01.08-06.43.17:879][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2019.01.08-06.43.17:880][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:1)
+[2019.01.08-06.43.17:880][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.01.08-06.43.17:881][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.01.08-06.43.17:881][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.08-06.43.17:881][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.01.08-06.43.17:881][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.01.08-06.43.17:881][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.01.08-06.43.17:881][  0]LogRHI: Texture pool is 1391 MB (70% of 1987 MB)
+[2019.01.08-06.43.17:908][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.08-06.43.17:919][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.01.08-06.43.18:299][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.08-06.43.18:310][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.08-06.43.18:321][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.08-06.43.18:331][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.08-06.43.18:341][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.08-06.43.18:351][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.08-06.43.18:361][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.08-06.43.18:371][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.08-06.43.18:376][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.08-06.43.18:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-06.43.18:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-06.43.18:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-06.43.18:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-06.43.18:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-06.43.18:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-06.43.18:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-06.43.18:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-06.43.18:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-06.43.18:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-06.43.18:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-06.43.18:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-06.43.18:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-06.43.18:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-06.43.18:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-06.43.18:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-06.43.18:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-06.43.18:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-06.43.18:436][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.08-06.43.18:491][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.08-06.43.18:491][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.08-06.43.18:509][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.08-06.43.18:509][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.08-06.43.18:519][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.08-06.43.18:529][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.08-06.43.18:540][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.08-06.43.18:550][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.08-06.43.18:587][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.08-06.43.18:587][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.08-06.43.18:587][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.08-06.43.18:630][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/user/Documents/Unreal Projects/BarrelHopper/Intermediate/Shaders/WorkingDirectory/14300/).
+[2019.01.08-06.43.18:631][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/136B90C14B56648F261B0E9F2E0A9200/'.
+[2019.01.08-06.43.18:632][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.08-06.43.18:632][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.08-06.43.18:632][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.08-06.43.19:076][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.08-06.43.19:129][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/user/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.08-06.43.19:129][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.01.08-06.43.19:129][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/user/Documents/Unreal Projects/BarrelHopper/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.08-06.43.19:129][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.08-06.43.19:129][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/user/Documents/Unreal Projects/BarrelHopper/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.08-06.43.19:129][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.08-06.43.19:142][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.08-06.43.19:142][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.08-06.43.19:142][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.01.08-06.43.19:153][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.08-06.43.19:153][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.08-06.43.19:153][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.08-06.43.19:172][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.08-06.43.19:173][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.08-06.43.19:174][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.08-06.43.19:249][  0]LogAssetRegistry: FAssetRegistry took 0.0306 seconds to start up
+[2019.01.08-06.43.19:502][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.08-06.43.19:619][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.08-06.43.19:622][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.08-06.43.19:622][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.08-06.43.19:622][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.08-06.43.19:622][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.08-06.43.19:637][  0]LogNetVersion: BarrelHopper 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1367204287)
+[2019.01.08-06.43.20:098][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.095745 seconds
+[2019.01.08-06.43.20:103][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.01.08-06.43.20:103][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.01.08-06.43.20:103][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.08-06.43.20:831][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.08-06.43.20:843][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.08-06.43.21:432][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.01.08-06.43.21:432][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.01.08-06.43.21:433][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.01.08-06.43.21:434][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.01.08-06.43.21:582][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.08-06.43.21:653][  0]LogOcInput: OculusInput pre-init called
+[2019.01.08-06.43.21:778][  0]LogEngine: Initializing Engine...
+[2019.01.08-06.43.21:779][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.08-06.43.21:780][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.08-06.43.21:780][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.08-06.43.21:780][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.08-06.43.21:780][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.08-06.43.22:029][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.08-06.43.22:039][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.08-06.43.22:061][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-06.43.22:097][  0]LogInit: FAudioDevice initialized.
+[2019.01.08-06.43.22:097][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.08-06.43.22:378][  0]LogDerivedDataCache: Saved boot cache 0.28s 71MB C:/Users/user/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.08-06.43.22:400][  0]LogInit: Texture streaming: Enabled
+[2019.01.08-06.43.22:423][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.08-06.43.22:437][  0]LogInit: Transaction tracking system initialized
+[2019.01.08-06.43.22:453][  0]BlueprintLog: New page: 에디터 로드
+[2019.01.08-06.43.22:518][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2019.01.08-06.43.22:913][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/' took 0.02s
+[2019.01.08-06.43.22:913][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.08-06.43.22:913][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.08-06.43.22:913][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.08-06.43.22:913][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.08-06.43.22:913][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.08-06.43.22:913][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.08-06.43.22:913][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.08-06.43.23:008][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.01.08-06.43.23:009][  0]Cmd: MAP LOAD FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.08-06.43.23:013][  0]LightingResults: New page: 라이팅 빌드
+[2019.01.08-06.43.23:015][  0]MapCheck: New page: 맵 체크
+[2019.01.08-06.43.23:015][  0]LightingResults: New page: 라이팅 빌드
+[2019.01.08-06.43.23:261][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.01.08-06.43.23:269][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.08-06.43.23:293][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.08-06.43.23:293][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.149ms.
+[2019.01.08-06.43.23:293][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.285
+[2019.01.08-06.43.23:389][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-06.43.23:395][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-06.43.23:400][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-06.43.23:407][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-06.43.23:416][  0]LogCollectionManager: Loaded 0 collections in 0.000800 seconds
+[2019.01.08-06.43.23:441][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Collections/' took 0.01s
+[2019.01.08-06.43.23:442][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/Developers/user/Collections/' took 0.00s
+[2019.01.08-06.43.23:442][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/Collections/' took 0.01s
+[2019.01.08-06.43.23:442][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.08-06.43.23:449][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2651 classes and 620 folders.
+[2019.01.08-06.43.23:452][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.08-06.43.23:459][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:464][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:485][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:490][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:495][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:499][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:503][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:506][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:511][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:516][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:521][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:525][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:530][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:535][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:540][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:544][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:573][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:577][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:582][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:586][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:623][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:627][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:634][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:640][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:644][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:648][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.08-06.43.23:764][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.08-06.43.23:779][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.01.08-06.43.23:849][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.08-06.43.23:853][  0]LogSlate: Took 0.002252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.01.08-06.43.23:856][  0]LogSlate: Took 0.002735 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2019.01.08-06.43.23:856][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.08-06.43.23:864][  0]LogSlate: Took 0.004214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.08-06.43.23:866][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.01.08-06.43.23:900][  0]LogSlate: Took 0.001758 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2019.01.08-06.43.24:069][  0]LogRenderer: Reallocating scene render targets to support 1148x732 Format 10 NumSamples 1 (Frame:1).
+[2019.01.08-06.43.24:180][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.08-06.43.24:180][  0]LogLoad: (Engine Initialization) Total time: 8.41 seconds
+[2019.01.08-06.43.24:180][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.08-06.43.24:194][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2019.01.08-06.43.24:249][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.08-06.43.24:345][  0]LogSlate: Took 0.003945 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.08-06.43.24:373][  1]LogAssetRegistry: Asset discovery search completed in 5.1456 seconds
+[2019.01.08-06.43.24:375][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.08-06.43.24:375][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000193 seconds (updated 0 objects)
+[2019.01.08-06.43.25:495][ 95]LogAudioDerivedData: Display: OGG 압축 오디오 포맷 Footstep 웨이브 빌드중...
+[2019.01.08-06.43.25:505][ 95]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 43236 while cooking SoundWave /Game/BarrelHopper/Sounds/Footstep.Footstep.
+[2019.01.08-06.43.25:587][ 95]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.08-06.43.25:589][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.08-06.43.25:595][ 95]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BarrelHopper/Character/BH_Character.BH_Character
+[2019.01.08-06.43.26:049][ 95]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 117 classes and 0 folders.
+[2019.01.08-06.43.26:711][ 95]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BarrelHopper/GameMode/BH_GameMode.BH_GameMode
+[2019.01.08-06.43.26:980][ 95]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BarrelHopper/BH_Barrel.BH_Barrel
+[2019.01.08-06.43.27:232][ 95]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BarrelHopper/BH_Barrel_Spawner.BH_Barrel_Spawner
+[2019.01.08-06.43.27:492][ 95]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BH_BarrelKiller_Blueprint.BH_BarrelKiller_Blueprint
+[2019.01.08-06.43.27:748][ 95]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/BarrelHopper/Character/BH_Character_AnimBP.BH_Character_AnimBP
+[2019.01.08-06.43.27:794][ 95]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.01.08-06.43.27:979][ 95]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.08-06.43.27:982][ 95]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2019.01.08-06.43.28:186][ 95]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.08-06.43.28:397][ 95]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/BarrelHopper/Character/ThirdPersonJump_Start.ThirdPersonJump_Start
+[2019.01.08-06.43.28:413][ 95]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.08-06.43.28:439][ 95]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.08-06.43.28:863][ 95]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2019.01.08-06.43.28:868][ 95]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.08-06.43.32:366][319]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.08-06.43.32:462][320]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.08-06.43.41:816][135]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-06.43.41:826][135]LogAssetEditorManager: Opening Asset editor for World /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map
+[2019.01.08-06.43.41:865][135]Cmd: MAP LOAD FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Levels/Barrel_Hopper_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.08-06.43.41:865][135]LightingResults: New page: 라이팅 빌드
+[2019.01.08-06.43.41:866][135]LoadErrors: New page: 맵 로드중: Barrel_Hopper_Map.umap
+[2019.01.08-06.43.41:866][135]MapCheck: New page: 맵 체크
+[2019.01.08-06.43.41:866][135]LightingResults: New page: 라이팅 빌드
+[2019.01.08-06.43.41:960][135]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.08-06.43.42:020][135]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.08-06.43.42:020][135]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.172ms.
+[2019.01.08-06.43.42:020][135]LogFileHelpers: Loading map 'Barrel_Hopper_Map' took 0.156
+[2019.01.08-06.43.43:250][238]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-06.43.43:279][238]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-06.43.43:280][238]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-06.43.43:280][238]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 12:43:43)
+[2019.01.08-06.43.43:292][238]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-06.43.43:304][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011458s)
+[2019.01.08-06.43.43:305][238]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-06.43.43:305][238]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2019.01.08-06.43.43:305][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.012810s)
+[2019.01.08-06.43.43:352][238]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-06.43.43:377][238]LogInit: FAudioDevice initialized.
+[2019.01.08-06.43.43:427][238]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-06.43.43:436][238]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-15.43.43
+[2019.01.08-06.43.43:438][238]LogWorld: Bringing up level for play took: 0.007505
+[2019.01.08-06.43.43:466][238]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 20 classes and 0 folders.
+[2019.01.08-06.43.43:472][238]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: -0.337
+[2019.01.08-06.43.43:474][238]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-06.43.57:643][520]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-06.43.57:644][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-06.43.57:684][520]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-06.43.57:685][520]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-06.43.57:744][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-06.43.57:770][521]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.01.08-06.44.05:030][720]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.08-06.44.20:062][179]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.08-06.44.20:128][179]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.08-06.44.20:188][179]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.08-06.44.56:066][256]LogAudioDerivedData: Display: OGG 압축 오디오 포맷 DeathSound_16bit 웨이브 빌드중...
+[2019.01.08-06.44.56:087][256]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 161380 while cooking SoundWave /Game/BarrelHopper/Sounds/DeathSound_16bit.DeathSound_16bit.
+[2019.01.08-06.45.52:970][939]BlueprintLog: New page: BH_Barrel 컴파일
+[2019.01.08-06.45.53:735][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/BH_Barrel" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/BH_Barrel.uasset" SILENT=true
+[2019.01.08-06.45.53:770][  6]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_BarrelBAFBD3374A99F99C67260B81FCCD5D7B.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/BH_Barrel.uasset'
+[2019.01.08-06.45.58:119][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-06.45.58:213][533]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-06.45.58:230][533]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-06.45.58:231][533]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-06.45.58:231][533]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 12:45:58)
+[2019.01.08-06.45.58:231][533]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-06.45.58:243][533]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011779s)
+[2019.01.08-06.45.58:243][533]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-06.45.58:243][533]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2019.01.08-06.45.58:243][533]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.012814s)
+[2019.01.08-06.45.58:283][533]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-06.45.58:311][533]LogInit: FAudioDevice initialized.
+[2019.01.08-06.45.58:355][533]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-06.45.58:359][533]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-15.45.58
+[2019.01.08-06.45.58:360][533]LogWorld: Bringing up level for play took: 0.003476
+[2019.01.08-06.45.58:375][533]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.566
+[2019.01.08-06.45.58:375][533]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-06.46.13:415][320]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-06.46.13:416][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-06.46.13:451][320]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-06.46.13:451][320]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-06.46.13:485][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-06.46.13:518][322]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.01.08-06.46.21:683][277]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-06.46.23:506][394]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BarrelHopper/Character/BH_Character.BH_Character
+[2019.01.08-06.47.13:599][455]BlueprintLog: New page: BH_Character 컴파일
+[2019.01.08-06.47.14:197][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/Character/BH_Character" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset" SILENT=true
+[2019.01.08-06.47.14:239][497]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_Character56D3F4A24F87054F070474B8EF516AAF.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset'
+[2019.01.08-06.47.15:230][599]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-06.47.15:248][599]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-06.47.15:249][599]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-06.47.15:249][599]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 12:47:15)
+[2019.01.08-06.47.15:249][599]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-06.47.15:261][599]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011093s)
+[2019.01.08-06.47.15:262][599]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-06.47.15:262][599]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2019.01.08-06.47.15:262][599]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.012276s)
+[2019.01.08-06.47.15:304][599]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-06.47.15:329][599]LogInit: FAudioDevice initialized.
+[2019.01.08-06.47.15:367][599]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-06.47.15:372][599]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-15.47.15
+[2019.01.08-06.47.15:373][599]LogWorld: Bringing up level for play took: 0.003778
+[2019.01.08-06.47.15:392][599]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: -0.418
+[2019.01.08-06.47.15:393][599]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-06.47.24:335][571]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-06.47.24:336][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-06.47.24:369][571]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-06.47.24:370][571]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-06.47.24:417][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-06.47.24:444][572]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.01.08-06.47.41:958][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-06.47.49:602][299]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-06.48.04:077][643]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.08-06.48.14:642][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-06.48.14:753][566]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-06.48.14:775][566]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-06.48.14:775][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-06.48.14:776][566]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 12:48:14)
+[2019.01.08-06.48.14:776][566]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-06.48.14:788][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011408s)
+[2019.01.08-06.48.14:789][566]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-06.48.14:789][566]LogPlayLevel: PIE: World Init took: (0.001244s)
+[2019.01.08-06.48.14:789][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.013199s)
+[2019.01.08-06.48.14:832][566]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-06.48.14:858][566]LogInit: FAudioDevice initialized.
+[2019.01.08-06.48.14:890][566]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-06.48.14:892][566]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-15.48.14
+[2019.01.08-06.48.14:892][566]LogWorld: Bringing up level for play took: 0.001718
+[2019.01.08-06.48.14:907][566]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 1.097
+[2019.01.08-06.48.14:907][566]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-06.48.26:682][877]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-06.48.26:683][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-06.48.26:720][877]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-06.48.26:721][877]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-06.48.26:750][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-06.48.26:787][879]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.01.08-06.49.58:469][214]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.08-06.55.39:005][735]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Barrel_Hopper_Map_Auto118A3174B429F34C328F255A730EB7D38.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Autosaves/Game/BarrelHopper/Levels/Barrel_Hopper_Map_Auto1.umap'
+[2019.01.08-06.55.39:008][735]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BarrelHopper/Levels/Barrel_Hopper_Map' took 0.263
+[2019.01.08-06.55.39:008][735]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.263
+[2019.01.08-06.55.39:009][735]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BarrelHopper/Character/BH_Character] ([1] browsable assets)...
+[2019.01.08-06.55.39:021][735]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BarrelHopper/Character/BH_Character.BH_Character]
+[2019.01.08-06.55.39:021][735]OBJ SavePackage: Finished generating thumbnails for package [/Game/BarrelHopper/Character/BH_Character]
+[2019.01.08-06.55.39:065][735]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_Character_Auto1627073BE4CBFBCD46CDAC28B0F75F0D4.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Autosaves/Game/BarrelHopper/Character/BH_Character_Auto1.uasset'
+[2019.01.08-06.55.39:066][735]LogFileHelpers: Auto-saving content packages took 0.058
+[2019.01.08-06.55.46:620][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-06.58.37:825][221]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BarrelHopper/GameMode/BH_GameMode.BH_GameMode
+[2019.01.08-06.59.23:704][506]BlueprintLog: New page: BH_Character 컴파일
+[2019.01.08-06.59.24:477][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/Character/BH_Character" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset" SILENT=true
+[2019.01.08-06.59.24:516][570]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_CharacterF63FC1B348D3369BC18C31A2A6D2B13F.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset'
+[2019.01.08-06.59.25:259][653]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.03.18:166][ 68]BlueprintLog: New page: BH_GameMode 컴파일
+[2019.01.08-07.03.19:048][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/GameMode/BH_GameMode" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset" SILENT=true
+[2019.01.08-07.03.19:087][145]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameMode59291CB54C027CE4082A0EB9D5CA3BB8.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset'
+[2019.01.08-07.03.19:530][193]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.03.31:722][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/GameMode/BH_GameMode" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset" SILENT=true
+[2019.01.08-07.03.31:755][643]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameMode9C91433A4DD642984BCB31831A94FF63.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset'
+[2019.01.08-07.03.32:801][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.03.34:160][922]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-07.03.34:182][922]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.03.34:183][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-07.03.34:183][922]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 1:03:34)
+[2019.01.08-07.03.34:183][922]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-07.03.34:196][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012175s)
+[2019.01.08-07.03.34:197][922]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-07.03.34:197][922]LogPlayLevel: PIE: World Init took: (0.000724s)
+[2019.01.08-07.03.34:197][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.013335s)
+[2019.01.08-07.03.34:241][922]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-07.03.34:267][922]LogInit: FAudioDevice initialized.
+[2019.01.08-07.03.34:301][922]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-07.03.34:306][922]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-16.03.34
+[2019.01.08-07.03.34:307][922]LogWorld: Bringing up level for play took: 0.003258
+[2019.01.08-07.03.34:321][922]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.511
+[2019.01.08-07.03.34:321][922]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.03.45:151][200]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.03.45:152][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.03.45:191][200]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-07.03.45:192][200]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.03.45:234][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.03.45:261][201]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.01.08-07.04.58:610][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.04.59:805][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/Character/BH_Character" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset" SILENT=true
+[2019.01.08-07.04.59:849][ 70]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_Character7F2FD6FF4B63B9DD9FD7D485F7189DFE.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset'
+[2019.01.08-07.05.01:068][209]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.07.59:732][898]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BarrelHopper/Levels/Barrel_Hopper_Map' took 0.030
+[2019.01.08-07.07.59:733][898]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BarrelHopper/Character/BH_Character] ([1] browsable assets)...
+[2019.01.08-07.07.59:743][898]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BarrelHopper/Character/BH_Character.BH_Character]
+[2019.01.08-07.07.59:743][898]OBJ SavePackage: Finished generating thumbnails for package [/Game/BarrelHopper/Character/BH_Character]
+[2019.01.08-07.07.59:785][898]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_Character_Auto25106767F4DD27E1DEBBDA5BE5F5D44F6.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Autosaves/Game/BarrelHopper/Character/BH_Character_Auto2.uasset'
+[2019.01.08-07.07.59:787][898]LogFileHelpers: Auto-saving content packages took 0.055
+[2019.01.08-07.13.01:149][326]BlueprintLog: New page: BH_Character 컴파일
+[2019.01.08-07.13.01:758][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/Character/BH_Character" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset" SILENT=true
+[2019.01.08-07.13.01:807][371]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_CharacterC41FF59F44D47E8C182C7291986B4F2A.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset'
+[2019.01.08-07.13.03:000][512]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.14.00:983][377]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-07.14.01:008][377]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.14.01:009][377]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-07.14.01:009][377]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 1:14:01)
+[2019.01.08-07.14.01:009][377]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-07.14.01:021][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011737s)
+[2019.01.08-07.14.01:022][377]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-07.14.01:022][377]LogPlayLevel: PIE: World Init took: (0.000754s)
+[2019.01.08-07.14.01:022][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.012921s)
+[2019.01.08-07.14.01:066][377]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-07.14.01:092][377]LogInit: FAudioDevice initialized.
+[2019.01.08-07.14.01:127][377]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-07.14.01:134][377]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-16.14.01
+[2019.01.08-07.14.01:135][377]LogWorld: Bringing up level for play took: 0.004428
+[2019.01.08-07.14.01:148][377]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: -0.661
+[2019.01.08-07.14.01:148][377]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.14.12:603][730]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.14.12:604][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.14.12:637][730]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-07.14.12:637][730]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.14.12:676][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.14.12:701][731]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.01.08-07.14.26:402][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.14.31:067][880]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-07.14.31:090][880]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.14.31:091][880]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-07.14.31:091][880]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 1:14:31)
+[2019.01.08-07.14.31:091][880]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-07.14.31:102][880]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011064s)
+[2019.01.08-07.14.31:102][880]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-07.14.31:103][880]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2019.01.08-07.14.31:103][880]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.012254s)
+[2019.01.08-07.14.31:147][880]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-07.14.31:173][880]LogInit: FAudioDevice initialized.
+[2019.01.08-07.14.31:205][880]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-07.14.31:211][880]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-16.14.31
+[2019.01.08-07.14.31:212][880]LogWorld: Bringing up level for play took: 0.004727
+[2019.01.08-07.14.31:228][880]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: -0.581
+[2019.01.08-07.14.31:229][880]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.14.39:981][814]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.14.44:776][364]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.14.44:776][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.14.44:815][364]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-07.14.44:815][364]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.14.44:855][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.14.44:874][365]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.01.08-07.14.56:289][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.14.56:388][739]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-07.14.56:411][739]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.14.56:412][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-07.14.56:412][739]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 1:14:56)
+[2019.01.08-07.14.56:412][739]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-07.14.56:423][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011264s)
+[2019.01.08-07.14.56:424][739]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-07.14.56:424][739]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2019.01.08-07.14.56:424][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.012323s)
+[2019.01.08-07.14.56:467][739]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-07.14.56:493][739]LogInit: FAudioDevice initialized.
+[2019.01.08-07.14.56:535][739]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-07.14.56:540][739]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-16.14.56
+[2019.01.08-07.14.56:541][739]LogWorld: Bringing up level for play took: 0.003754
+[2019.01.08-07.14.56:556][739]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.747
+[2019.01.08-07.14.56:557][739]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.15.00:353][187]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.15.00:354][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.15.00:392][187]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-07.15.00:393][187]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.15.00:439][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.15.00:466][188]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.01.08-07.15.01:219][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.15.01:312][286]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-07.15.01:332][286]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.15.01:333][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-07.15.01:333][286]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 1:15:01)
+[2019.01.08-07.15.01:333][286]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-07.15.01:345][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011397s)
+[2019.01.08-07.15.01:345][286]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-07.15.01:346][286]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2019.01.08-07.15.01:346][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.012398s)
+[2019.01.08-07.15.01:387][286]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-07.15.01:412][286]LogInit: FAudioDevice initialized.
+[2019.01.08-07.15.01:449][286]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-07.15.01:456][286]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-16.15.01
+[2019.01.08-07.15.01:457][286]LogWorld: Bringing up level for play took: 0.005464
+[2019.01.08-07.15.01:473][286]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: -0.336
+[2019.01.08-07.15.01:474][286]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.15.10:074][277]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.15.12:857][552]LogEditorViewport: Clicking on Actor (LMB): BH_Character_C (BH_Character)
+[2019.01.08-07.15.16:863][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.15.51:081][ 43]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.15.51:112][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.15.51:162][ 43]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-07.15.51:163][ 43]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.15.51:208][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.15.51:228][ 44]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2019.01.08-07.16.05:264][656]BlueprintLog: New page: BH_Character 컴파일
+[2019.01.08-07.16.05:812][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/Character/BH_Character" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset" SILENT=true
+[2019.01.08-07.16.05:856][689]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_CharacterCD07E7C34C195849EEEAFD99C0F601C8.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset'
+[2019.01.08-07.16.07:676][874]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.16.07:753][883]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-07.16.07:775][883]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.16.07:776][883]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-07.16.07:776][883]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 1:16:07)
+[2019.01.08-07.16.07:776][883]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-07.16.07:789][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011925s)
+[2019.01.08-07.16.07:789][883]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-07.16.07:790][883]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2019.01.08-07.16.07:790][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.013311s)
+[2019.01.08-07.16.07:833][883]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-07.16.07:858][883]LogInit: FAudioDevice initialized.
+[2019.01.08-07.16.07:891][883]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-07.16.07:893][883]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-16.16.07
+[2019.01.08-07.16.07:894][883]LogWorld: Bringing up level for play took: 0.001583
+[2019.01.08-07.16.07:907][883]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.098
+[2019.01.08-07.16.07:907][883]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.16.09:271][ 29]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.16.09:272][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.16.09:309][ 29]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-07.16.09:310][ 29]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.16.09:350][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.16.09:376][ 30]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.01.08-07.16.13:985][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.16.14:076][516]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-07.16.14:097][516]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.16.14:098][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-07.16.14:098][516]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 1:16:14)
+[2019.01.08-07.16.14:098][516]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-07.16.14:111][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012133s)
+[2019.01.08-07.16.14:111][516]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-07.16.14:112][516]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2019.01.08-07.16.14:112][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.013269s)
+[2019.01.08-07.16.14:156][516]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-07.16.14:181][516]LogInit: FAudioDevice initialized.
+[2019.01.08-07.16.14:216][516]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-07.16.14:222][516]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-16.16.14
+[2019.01.08-07.16.14:223][516]LogWorld: Bringing up level for play took: 0.004134
+[2019.01.08-07.16.14:240][516]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.43
+[2019.01.08-07.16.14:241][516]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.16.19:144][  5]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.16.19:145][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.16.19:180][  5]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-07.16.19:181][  5]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.16.19:225][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.16.19:252][  6]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.01.08-07.16.21:309][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.16.30:088][ 48]BlueprintLog: New page: BH_Character 컴파일
+[2019.01.08-07.16.30:576][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/Character/BH_Character" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset" SILENT=true
+[2019.01.08-07.16.30:619][ 71]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_CharacterFA8D1705416415A2A9B8ABA85168652B.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset'
+[2019.01.08-07.16.31:319][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.16.31:423][146]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-07.16.31:445][146]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.16.31:446][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-07.16.31:446][146]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 1:16:31)
+[2019.01.08-07.16.31:446][146]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-07.16.31:457][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011112s)
+[2019.01.08-07.16.31:457][146]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-07.16.31:457][146]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2019.01.08-07.16.31:458][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.012147s)
+[2019.01.08-07.16.31:500][146]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-07.16.31:526][146]LogInit: FAudioDevice initialized.
+[2019.01.08-07.16.31:561][146]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-07.16.31:563][146]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-16.16.31
+[2019.01.08-07.16.31:563][146]LogWorld: Bringing up level for play took: 0.001732
+[2019.01.08-07.16.31:578][146]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: -0.232
+[2019.01.08-07.16.31:578][146]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.16.37:825][866]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.16.37:825][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.16.37:863][866]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-07.16.37:863][866]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.16.37:904][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.16.37:929][867]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.01.08-07.16.42:248][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.16.54:511][494]BlueprintLog: New page: BH_Character 컴파일
+[2019.01.08-07.16.55:030][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/Character/BH_Character" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset" SILENT=true
+[2019.01.08-07.16.55:073][521]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_Character7F98A31046570E8EA63CA3AD957CC809.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset'
+[2019.01.08-07.16.55:927][608]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.16.56:048][619]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-07.16.56:071][619]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.16.56:071][619]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-07.16.56:072][619]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 1:16:56)
+[2019.01.08-07.16.56:072][619]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-07.16.56:085][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012366s)
+[2019.01.08-07.16.56:085][619]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-07.16.56:085][619]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2019.01.08-07.16.56:086][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.013385s)
+[2019.01.08-07.16.56:132][619]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-07.16.56:158][619]LogInit: FAudioDevice initialized.
+[2019.01.08-07.16.56:194][619]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-07.16.56:203][619]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-16.16.56
+[2019.01.08-07.16.56:205][619]LogWorld: Bringing up level for play took: 0.007580
+[2019.01.08-07.16.56:226][619]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.417
+[2019.01.08-07.16.56:228][619]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.17.01:335][223]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.17.01:336][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.17.01:373][223]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-07.17.01:373][223]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.17.01:405][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.17.01:435][225]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.01.08-07.17.08:074][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.19.37:046][239]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BarrelHopper/Levels/Barrel_Hopper_Map' took 0.031
+[2019.01.08-07.20.04:270][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.22.00:414][907]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-07.22.00:438][907]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.22.00:438][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-07.22.00:438][907]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 1:22:00)
+[2019.01.08-07.22.00:439][907]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-07.22.00:452][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012710s)
+[2019.01.08-07.22.00:452][907]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-07.22.00:453][907]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2019.01.08-07.22.00:453][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.013831s)
+[2019.01.08-07.22.00:496][907]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-07.22.00:521][907]LogInit: FAudioDevice initialized.
+[2019.01.08-07.22.00:552][907]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-07.22.00:553][907]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-16.22.00
+[2019.01.08-07.22.00:553][907]LogWorld: Bringing up level for play took: 0.001608
+[2019.01.08-07.22.00:574][907]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.764
+[2019.01.08-07.22.00:576][907]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.22.14:001][339]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.22.14:002][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.22.14:037][339]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-07.22.14:038][339]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.22.14:079][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.22.14:106][340]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.01.08-07.22.16:047][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.24.07:269][720]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-07.24.07:295][720]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.24.07:295][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-07.24.07:296][720]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 1:24:07)
+[2019.01.08-07.24.07:296][720]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-07.24.07:308][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012425s)
+[2019.01.08-07.24.07:308][720]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-07.24.07:309][720]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2019.01.08-07.24.07:309][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.013565s)
+[2019.01.08-07.24.07:353][720]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-07.24.07:380][720]LogInit: FAudioDevice initialized.
+[2019.01.08-07.24.07:414][720]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-07.24.07:420][720]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-16.24.07
+[2019.01.08-07.24.07:422][720]LogWorld: Bringing up level for play took: 0.004667
+[2019.01.08-07.24.07:437][720]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: -0.372
+[2019.01.08-07.24.07:437][720]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.24.15:305][642]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.24.50:310][912]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.25.07:104][899]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.25.07:104][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.25.07:142][899]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-07.25.07:143][899]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.25.07:190][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.25.07:216][900]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2019.01.08-07.25.08:256][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.28.20:857][677]BlueprintLog: New page: BH_GameMode 컴파일
+[2019.01.08-07.28.21:537][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/GameMode/BH_GameMode" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset" SILENT=true
+[2019.01.08-07.28.21:579][714]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameModeB0A610E14C2CC5E1A7B7B8A42411072E.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset'
+[2019.01.08-07.28.22:717][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.28.22:808][840]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-07.28.22:847][840]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.28.22:847][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-07.28.22:847][840]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 1:28:22)
+[2019.01.08-07.28.22:848][840]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-07.28.22:860][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011851s)
+[2019.01.08-07.28.22:860][840]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-07.28.22:861][840]LogPlayLevel: PIE: World Init took: (0.000970s)
+[2019.01.08-07.28.22:861][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.013309s)
+[2019.01.08-07.28.22:907][840]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-07.28.22:935][840]LogInit: FAudioDevice initialized.
+[2019.01.08-07.28.22:969][840]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-07.28.22:971][840]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-16.28.22
+[2019.01.08-07.28.22:971][840]LogWorld: Bringing up level for play took: 0.001683
+[2019.01.08-07.28.22:984][840]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: -0.825
+[2019.01.08-07.28.22:984][840]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.28.40:703][871]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.28.40:704][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.28.40:738][871]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-07.28.40:739][871]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.28.40:795][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.28.40:821][872]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.01.08-07.28.41:664][969]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.31.27:475][643]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BarrelHopper/Levels/Barrel_Hopper_Map' took 0.029
+[2019.01.08-07.31.27:476][643]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BarrelHopper/Character/BH_Character] ([1] browsable assets)...
+[2019.01.08-07.31.27:490][643]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BarrelHopper/Character/BH_Character.BH_Character]
+[2019.01.08-07.31.27:490][643]OBJ SavePackage: Finished generating thumbnails for package [/Game/BarrelHopper/Character/BH_Character]
+[2019.01.08-07.31.27:536][643]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_Character_Auto3D108658B4177CAB137F2A5985B7A942A.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Autosaves/Game/BarrelHopper/Character/BH_Character_Auto3.uasset'
+[2019.01.08-07.31.27:538][643]LogFileHelpers: Auto-saving content packages took 0.063
+[2019.01.08-07.31.30:307][965]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.35.41:261][302]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.08-07.36.38:037][445]BlueprintLog: New page: BH_Character 컴파일
+[2019.01.08-07.36.38:621][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/Character/BH_Character" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset" SILENT=true
+[2019.01.08-07.36.38:672][475]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_Character6D7B614D4D8E89B1677D3B8685D12E28.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset'
+[2019.01.08-07.36.38:874][494]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.36.39:894][585]BlueprintLog: New page: BH_GameMode 컴파일
+[2019.01.08-07.36.40:444][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/GameMode/BH_GameMode" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset" SILENT=true
+[2019.01.08-07.36.40:483][608]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameMode548E41E1420E3B7DBEC599AA05BBE6E1.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset'
+[2019.01.08-07.36.41:665][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.39.20:029][252]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-07.39.20:054][252]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.39.20:054][252]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2019.01.08-07.39.20:066][252]LogPlayLevel: [PlayLevel] Compiling BH_Character before play...
+[2019.01.08-07.39.20:079][252]LogPlayLevel: [PlayLevel]   Compiling BH_GameMode as a dependent...
+[2019.01.08-07.39.20:247][252]LogPlayLevel: PlayLevel: Blueprint regeneration took 191 ms (2 blueprints)
+[2019.01.08-07.39.20:247][252]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 1:39:20)
+[2019.01.08-07.39.20:248][252]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-07.39.20:259][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012328s)
+[2019.01.08-07.39.20:260][252]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-07.39.20:260][252]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2019.01.08-07.39.20:260][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.013435s)
+[2019.01.08-07.39.20:302][252]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-07.39.20:330][252]LogInit: FAudioDevice initialized.
+[2019.01.08-07.39.20:365][252]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-07.39.20:374][252]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-16.39.20
+[2019.01.08-07.39.20:376][252]LogWorld: Bringing up level for play took: 0.007595
+[2019.01.08-07.39.20:392][252]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.583
+[2019.01.08-07.39.20:393][252]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.39.24:394][687]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_SetViewTargetWithBlend', from offset 272
+[2019.01.08-07.39.24:394][687]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BarrelHopper/GameMode/BH_GameMode.BH_GameMode_C:Kill
+	Function /Game/BarrelHopper/GameMode/BH_GameMode.BH_GameMode_C:ExecuteUbergraph_BH_GameMode
+
+[2019.01.08-07.39.24:397][687]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.08-07.39.32:064][688]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.050000 > MaxSimulationTimeStep (0.050) for 'BH_Character_C_0', movement 'Falling'
+[2019.01.08-07.40.02:213][332]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.08-07.40.10:238][110]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.40.10:239][110]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.40.10:275][110]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-07.40.10:276][110]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.40.10:317][110]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.40.10:340][111]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2019.01.08-07.40.11:690][247]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.42.14:547][598]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-07.42.14:571][598]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.42.14:572][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-07.42.14:572][598]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 1:42:14)
+[2019.01.08-07.42.14:572][598]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-07.42.14:584][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011679s)
+[2019.01.08-07.42.14:585][598]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-07.42.14:585][598]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2019.01.08-07.42.14:585][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.012805s)
+[2019.01.08-07.42.14:630][598]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-07.42.14:656][598]LogInit: FAudioDevice initialized.
+[2019.01.08-07.42.14:696][598]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-07.42.14:700][598]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-16.42.14
+[2019.01.08-07.42.14:701][598]LogWorld: Bringing up level for play took: 0.003041
+[2019.01.08-07.42.14:717][598]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.908
+[2019.01.08-07.42.14:717][598]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.42.19:444][ 99]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_SpawnActorFromClass', from offset 640
+[2019.01.08-07.42.19:444][ 99]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BarrelHopper/GameMode/BH_GameMode.BH_GameMode_C:Kill
+	Function /Game/BarrelHopper/GameMode/BH_GameMode.BH_GameMode_C:ExecuteUbergraph_BH_GameMode
+
+[2019.01.08-07.42.19:446][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.08-07.42.38:857][173]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.43.03:830][534]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.43.03:862][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.43.03:896][534]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-07.43.03:897][534]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.43.03:938][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.43.03:958][535]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2019.01.08-07.43.24:193][820]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (46.150 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.01.08-07.44.36:100][174]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BarrelHopper/Levels/Barrel_Hopper_Map' took 0.028
+[2019.01.08-07.44.36:101][174]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BarrelHopper/Character/BH_Character] ([1] browsable assets)...
+[2019.01.08-07.44.36:115][174]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BarrelHopper/Character/BH_Character.BH_Character]
+[2019.01.08-07.44.36:115][174]OBJ SavePackage: Finished generating thumbnails for package [/Game/BarrelHopper/Character/BH_Character]
+[2019.01.08-07.44.36:165][174]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_Character_Auto48ADDFF054E2CF17CEC110B9B52B9DE36.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Autosaves/Game/BarrelHopper/Character/BH_Character_Auto4.uasset'
+[2019.01.08-07.44.36:167][174]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BarrelHopper/GameMode/BH_GameMode] ([1] browsable assets)...
+[2019.01.08-07.44.36:167][174]OBJ SavePackage: Finished generating thumbnails for package [/Game/BarrelHopper/GameMode/BH_GameMode]
+[2019.01.08-07.44.36:205][174]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameMode_Auto49247F77245BF856F776D9CB19EC7A768.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Autosaves/Game/BarrelHopper/GameMode/BH_GameMode_Auto4.uasset'
+[2019.01.08-07.44.36:206][174]LogFileHelpers: Auto-saving content packages took 0.106
+[2019.01.08-07.47.22:763][106]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-07.47.22:787][106]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.47.22:788][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-07.47.22:788][106]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 1:47:22)
+[2019.01.08-07.47.22:788][106]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-07.47.22:802][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013210s)
+[2019.01.08-07.47.22:802][106]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-07.47.22:803][106]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2019.01.08-07.47.22:803][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.014418s)
+[2019.01.08-07.47.22:846][106]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-07.47.22:873][106]LogInit: FAudioDevice initialized.
+[2019.01.08-07.47.22:908][106]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-07.47.22:914][106]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-16.47.22
+[2019.01.08-07.47.22:915][106]LogWorld: Bringing up level for play took: 0.003871
+[2019.01.08-07.47.22:931][106]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 1.122
+[2019.01.08-07.47.22:932][106]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.47.26:605][492]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_SpawnActorFromClass', from offset 640
+[2019.01.08-07.47.26:605][492]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BarrelHopper/GameMode/BH_GameMode.BH_GameMode_C:Kill
+	Function /Game/BarrelHopper/GameMode/BH_GameMode.BH_GameMode_C:ExecuteUbergraph_BH_GameMode
+
+[2019.01.08-07.47.26:607][492]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.08-07.47.28:696][492]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 774
+[2019.01.08-07.47.28:696][492]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BarrelHopper/Character/BH_Character.BH_Character_C:Kill
+	Function /Game/BarrelHopper/Character/BH_Character.BH_Character_C:ExecuteUbergraph_BH_Character
+
+[2019.01.08-07.47.28:698][492]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.08-07.47.53:886][492]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.47.53:887][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.47.53:923][492]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-07.47.53:924][492]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.47.53:953][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.47.53:978][493]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2019.01.08-07.48.54:305][551]BlueprintLog: New page: BH_Character 컴파일
+[2019.01.08-07.48.54:893][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/Character/BH_Character" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset" SILENT=true
+[2019.01.08-07.48.54:939][592]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_Character404927474E22FEE50BE12193FAA084AC.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset'
+[2019.01.08-07.48.55:099][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.48.55:693][655]BlueprintLog: New page: BH_GameMode 컴파일
+[2019.01.08-07.48.56:385][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/GameMode/BH_GameMode" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset" SILENT=true
+[2019.01.08-07.48.56:419][694]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_GameMode122820E3480C8DAC79A860981432A366.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/GameMode/BH_GameMode.uasset'
+[2019.01.08-07.48.56:794][731]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.50.30:398][732]BlueprintLog: New page: BH_Character 컴파일
+[2019.01.08-07.50.30:941][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/Character/BH_Character" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset" SILENT=true
+[2019.01.08-07.50.30:992][768]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_Character269DE5F94A3E566674E6CF9C00092137.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/Character/BH_Character.uasset'
+[2019.01.08-07.50.32:262][904]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.50.32:354][915]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.08-07.50.32:375][915]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.50.32:375][915]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.08-07.50.32:375][915]PIE: New page: PIE 세션: Barrel_Hopper_Map (2019. 1. 9. 오전 1:50:32)
+[2019.01.08-07.50.32:376][915]LogPlayLevel: Creating play world package: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map
+[2019.01.08-07.50.32:388][915]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011764s)
+[2019.01.08-07.50.32:388][915]LogAIModule: Creating AISystem for world Barrel_Hopper_Map
+[2019.01.08-07.50.32:389][915]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2019.01.08-07.50.32:389][915]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map to /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map (0.012838s)
+[2019.01.08-07.50.32:433][915]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.08-07.50.32:459][915]LogInit: FAudioDevice initialized.
+[2019.01.08-07.50.32:494][915]LogLoad: Game class is 'BH_GameMode_C'
+[2019.01.08-07.50.32:497][915]LogWorld: Bringing World /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map.Barrel_Hopper_Map up for play (max tick rate 0) at 2019.01.08-16.50.32
+[2019.01.08-07.50.32:497][915]LogWorld: Bringing up level for play took: 0.001851
+[2019.01.08-07.50.32:511][915]PIE: /Game/BarrelHopper/Levels/UEDPIE_0_Barrel_Hopper_Map 에 대한 에디터에서 플레이 시작 시간: 0.701
+[2019.01.08-07.50.32:511][915]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.50.46:673][550]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.50.46:674][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.50.46:711][550]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.08-07.50.46:712][550]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel' has LevelScriptBlueprint '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map' with GeneratedClass '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map_C' with ClassGeneratedBy '/Game/BarrelHopper/Levels/Barrel_Hopper_Map.Barrel_Hopper_Map:PersistentLevel.Barrel_Hopper_Map'
+[2019.01.08-07.50.46:762][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-07.50.46:789][551]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2019.01.08-07.51.42:459][160]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-07.52.09:924][433]LogSlate: Window '부모 클래스 선택' being destroyed
+[2019.01.08-07.52.14:472][904]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BarrelHopper/BH_HUD.BH_HUD
+[2019.01.08-07.52.51:121][926]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BarrelHopper/BH_HUD.BH_HUD
+[2019.01.08-07.52.53:386][152]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BarrelHopper/BH_HUD.BH_HUD
+[2019.01.08-07.54.27:114][273]LogSlate: Took 0.031961 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.01.08-07.56.21:513][661]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BarrelHopper/Levels/Barrel_Hopper_Map' took 0.036
+[2019.01.08-07.56.21:515][661]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BarrelHopper/BH_HUD] ([1] browsable assets)...
+[2019.01.08-07.56.21:515][661]OBJ SavePackage: Finished generating thumbnails for package [/Game/BarrelHopper/BH_HUD]
+[2019.01.08-07.56.21:515][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/BH_HUD" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Autosaves/Game/BarrelHopper/BH_HUD_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2019.01.08-07.56.21:531][661]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_HUD_Auto5A9550200447F1171D8BD68812CDF2B87.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/Autosaves/Game/BarrelHopper/BH_HUD_Auto5.uasset'
+[2019.01.08-07.56.21:533][661]LogFileHelpers: Auto-saving content packages took 0.018
+[2019.01.08-07.57.56:394][506]LogSlate: Window '색 선택 툴' being destroyed
+[2019.01.08-07.58.01:069][667]LogSlate: Window '색 선택 툴' being destroyed
+[2019.01.08-08.00.37:955][676]BlueprintLog: New page: BH_HUD 컴파일
+[2019.01.08-08.00.38:949][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/BH_HUD" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/BH_HUD.uasset" SILENT=true
+[2019.01.08-08.00.38:973][766]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_HUD414146A1444A2927DEB85D9E4D06EB9A.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/BH_HUD.uasset'
+[2019.01.08-08.00.59:056][ 74]BlueprintLog: New page: BH_HUD 컴파일
+[2019.01.08-08.00.59:669][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/BH_HUD" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/BH_HUD.uasset" SILENT=true
+[2019.01.08-08.00.59:707][123]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_HUD68D570844A81B4395641879A06B47D3F.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/BH_HUD.uasset'
+[2019.01.08-08.04.42:139][577]BlueprintLog: New page: BH_HUD 컴파일
+[2019.01.08-08.04.43:249][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/BH_HUD" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/BH_HUD.uasset" SILENT=true
+[2019.01.08-08.04.43:283][674]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_HUD2CE1593344B08CB01AE926A03AF980CC.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/BH_HUD.uasset'
+[2019.01.08-08.06.01:379][401]BlueprintLog: New page: BH_HUD 컴파일
+[2019.01.08-08.06.01:907][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/BH_HUD" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/BH_HUD.uasset" SILENT=true
+[2019.01.08-08.06.01:947][437]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_HUD1BF353BF443EB6CA9D554CA1D2FC3329.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/BH_HUD.uasset'
+[2019.01.08-08.06.11:471][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BarrelHopper/BH_HUD" FILE="C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/BH_HUD.uasset" SILENT=true
+[2019.01.08-08.06.11:504][504]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Saved/BH_HUDC9FCB9B44112EEB34BD6CCB718B3D9B2.tmp' to 'C:/Users/user/Documents/Unreal Projects/BarrelHopper/Content/BarrelHopper/BH_HUD.uasset'
+[2019.01.08-08.06.55:567][ 41]LogAssetEditorManager: Opening Asset editor for Font /Game/BarrelHopper/BH_Font.BH_Font
+[2019.01.08-08.07.15:996][241]LogSlate: Took 0.002018 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.01.08-08.07.29:030][800]LogSlate: Took 0.001718 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.01.08-08.07.29:030][800]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.01.08-08.07.29:039][800]LogSlate: Took 0.000417 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.08-08.07.29:044][800]LogSlate: Took 0.002226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.01.08-08.07.29:049][800]LogSlate: Took 0.002249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2019.01.08-08.07.29:049][800]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.08-08.07.29:051][800]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.08-08.07.29:053][800]LogSlate: Took 0.000465 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.08-08.07.29:059][800]LogSlate: Took 0.001880 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2019.01.08-08.07.29:059][800]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.01.08-08.07.30:248][800]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.189 s
+[2019.01.08-08.07.30:248][800]LogOutputDevice: Error: === Handled ensure: ===
+[2019.01.08-08.07.30:248][800]LogOutputDevice: Error: 
+[2019.01.08-08.07.30:249][800]LogOutputDevice: Error: Ensure condition failed: Lhs.CurrentNum == Lhs.InitialNum [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Containers/Array.h] [Line: 206]
+[2019.01.08-08.07.30:249][800]LogOutputDevice: Error: Array has changed during ranged-for iteration!
+[2019.01.08-08.07.30:249][800]LogOutputDevice: Error: Stack: 
+[2019.01.08-08.07.30:249][800]LogOutputDevice: Error: [Callstack] 0x00007fffc5dbfdc1 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.08-08.07.30:249][800]LogOutputDevice: Error: [Callstack] 0x00007fffc5e8f5a5 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.08-08.07.30:249][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5c034 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:249][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5ce21 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:249][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5a8e4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:249][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5c034 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:250][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5ce21 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:250][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5a8e4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:250][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5c034 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:250][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5a169 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:250][800]LogOutputDevice: Error: [Callstack] 0x00007fffc5e54a9d UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.08-08.07.30:250][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5c034 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:250][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5ce21 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:250][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5a8e4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:251][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5c034 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:251][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5a169 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:251][800]LogOutputDevice: Error: [Callstack] 0x00007fffc5e54a9d UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.08-08.07.30:251][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5c034 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:251][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5a169 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:251][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5c034 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:251][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5a169 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:251][800]LogOutputDevice: Error: [Callstack] 0x00007fffc5e54a9d UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.08-08.07.30:251][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5c034 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:252][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5a786 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:252][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5c034 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:252][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5ce21 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:252][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5a8e4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:252][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5c034 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:253][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5a169 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:253][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5c034 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:253][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5ce21 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:253][800]LogOutputDevice: Error: [Callstack] 0x00007fffc5e59c7e UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.08-08.07.30:253][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5c034 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:253][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5a786 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:253][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5c034 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:253][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5a169 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:254][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5c034 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:254][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5ce21 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:254][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5a8e4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:254][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5c034 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:254][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5ce21 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:254][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5a8e4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:254][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5c034 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:254][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5a786 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:254][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5c034 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:255][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5a169 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:255][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5a98a UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:255][800]LogOutputDevice: Error: [Callstack] 0x00007fffd2c5c034 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.01.08-08.07.30:255][800]LogOutputDevice: Error: [Callstack] 0x00007fffc5bed139 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.08-08.07.30:255][800]LogOutputDevice: Error: [Callstack] 0x00007fffc5bee199 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.08-08.07.30:255][800]LogOutputDevice: Error: [Callstack] 0x00007fffc5c240d0 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.08-08.07.30:255][800]LogOutputDevice: Error: [Callstack] 0x00007fffc5bee222 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.08-08.07.30:255][800]LogOutputDevice: Error: [Callstack] 0x00007fffc5c4f5a6 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.08-08.07.30:256][800]LogOutputDevice: Error: [Callstack] 0x00007fffc5c4e483 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.08-08.07.30:256][800]LogOutputDevice: Error: [Callstack] 0x00007ff63cee7094 UE4Editor.exe!UnknownFunction []
+[2019.01.08-08.07.30:256][800]LogOutputDevice: Error: [Callstack] 0x00007ff63cef596c UE4Editor.exe!UnknownFunction []
+[2019.01.08-08.07.30:256][800]LogOutputDevice: Error: [Callstack] 0x00007ff63cef59ea UE4Editor.exe!UnknownFunction []
+[2019.01.08-08.07.30:256][800]LogOutputDevice: Error: [Callstack] 0x00007ff63cf048da UE4Editor.exe!UnknownFunction []
+[2019.01.08-08.07.30:256][800]LogOutputDevice: Error: [Callstack] 0x00007ff63cf0659a UE4Editor.exe!UnknownFunction []
+[2019.01.08-08.07.30:256][800]LogOutputDevice: Error: [Callstack] 0x00007ff811113034 KERNEL32.DLL!UnknownFunction []
+[2019.01.08-08.07.30:256][800]LogOutputDevice: Error: [Callstack] 0x00007ff813ce3691 ntdll.dll!UnknownFunction []
+[2019.01.08-08.07.30:256][800]LogOutputDevice: Error: 
+[2019.01.08-08.07.30:257][800]LogStats:                SubmitErrorReport -  0.000 s
