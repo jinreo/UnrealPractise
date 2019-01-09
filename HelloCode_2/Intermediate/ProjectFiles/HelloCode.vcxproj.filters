@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HelloCode.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{AA06C78F-4997-4BBC-8376-3EE511D7484A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HelloCode.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HelloCodeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2B709F5F-BE2C-447D-8D23-A997E9E18853}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HelloCode">
+      <UniqueIdentifier>{700E2332-0874-4544-8CDA-F4745D75AB77}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HelloCode\HelloCode.Build.cs">
+      <Filter>Source\HelloCode</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HelloCode\HelloCode.cpp">
+      <Filter>Source\HelloCode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HelloCode\HelloCode.h">
+      <Filter>Source\HelloCode</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HelloCode\HelloCodeGameModeBase.cpp">
+      <Filter>Source\HelloCode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HelloCode\HelloCodeGameModeBase.h">
+      <Filter>Source\HelloCode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\HelloCode\HelloSphere.h">
+      <Filter>Source\HelloCode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\HelloCode\HelloSphere.cpp">
+      <Filter>Source\HelloCode</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
