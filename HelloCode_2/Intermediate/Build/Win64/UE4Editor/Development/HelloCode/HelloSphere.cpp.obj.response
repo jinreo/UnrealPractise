@@ -412,20 +412,20 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "C:\Users\user\Documents\Unreal Projects\HelloCode\Intermediate\Build\Win64\UE4Editor\Inc\HelloCode"
-/I "C:\Users\user\Documents\Unreal Projects\HelloCode\Source"
-/I "C:\Users\user\Documents\Unreal Projects\HelloCode\Source\HelloCode"
+/I "C:\Users\user\Documents\Unreal Projects\HelloCode_2\Intermediate\Build\Win64\UE4Editor\Inc\HelloCode"
+/I "C:\Users\user\Documents\Unreal Projects\HelloCode_2\Source"
+/I "C:\Users\user\Documents\Unreal Projects\HelloCode_2\Source\HelloCode"
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"C:\Users\user\Documents\Unreal Projects\HelloCode\Intermediate\Build\Win64\HelloCodeEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\user\Documents\Unreal Projects\HelloCode\Intermediate\Build\Win64\HelloCodeEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\user\Documents\Unreal Projects\HelloCode\Intermediate\Build\Win64\HelloCodeEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\user\Documents\Unreal Projects\HelloCode\Source\HelloCode\HelloSphere.cpp"
-/FI"C:\Users\user\Documents\Unreal Projects\HelloCode\Intermediate\Build\Win64\UE4Editor\Development\HelloCode\Definitions.HelloCode.h"
-/Fo"C:\Users\user\Documents\Unreal Projects\HelloCode\Intermediate\Build\Win64\UE4Editor\Development\HelloCode\HelloSphere.cpp.obj"
+/FI"C:\Users\user\Documents\Unreal Projects\HelloCode_2\Intermediate\Build\Win64\HelloCodeEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\user\Documents\Unreal Projects\HelloCode_2\Intermediate\Build\Win64\HelloCodeEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\user\Documents\Unreal Projects\HelloCode_2\Intermediate\Build\Win64\HelloCodeEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\user\Documents\Unreal Projects\HelloCode_2\Source\HelloCode\HelloSphere.cpp"
+/FI"C:\Users\user\Documents\Unreal Projects\HelloCode_2\Intermediate\Build\Win64\UE4Editor\Development\HelloCode\Definitions.HelloCode.h"
+/Fo"C:\Users\user\Documents\Unreal Projects\HelloCode_2\Intermediate\Build\Win64\UE4Editor\Development\HelloCode\HelloSphere.cpp.obj"
 /TP
 /GR-
 /W4

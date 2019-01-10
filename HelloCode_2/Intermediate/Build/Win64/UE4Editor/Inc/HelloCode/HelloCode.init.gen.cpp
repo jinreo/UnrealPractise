@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeHelloCode_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/HelloCode",
 				PKG_CompiledIn | 0x00000000,
-				0x8A3C044B,
-				0xA255E7F9,
+				0x7D3D724F,
+				0x3C44DBB0,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

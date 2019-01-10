@@ -19,9 +19,14 @@ protected:
 	class UTextRenderComponent* TextRenderComponent;
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	UFUNCTION()
+	void MyOnBeginOverlap(AActor* OverlappedActor, AActor* otherActor);
+	UFUNCTION()
+	void MyOnEndOverlap(AActor* OverlappedActor, AActor* otherActor);
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
 
 };

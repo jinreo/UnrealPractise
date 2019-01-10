@@ -1,3 +1,3 @@
-C:\Users\user\Documents\Unreal Projects\HelloCode\Source\HelloCode\HelloCode.Build.cs
-C:\Users\user\Documents\Unreal Projects\HelloCode\Source\HelloCode.Target.cs
-C:\Users\user\Documents\Unreal Projects\HelloCode\Source\HelloCodeEditor.Target.cs
+C:\Users\user\Documents\Unreal Projects\HelloCode_2\Source\HelloCode\HelloCode.Build.cs
+C:\Users\user\Documents\Unreal Projects\HelloCode_2\Source\HelloCode.Target.cs
+C:\Users\user\Documents\Unreal Projects\HelloCode_2\Source\HelloCodeEditor.Target.cs

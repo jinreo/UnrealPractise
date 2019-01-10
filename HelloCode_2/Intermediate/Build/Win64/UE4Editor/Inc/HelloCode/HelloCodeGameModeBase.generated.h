@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define HELLOCODE_HelloCodeGameModeBase_generated_h
 
-#define HelloCode_Source_HelloCode_HelloCodeGameModeBase_h_15_RPC_WRAPPERS
-#define HelloCode_Source_HelloCode_HelloCodeGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define HelloCode_Source_HelloCode_HelloCodeGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+#define HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h_15_RPC_WRAPPERS
+#define HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAHelloCodeGameModeBase(); \
 	friend struct Z_Construct_UClass_AHelloCodeGameModeBase_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AHelloCodeGameModeBase)
 
 
-#define HelloCode_Source_HelloCode_HelloCodeGameModeBase_h_15_INCLASS \
+#define HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAHelloCodeGameModeBase(); \
 	friend struct Z_Construct_UClass_AHelloCodeGameModeBase_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AHelloCodeGameModeBase)
 
 
-#define HelloCode_Source_HelloCode_HelloCodeGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+#define HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AHelloCodeGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AHelloCodeGameModeBase) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define HelloCode_Source_HelloCode_HelloCodeGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+#define HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AHelloCodeGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -59,32 +59,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHelloCodeGameModeBase); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AHelloCodeGameModeBase)
 
 
-#define HelloCode_Source_HelloCode_HelloCodeGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
-#define HelloCode_Source_HelloCode_HelloCodeGameModeBase_h_12_PROLOG
-#define HelloCode_Source_HelloCode_HelloCodeGameModeBase_h_15_GENERATED_BODY_LEGACY \
+#define HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
+#define HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h_12_PROLOG
+#define HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HelloCode_Source_HelloCode_HelloCodeGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	HelloCode_Source_HelloCode_HelloCodeGameModeBase_h_15_RPC_WRAPPERS \
-	HelloCode_Source_HelloCode_HelloCodeGameModeBase_h_15_INCLASS \
-	HelloCode_Source_HelloCode_HelloCodeGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+	HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h_15_RPC_WRAPPERS \
+	HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h_15_INCLASS \
+	HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HelloCode_Source_HelloCode_HelloCodeGameModeBase_h_15_GENERATED_BODY \
+#define HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HelloCode_Source_HelloCode_HelloCodeGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	HelloCode_Source_HelloCode_HelloCodeGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	HelloCode_Source_HelloCode_HelloCodeGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
-	HelloCode_Source_HelloCode_HelloCodeGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+	HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+	HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HelloCode_Source_HelloCode_HelloCodeGameModeBase_h
+#define CURRENT_FILE_ID HelloCode_2_Source_HelloCode_HelloCodeGameModeBase_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
