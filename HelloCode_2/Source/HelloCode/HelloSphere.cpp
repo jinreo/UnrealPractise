@@ -52,9 +52,9 @@ AHelloSphere::AHelloSphere()
 	TextRenderComponent->SetYScale(2.0f);
 	TextRenderComponent->SetXScale(2.0f);
 	TextRenderComponent->SetVisibility(true);
-	TextRenderComponent->SetTextRenderColor(FColor(1));
+	TextRenderComponent->SetTextRenderColor(FColor::Black);
 	TextRenderComponent->SetText(NSLOCTEXT("AnyNs", "Any", "HelloWorld"));
-
+	
 	OnActorBeginOverlap.AddDynamic(this, &AHelloSphere::MyOnBeginOverlap);
 	OnActorEndOverlap.AddDynamic(this, &AHelloSphere::MyOnEndOverlap);
 }

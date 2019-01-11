@@ -1,0 +1,19 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-HelloCode-9934.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\user\Documents\Unreal Projects\HelloCode_2\Intermediate\Build\Win64\HelloCodeEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\user\Documents\Unreal Projects\HelloCode_2\Intermediate\Build\Win64\UE4Editor\Development\HelloCode\HelloCode.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\HelloCode_2\Intermediate\Build\Win64\UE4Editor\Development\HelloCode\HelloCodeGameModeBase.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\HelloCode_2\Intermediate\Build\Win64\UE4Editor\Development\HelloCode\HelloSphere.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\HelloCode_2\Intermediate\Build\Win64\UE4Editor\Development\HelloCode\HybridSphere.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\HelloCode_2\Intermediate\Build\Win64\UE4Editor\Development\HelloCode\HelloCode.init.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\HelloCode_2\Intermediate\Build\Win64\UE4Editor\Development\HelloCode\HelloCodeGameModeBase.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\HelloCode_2\Intermediate\Build\Win64\UE4Editor\Development\HelloCode\HelloSphere.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\HelloCode_2\Intermediate\Build\Win64\UE4Editor\Development\HelloCode\HybridSphere.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\HelloCode_2\Intermediate\Build\Win64\UE4Editor\Development\HelloCode\PCLaunch.rc.res"
+/OUT:"C:\Users\user\Documents\Unreal Projects\HelloCode_2\Intermediate\Build\Win64\UE4Editor\Development\HelloCode\UE4Editor-HelloCode-9934.lib"

@@ -46,9 +46,15 @@
     <ClInclude Include="..\..\Source\HelloCode\HelloSphere.h">
       <Filter>Source\HelloCode</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\HelloCode\HybridSphere.h">
+      <Filter>Source\HelloCode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\HelloCode\HelloSphere.cpp">
+      <Filter>Source\HelloCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HelloCode\HybridSphere.cpp">
       <Filter>Source\HelloCode</Filter>
     </ClCompile>
   </ItemGroup>

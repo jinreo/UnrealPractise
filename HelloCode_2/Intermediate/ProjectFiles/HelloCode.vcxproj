@@ -500,7 +500,9 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\HelloCode\HelloSphere.cpp" />
+    <ClCompile Include="..\..\Source\HelloCode\HybridSphere.cpp" />
     <ClInclude Include="..\..\Source\HelloCode\HelloSphere.h" />
+    <ClInclude Include="..\..\Source\HelloCode\HybridSphere.h" />
     <None Include="..\..\HelloCode.uproject" />
     <None Include="..\..\Source\HelloCode.Target.cs" />
     <None Include="..\..\Source\HelloCodeEditor.Target.cs" />
