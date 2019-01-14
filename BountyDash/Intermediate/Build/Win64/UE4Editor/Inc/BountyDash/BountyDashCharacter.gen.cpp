@@ -193,9 +193,9 @@ void EmptyLinkFunctionForGeneratedCodeBountyDashCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Scroe;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FollowCamera_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FollowCam_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FollowCamera;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FollowCam;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraBoom_MetaData[];
 #endif
@@ -244,13 +244,13 @@ void EmptyLinkFunctionForGeneratedCodeBountyDashCharacter() {}
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_Scroe = { UE4CodeGen_Private::EPropertyClass::Int, "Scroe", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000014, 1, nullptr, STRUCT_OFFSET(ABountyDashCharacter, Scroe), METADATA_PARAMS(Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_Scroe_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_Scroe_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_FollowCamera_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_FollowCam_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "BountyDashCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_FollowCamera = { UE4CodeGen_Private::EPropertyClass::Object, "FollowCamera", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008001d, 1, nullptr, STRUCT_OFFSET(ABountyDashCharacter, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_FollowCamera_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_FollowCamera_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_FollowCam = { UE4CodeGen_Private::EPropertyClass::Object, "FollowCam", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008001d, 1, nullptr, STRUCT_OFFSET(ABountyDashCharacter, FollowCam), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_FollowCam_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_FollowCam_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_CameraBoom_MetaData[] = {
 		{ "Category", "Camera" },
@@ -292,7 +292,7 @@ void EmptyLinkFunctionForGeneratedCodeBountyDashCharacter() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_TargetArray_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "TargetArray", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UClass_ATargetPoint_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABountyDashCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_Scroe,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_FollowCamera,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_FollowCam,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_CameraBoom,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_dingSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABountyDashCharacter_Statics::NewProp_hitObstacleSound,
@@ -323,7 +323,7 @@ void EmptyLinkFunctionForGeneratedCodeBountyDashCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABountyDashCharacter, 4197048408);
+	IMPLEMENT_CLASS(ABountyDashCharacter, 1682400560);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABountyDashCharacter(Z_Construct_UClass_ABountyDashCharacter, &ABountyDashCharacter::StaticClass, TEXT("/Script/BountyDash"), TEXT("ABountyDashCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABountyDashCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

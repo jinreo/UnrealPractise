@@ -1,0 +1,19 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BountyDash-6758.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\BountyDashEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\BountyDash.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\BountyDashCharacter.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\BountyDashGameModeBase.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\BountyDashModeBase.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\BountyDash.init.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\BountyDashCharacter.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\BountyDashGameModeBase.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\BountyDashModeBase.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\PCLaunch.rc.res"
+/OUT:"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-6758.lib"

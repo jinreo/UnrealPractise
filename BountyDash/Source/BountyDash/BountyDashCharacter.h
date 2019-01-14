@@ -36,7 +36,7 @@ protected:
 		class USpringArmComponent* CameraBoom;
 
 	UPROPERTY(EditAnyWhere, BlueprintReadOnly, Category = Camera)
-		class UCameraComponent* FollowCamera;
+		class UCameraComponent* FollowCam;
 
 	UPROPERTY(BlueprintReadOnly)
 		int32 Scroe;

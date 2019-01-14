@@ -41,11 +41,15 @@
     <ClInclude Include="..\..\Source\BountyDash\BountyDashCharacter.h">
       <Filter>Source\BountyDash</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\BountyDash\BountyDashGameModeBase.cpp">
-      <Filter>Source\BountyDash</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\BountyDash\BountyDashGameModeBase.h">
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\BountyDash\BountyDashGameMode.h">
       <Filter>Source\BountyDash</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BountyDash\BountyDashGameMode.cpp">
+      <Filter>Source\BountyDash</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

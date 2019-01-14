@@ -118,7 +118,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABountyDashCharacter); \
 
 #define BountyDash_Source_BountyDash_BountyDashCharacter_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(ABountyDashCharacter, CameraBoom); } \
-	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(ABountyDashCharacter, FollowCamera); } \
+	FORCEINLINE static uint32 __PPO__FollowCam() { return STRUCT_OFFSET(ABountyDashCharacter, FollowCam); } \
 	FORCEINLINE static uint32 __PPO__Scroe() { return STRUCT_OFFSET(ABountyDashCharacter, Scroe); }
 
 
