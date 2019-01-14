@@ -1,0 +1,22 @@
+﻿  Performing full C++ include scan (building a new target)
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Documents\Unreal Projects).
+  Creating makefile for BountyDashEditor (no existing makefile)
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for BountyDashEditor
+    Running UnrealHeaderTool "C:\Users\user\Documents\Unreal Projects\BountyDash\BountyDash.uproject" "C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\BountyDashEditor\Development\BountyDashEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for BountyDashEditor in 8.283964 seconds
+  Building 10 actions with 6 processes...
+    [1/10] PCLaunch.rc
+    [2/10] SharedPCH.Engine.cpp
+    [3/10] BountyDashCharacter.cpp
+    [4/10] BountyDash.init.gen.cpp
+    [5/10] BountyDash.cpp
+    [6/10] BountyDashGameModeBase.cpp
+    [7/10] BountyDashGameModeBase.gen.cpp
+    [8/10] BountyDashCharacter.gen.cpp
+    [9/10] UE4Editor-BountyDash.lib
+       C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash.lib 라이브러리 및 C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash.exp 개체를 생성하고 있습니다.
+    [10/10] UE4Editor-BountyDash.dll
+       C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash.suppressed.lib 라이브러리 및 C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash.suppressed.exp 개체를 생성하고 있습니다.
+  Deploying BountyDashEditor Win64 Development...
+  Total build time: 78.04 seconds (Parallel executor: 30.65 seconds)

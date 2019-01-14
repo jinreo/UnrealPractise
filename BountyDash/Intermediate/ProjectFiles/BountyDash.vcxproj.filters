@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BountyDash.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2282D3B1-8D95-42B0-897B-1B6BEC3AA644}</UniqueIdentifier>
+      <UniqueIdentifier>{AD7FFFE7-D3D4-4AD5-926E-04EAB0ADC885}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BountyDash.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{9430ED91-5C21-4020-A832-9DC8061925DA}</UniqueIdentifier>
+      <UniqueIdentifier>{347596FD-E0AA-40D4-9570-B2157D63966F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BountyDash">
-      <UniqueIdentifier>{8EDBE333-0F57-4D8F-BC46-899F93AA12C3}</UniqueIdentifier>
+      <UniqueIdentifier>{88130A66-EAC8-460E-B44F-C98A5CD1B5DD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BountyDash\BountyDash.Build.cs">
       <Filter>Source\BountyDash</Filter>
