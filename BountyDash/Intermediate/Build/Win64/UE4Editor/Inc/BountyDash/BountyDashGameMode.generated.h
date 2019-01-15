@@ -13,8 +13,60 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BOUNTYDASH_BountyDashGameMode_generated_h
 
-#define BountyDash_Source_BountyDash_BountyDashGameMode_h_15_RPC_WRAPPERS
-#define BountyDash_Source_BountyDash_BountyDashGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define BountyDash_Source_BountyDash_BountyDashGameMode_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetGameLevel) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetGameLevel(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetGameSpeed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetGameSpeed(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetInvGameSpeed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetInvGameSpeed(); \
+		P_NATIVE_END; \
+	}
+
+
+#define BountyDash_Source_BountyDash_BountyDashGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetGameLevel) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetGameLevel(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetGameSpeed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetGameSpeed(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetInvGameSpeed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetInvGameSpeed(); \
+		P_NATIVE_END; \
+	}
+
+
 #define BountyDash_Source_BountyDash_BountyDashGameMode_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABountyDashGameMode(); \
@@ -35,7 +87,7 @@ public: \
 
 #define BountyDash_Source_BountyDash_BountyDashGameMode_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ABountyDashGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API ABountyDashGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABountyDashGameMode) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ABountyDashGameMode); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABountyDashGameMode); \
@@ -47,8 +99,6 @@ public:
 
 
 #define BountyDash_Source_BountyDash_BountyDashGameMode_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ABountyDashGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABountyDashGameMode(ABountyDashGameMode&&); \
@@ -56,10 +106,16 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ABountyDashGameMode); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABountyDashGameMode); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABountyDashGameMode)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABountyDashGameMode)
 
 
-#define BountyDash_Source_BountyDash_BountyDashGameMode_h_15_PRIVATE_PROPERTY_OFFSET
+#define BountyDash_Source_BountyDash_BountyDashGameMode_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__gameSpeed() { return STRUCT_OFFSET(ABountyDashGameMode, gameSpeed); } \
+	FORCEINLINE static uint32 __PPO__gameLevel() { return STRUCT_OFFSET(ABountyDashGameMode, gameLevel); } \
+	FORCEINLINE static uint32 __PPO__numCoinsForSpeedIncrease() { return STRUCT_OFFSET(ABountyDashGameMode, numCoinsForSpeedIncrease); } \
+	FORCEINLINE static uint32 __PPO__gameSpeedIncrease() { return STRUCT_OFFSET(ABountyDashGameMode, gameSpeedIncrease); }
+
+
 #define BountyDash_Source_BountyDash_BountyDashGameMode_h_12_PROLOG
 #define BountyDash_Source_BountyDash_BountyDashGameMode_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

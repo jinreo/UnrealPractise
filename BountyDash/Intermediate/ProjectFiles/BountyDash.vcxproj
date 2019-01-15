@@ -500,7 +500,11 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\BountyDash\BountyDashGameMode.cpp" />
+    <ClCompile Include="..\..\Source\BountyDash\Floor.cpp" />
+    <ClCompile Include="..\..\Source\BountyDash\Obstacle.cpp" />
     <ClInclude Include="..\..\Source\BountyDash\BountyDashGameMode.h" />
+    <ClInclude Include="..\..\Source\BountyDash\Floor.h" />
+    <ClInclude Include="..\..\Source\BountyDash\Obstacle.h" />
     <None Include="..\..\BountyDash.uproject" />
     <None Include="..\..\Source\BountyDash.Target.cs" />
     <None Include="..\..\Source\BountyDashEditor.Target.cs" />

@@ -12,6 +12,34 @@ class BOUNTYDASH_API ABountyDashCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
+
+public:	
+	// Sets default values for this character's properties
+	ABountyDashCharacter();
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+	void MoveRight();
+	void MoveLeft();
+
+	UFUNCTION()
+	void MyOnComponentOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* otherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult&SweepResult);
+
+	UFUNCTION()
+	void MyOnComponentEndOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+	
+public:	
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+	// Called to bind functionality to input
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	void ScoreUp();
+
+
 public:
 	UPROPERTY(EditAnyWhere, Category = Logic)
 		TArray<class ATargetPoint*> TargetArray;
@@ -25,13 +53,7 @@ public:
 	UPROPERTY(EditAnyWhere, Category = Sound)
 		UAudioComponent* dingSound;
 
-	// Sets default values for this character's properties
-	ABountyDashCharacter();
-
-	void ScoreUp();
-
 protected:
-
 	UPROPERTY(EditAnyWhere, BlueprintReadOnly, Category = Camera)
 		class USpringArmComponent* CameraBoom;
 
@@ -41,28 +63,8 @@ protected:
 	UPROPERTY(BlueprintReadOnly)
 		int32 Scroe;
 
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
-	void MoveRight();
-	void MoveLeft();
-
-	UFUNCTION()
-	void MyOnComponentOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* otherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult&SweepResult);
-
-	UFUNCTION()
-	void MyOnComponentEndOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
-
 private:
 	bool bBeingPushed;
 	short CurrentLocation;
 	FVector DesiredLocation;
-
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
 };

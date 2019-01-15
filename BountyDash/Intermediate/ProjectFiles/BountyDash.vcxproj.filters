@@ -46,9 +46,21 @@
     <ClInclude Include="..\..\Source\BountyDash\BountyDashGameMode.h">
       <Filter>Source\BountyDash</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\BountyDash\Floor.h">
+      <Filter>Source\BountyDash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BountyDash\Obstacle.h">
+      <Filter>Source\BountyDash</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\BountyDash\BountyDashGameMode.cpp">
+      <Filter>Source\BountyDash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BountyDash\Floor.cpp">
+      <Filter>Source\BountyDash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BountyDash\Obstacle.cpp">
       <Filter>Source\BountyDash</Filter>
     </ClCompile>
   </ItemGroup>
