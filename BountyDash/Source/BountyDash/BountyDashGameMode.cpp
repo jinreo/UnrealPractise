@@ -18,7 +18,7 @@ void ABountyDashGameMode::CharScoreUp(unsigned int charScore)
 	if (charScore != 0 && charScore % numCoinsForSpeedIncrease == 0)
 	{
 		gameSpeed += gameSpeedIncrease;
-		gameLevel;
+		gameLevel++;
 	}
 }
 

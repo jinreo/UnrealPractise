@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BountyDash.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{AD7FFFE7-D3D4-4AD5-926E-04EAB0ADC885}</UniqueIdentifier>
+      <UniqueIdentifier>{3FAD5765-3170-401C-8C96-3BFCBCA0ABA8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BountyDash.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{347596FD-E0AA-40D4-9570-B2157D63966F}</UniqueIdentifier>
+      <UniqueIdentifier>{4BDA4061-C401-44BF-86FD-CB9CEEF66F96}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\BountyDash">
-      <UniqueIdentifier>{88130A66-EAC8-460E-B44F-C98A5CD1B5DD}</UniqueIdentifier>
+      <UniqueIdentifier>{CB18825D-198E-4B74-A86F-C6EADC8B65BE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BountyDash\BountyDash.Build.cs">
       <Filter>Source\BountyDash</Filter>
@@ -41,26 +44,44 @@
     <ClInclude Include="..\..\Source\BountyDash\BountyDashCharacter.h">
       <Filter>Source\BountyDash</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\BountyDash\BountyDashGameMode.h">
-      <Filter>Source\BountyDash</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BountyDash\Floor.h">
-      <Filter>Source\BountyDash</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BountyDash\Obstacle.h">
-      <Filter>Source\BountyDash</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Source\BountyDash\BountyDashGameMode.cpp">
       <Filter>Source\BountyDash</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\BountyDash\BountyDashGameMode.h">
+      <Filter>Source\BountyDash</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BountyDash\Floor.cpp">
       <Filter>Source\BountyDash</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\BountyDash\Floor.h">
+      <Filter>Source\BountyDash</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BountyDash\Obstacle.cpp">
+      <Filter>Source\BountyDash</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BountyDash\Obstacle.h">
+      <Filter>Source\BountyDash</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BountyDash\ObstacleSpawner.cpp">
+      <Filter>Source\BountyDash</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BountyDash\ObstacleSpawner.h">
+      <Filter>Source\BountyDash</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\BountyDash\RockPoolInstance.h">
+      <Filter>Source\BountyDash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BountyDash\RockPool.h">
+      <Filter>Source\BountyDash</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BountyDash\RockPoolInstance.cpp">
+      <Filter>Source\BountyDash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BountyDash\RockPool.cpp">
       <Filter>Source\BountyDash</Filter>
     </ClCompile>
   </ItemGroup>
