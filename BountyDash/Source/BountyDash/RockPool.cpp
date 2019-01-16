@@ -6,15 +6,6 @@
 #include <EngineGlobals.h>
 #include <Runtime/Engine/Classes/Engine/Engine.h>
 
-ARockPool::ARockPool()
-{
-}
-
-ARockPool::~ARockPool()
-{
-	DespawnAll();
-}
-
 AActor* ARockPool::Spawn(UClass* uclass, const FTransform &transform)
 {
 	AActor* actor = NULL;
@@ -22,7 +13,6 @@ AActor* ARockPool::Spawn(UClass* uclass, const FTransform &transform)
 	{
 		FActorSpawnParameters SpawnInfo;
 		actor = GetWorld()->SpawnActor<AActor>(uclass, transform, SpawnInfo);
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Create Actor")));
 
 		spawnList.AddTail(actor);
 	}
@@ -50,11 +40,6 @@ void ARockPool::Despawn(AActor* actor)
 	actor->SetActorHiddenInGame(true);
 	actor->SetActorEnableCollision(false);
 	actor->SetActorTickEnabled(false);
-
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Despawn Actor")));
-
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("spawnList Count : %d"), spawnList.Num()));
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("waitList Count : %d"), waitList.Num()));	
 }
 
 void ARockPool::DespawnAll()

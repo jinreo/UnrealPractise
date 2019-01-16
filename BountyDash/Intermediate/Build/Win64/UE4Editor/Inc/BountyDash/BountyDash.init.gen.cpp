@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeBountyDash_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/BountyDash",
 				PKG_CompiledIn | 0x00000000,
-				0x0D8579E5,
+				0x0B99B204,
 				0x942B4649,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)

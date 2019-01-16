@@ -35,7 +35,7 @@ public: \
 
 #define BountyDash_Source_BountyDash_RockPool_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ARockPool(const FObjectInitializer& ObjectInitializer); \
+	NO_API ARockPool(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ARockPool) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ARockPool); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ARockPool); \
@@ -47,6 +47,8 @@ public:
 
 
 #define BountyDash_Source_BountyDash_RockPool_h_12_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API ARockPool(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ARockPool(ARockPool&&); \
@@ -54,7 +56,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ARockPool); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ARockPool); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ARockPool)
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ARockPool)
 
 
 #define BountyDash_Source_BountyDash_RockPool_h_12_PRIVATE_PROPERTY_OFFSET

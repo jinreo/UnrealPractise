@@ -28,7 +28,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnywhere)
-	ARockPool* rockPool;
+	ARockPool* RockPool;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<TSubclassOf<AObstacle>> ObstaclesToSpawn;
@@ -43,7 +43,9 @@ public:
 	USceneComponent* Scene;
 
 private:
-	float KillPoint;
-	float SpawnPoint;
-	float TimeSinceLastSpawn;
+	float killPoint;
+
+	float spawnPoint;
+
+	float timeSinceLastSpawn;
 };

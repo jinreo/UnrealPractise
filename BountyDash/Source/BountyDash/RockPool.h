@@ -11,13 +11,11 @@ class BOUNTYDASH_API ARockPool : public AActor
 {
 	GENERATED_BODY()
 
-public:
-	ARockPool();
-	~ARockPool();
-
-	AActor* Spawn(UClass* uclass, const FTransform &transform);
+public:	
+	AActor* Spawn(UClass* uclass, const FTransform &transform);	
 
 	void Despawn(AActor* actor);
+
 	void DespawnAll();
 
 

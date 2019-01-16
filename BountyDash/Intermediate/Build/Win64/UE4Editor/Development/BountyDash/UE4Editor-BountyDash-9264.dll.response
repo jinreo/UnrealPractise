@@ -1,0 +1,81 @@
+/MANIFEST:NO
+/NOLOGO
+/DEBUG
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:5000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"d3d12.dll"
+/LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x64"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\BountyDashEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\BountyDash.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\BountyDashCharacter.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\BountyDashGameMode.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\Floor.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\Obstacle.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\ObstacleSpawner.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\RockPool.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\RockPoolInstance.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\BountyDash.init.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\BountyDashCharacter.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\BountyDashGameMode.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\Floor.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\Obstacle.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\ObstacleSpawner.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\RockPool.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\RockPoolInstance.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\PCLaunch.rc.res"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"dwmapi.lib"
+"imm32.lib"
+"D:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
+"D:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
+"D:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
+"D:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
+/OUT:"C:\Users\user\Documents\Unreal Projects\BountyDash\Binaries\Win64\UE4Editor-BountyDash-9264.dll"
+/IMPLIB:"C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-9264.suppressed.lib"
+/PDB:"C:\Users\user\Documents\Unreal Projects\BountyDash\Binaries\Win64\UE4Editor-BountyDash-9264.pdb"
+/ignore:4078

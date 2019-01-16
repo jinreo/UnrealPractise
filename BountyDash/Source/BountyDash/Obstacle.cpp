@@ -6,6 +6,7 @@
 #include "ObstacleSpawner.h"
 #include "RockPool.h"
 
+#include <EngineGlobals.h>
 #include "Components/StaticMeshComponent.h"
 
 // Sets default values
@@ -25,7 +26,7 @@ AObstacle::AObstacle()
 
 	Mesh->AttachTo(RootComponent);
 	Mesh->SetCollisionResponseToAllChannels(ECR_Ignore);
-	KillPoint = -20000.0f;
+	killPoint = -20000.0f;
 
 	OnActorBeginOverlap.AddDynamic(this, &AObstacle::CustomOnActorOverlap);
 	OnActorEndOverlap.AddDynamic(this, &AObstacle::CustomOnActorEndOverlap);
@@ -35,7 +36,12 @@ AObstacle::AObstacle()
 void AObstacle::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	if (OnActorBeginOverlap.GetAllObjects().Num() == 0)
+	{
+		OnActorBeginOverlap.AddDynamic(this, &AObstacle::CustomOnActorOverlap);
+		OnActorEndOverlap.AddDynamic(this, &AObstacle::CustomOnActorEndOverlap);
+	}
 }
 
 // Called every frame
@@ -48,33 +54,33 @@ void AObstacle::Tick(float DeltaTime)
 
 	AddActorWorldOffset(FVector(gameSpeed, 0.0f, 0.0f));
 
-	if (GetActorLocation().X < KillPoint)
+	if (GetActorLocation().X < killPoint)
 	{
 		pooler->Despawn(this);
 	}
 }
 
-void AObstacle::CustomOnActorOverlap(AActor* OverlappedActor, AActor* otherActor)
-{
-
-}
-
-void AObstacle::CustomOnActorEndOverlap(AActor* OverlappedActor, AActor* otherActor)
-{
-
-}
-
 void AObstacle::SetKillPoint(float point)
 {
-	KillPoint = point;
+	killPoint = point;
 }
 
 float AObstacle::GetKillPoint()
 {
-	return KillPoint;
+	return killPoint;
 }
 
 void AObstacle::SetPool(ARockPool* pool)
 {
 	pooler = pool;
+}
+
+void AObstacle::CustomOnActorOverlap_Implementation(AActor* OverlappedActor, AActor* otherActor)
+{
+
+}
+
+void AObstacle::CustomOnActorEndOverlap_Implementation(AActor* OverlappedActor, AActor* otherActor)
+{
+
 }

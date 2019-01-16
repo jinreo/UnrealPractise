@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BountyDash.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3FAD5765-3170-401C-8C96-3BFCBCA0ABA8}</UniqueIdentifier>
+      <UniqueIdentifier>{BF19C94D-D760-43EE-8313-6C8849938C6B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BountyDash.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4BDA4061-C401-44BF-86FD-CB9CEEF66F96}</UniqueIdentifier>
+      <UniqueIdentifier>{35C90A22-B1B3-46E9-85F2-18BA170134C6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BountyDash">
-      <UniqueIdentifier>{CB18825D-198E-4B74-A86F-C6EADC8B65BE}</UniqueIdentifier>
+      <UniqueIdentifier>{08EA5A60-B1DF-421F-AE66-55B649A9EA6A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BountyDash\BountyDash.Build.cs">
       <Filter>Source\BountyDash</Filter>
@@ -68,21 +68,17 @@
     <ClInclude Include="..\..\Source\BountyDash\ObstacleSpawner.h">
       <Filter>Source\BountyDash</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\BountyDash\RockPoolInstance.h">
-      <Filter>Source\BountyDash</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BountyDash\RockPool.h">
-      <Filter>Source\BountyDash</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\BountyDash\RockPoolInstance.cpp">
-      <Filter>Source\BountyDash</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\BountyDash\RockPool.cpp">
       <Filter>Source\BountyDash</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\BountyDash\RockPool.h">
+      <Filter>Source\BountyDash</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BountyDash\RockPoolInstance.cpp">
+      <Filter>Source\BountyDash</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BountyDash\RockPoolInstance.h">
+      <Filter>Source\BountyDash</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

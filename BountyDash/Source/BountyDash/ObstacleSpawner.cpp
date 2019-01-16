@@ -36,11 +36,11 @@ void AObstacleSpawner::BeginPlay()
 	{
 		if (FloorIter->GetWorld() == GetWorld())
 		{
-			KillPoint = FloorIter->GetKillPoint();
-			SpawnPoint = FloorIter->GetSpawnPoint();
+			killPoint = FloorIter->GetKillPoint();
+			spawnPoint = FloorIter->GetSpawnPoint();
 		}
 	}
-	TimeSinceLastSpawn = SpawnTimer;
+	timeSinceLastSpawn = SpawnTimer;
 }
 
 // Called every frame
@@ -48,13 +48,13 @@ void AObstacleSpawner::Tick(float DeltaSeconds)
 {
 	Super::Tick(DeltaSeconds);
 
-	TimeSinceLastSpawn += DeltaSeconds;
+	timeSinceLastSpawn += DeltaSeconds;
 
 	float trueSpawnTime = SpawnTimer / (float)GetCustomGameMode <ABountyDashGameMode>(GetWorld())->GetGameLevel();
 
-	if (TimeSinceLastSpawn > trueSpawnTime)
+	if (timeSinceLastSpawn > trueSpawnTime)
 	{
-		TimeSinceLastSpawn = 0.0f;
+		timeSinceLastSpawn = 0.0f;
 		SpawnObstacle();
 	}
 
@@ -64,22 +64,21 @@ void AObstacleSpawner::SpawnObstacle()
 {
 	if (SpawnTargets.Num() > 0 && ObstaclesToSpawn.Num() > 0)
 	{
-		short Spawner = FMath::Rand() % SpawnTargets.Num();
-		short Obstical = FMath::Rand() % ObstaclesToSpawn.Num();
-		float CapsuleOffset = 0.0f;
+		short spawner = FMath::Rand() % SpawnTargets.Num();
+		short obstical = FMath::Rand() % ObstaclesToSpawn.Num();
 
 		FActorSpawnParameters SpawnInfo;
 
-		FTransform myTrans = SpawnTargets[Spawner]->GetTransform();
-		myTrans.SetLocation(FVector(SpawnPoint, myTrans.GetLocation().Y, myTrans.GetLocation().Z));
+		FTransform myTrans = SpawnTargets[spawner]->GetTransform();
+		myTrans.SetLocation(FVector(spawnPoint, myTrans.GetLocation().Y, myTrans.GetLocation().Z));
 
-		AObstacle* newObs = Cast<AObstacle>(rockPool->Spawn(ObstaclesToSpawn[Obstical], myTrans));
-		//AObstacle* newObs = GetWorld()->SpawnActor<AObstacle>(ObstaclesToSpawn[Obstical], myTrans, SpawnInfo);
+		AActor* actor = RockPool->Spawn(ObstaclesToSpawn[obstical], myTrans);
+		AObstacle* newObs = Cast<AObstacle>(actor);
 
 		if (newObs)
 		{
-			newObs->SetKillPoint(KillPoint);
-			newObs->SetPool(rockPool);
+			newObs->SetKillPoint(killPoint);
+			newObs->SetPool(RockPool);
 
 			USphereComponent* obsSphere = Cast<USphereComponent>(newObs->GetComponentByClass(USphereComponent::StaticClass()));
 
@@ -87,6 +86,6 @@ void AObstacleSpawner::SpawnObstacle()
 			{
 				newObs->AddActorLocalOffset(FVector(0.0f, 0.0f, obsSphere->GetUnscaledSphereRadius()));
 			}
-		}//<-- if(newObs) ´Ý±â
-	}//<-- if(SpawnTargets.Num() > 0 && obstacleToSpawn.Num() > 0) ´Ý±â
+		}
+	}
 }

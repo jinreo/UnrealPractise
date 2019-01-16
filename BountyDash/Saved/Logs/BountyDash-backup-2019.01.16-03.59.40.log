@@ -1,0 +1,889 @@
+﻿Log file open, 01/16/19 12:33:49
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: BountyDash
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.249618
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.089s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4613538
+LogInit: Engine Version: 4.21.1-4613538+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz, GPU: NVIDIA GeForce GTX 1050
+LogInit: Compiled (64-bit): Nov 30 2018 04:13:25
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Engine.ini]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Engine.ini]
+[2019.01.16-03.33.49:876][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Engine.ini]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Engine.ini]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.01.16-03.33.49:876][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.01.16-03.33.49:877][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.01.16-03.33.49:877][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.01.16-03.33.49:877][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Engine.ini]
+[2019.01.16-03.33.49:877][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Engine.ini]
+[2019.01.16-03.33.49:883][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Scalability.ini]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Scalability.ini]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Scalability.ini]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Scalability.ini]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.16-03.33.49:883][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Scalability.ini]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Scalability.ini]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Scalability.ini]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.16-03.33.49:884][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.16-03.33.49:884][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.16-03.33.49:884][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.16-03.33.49:898][  0]LogHAL: Display: Platform has ~ 16 GB [17096851456 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.01.16-03.33.49:898][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.16-03.33.49:898][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Scalability.ini]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Scalability.ini]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Scalability.ini]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Scalability.ini]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Scalability.ini]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Scalability.ini]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.16-03.33.49:898][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.16-03.33.49:899][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.16-03.33.49:899][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.16-03.33.49:899][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.16-03.33.49:899][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.16-03.33.49:899][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.16-03.33.49:899][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Scalability.ini]
+[2019.01.16-03.33.49:899][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.16-03.33.49:899][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.16-03.33.49:899][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.01.16-03.33.49:899][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.01.16-03.33.49:899][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Config/Windows/Engine.ini]
+[2019.01.16-03.33.49:899][  0]LogInit: Computer: DESKTOP-RQ4MHCV
+[2019.01.16-03.33.49:899][  0]LogInit: User: user
+[2019.01.16-03.33.49:899][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.01.16-03.33.49:899][  0]LogInit: High frequency timer resolution =2.929695 MHz
+[2019.01.16-03.33.49:899][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.16-03.33.49:899][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.16-03.33.49:899][  0]LogMemory: Process Physical Memory: 102.83 MB used, 102.83 MB peak
+[2019.01.16-03.33.49:899][  0]LogMemory: Process Virtual Memory: 85.43 MB used, 85.43 MB peak
+[2019.01.16-03.33.49:899][  0]LogMemory: Physical Memory: 7231.20 MB used,  9073.63 MB free, 16304.83 MB total
+[2019.01.16-03.33.49:899][  0]LogMemory: Virtual Memory: 4642.54 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.01.16-03.33.49:919][  0]LogInit: Using OS detected language (ko-KR).
+[2019.01.16-03.33.49:919][  0]LogInit: Using OS detected locale (ko-KR).
+[2019.01.16-03.33.49:920][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2019.01.16-03.33.50:282][  0]LogStreaming: Display: Took  0.363s to InitEngineTextLocalization.
+[2019.01.16-03.33.50:282][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.16-03.33.50:326][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.16-03.33.50:326][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.16-03.33.52:498][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.16-03.33.52:498][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.16-03.33.52:550][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.01.16-03.33.52:550][  0]LogD3D11RHI:       1987/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.16-03.33.52:552][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.16-03.33.52:552][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.16-03.33.52:552][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.16-03.33.52:558][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.16-03.33.52:558][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.16-03.33.52:558][  0]LogWindows: EnumDisplayDevices:
+[2019.01.16-03.33.52:558][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2019.01.16-03.33.52:559][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:1)
+[2019.01.16-03.33.52:560][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.01.16-03.33.52:560][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.01.16-03.33.52:561][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.16-03.33.52:561][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.01.16-03.33.52:561][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.01.16-03.33.52:561][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.01.16-03.33.52:561][  0]LogRHI: Texture pool is 1391 MB (70% of 1987 MB)
+[2019.01.16-03.33.52:585][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.16-03.33.52:595][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.01.16-03.33.52:978][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.16-03.33.52:988][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.16-03.33.52:998][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.16-03.33.53:009][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.16-03.33.53:023][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.16-03.33.53:032][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.16-03.33.53:043][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.16-03.33.53:053][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.16-03.33.53:058][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.16-03.33.53:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-03.33.53:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-03.33.53:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-03.33.53:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-03.33.53:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-03.33.53:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-03.33.53:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-03.33.53:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-03.33.53:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-03.33.53:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-03.33.53:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-03.33.53:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-03.33.53:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-03.33.53:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-03.33.53:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-03.33.53:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-03.33.53:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-03.33.53:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-03.33.53:125][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.16-03.33.53:185][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.16-03.33.53:185][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.16-03.33.53:203][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.16-03.33.53:203][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.16-03.33.53:213][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.16-03.33.53:223][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.16-03.33.53:232][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.16-03.33.53:249][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.16-03.33.53:288][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.16-03.33.53:288][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.16-03.33.53:288][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.16-03.33.53:326][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (C:/Users/user/Documents/Unreal Projects/BountyDash/Intermediate/Shaders/WorkingDirectory/15292/).
+[2019.01.16-03.33.53:326][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/5420F36D4549E4E376AAA18B4B9F222F/'.
+[2019.01.16-03.33.53:327][  0]LogXGEController: Cleaning working directory: C:/Users/user/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.16-03.33.53:327][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.16-03.33.53:328][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.16-03.33.53:328][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.16-03.33.54:785][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.16-03.33.54:844][  0]LogDerivedDataCache: Loaded boot cache 0.06s 76MB C:/Users/user/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.16-03.33.54:845][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.01.16-03.33.54:845][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/user/Documents/Unreal Projects/BountyDash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.16-03.33.54:845][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.16-03.33.54:845][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/user/Documents/Unreal Projects/BountyDash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.16-03.33.54:845][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.16-03.33.54:870][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.16-03.33.54:870][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.16-03.33.54:870][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.01.16-03.33.54:883][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.16-03.33.54:883][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.16-03.33.54:883][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.16-03.33.54:900][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.16-03.33.54:902][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.16-03.33.54:902][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.16-03.33.54:996][  0]LogAssetRegistry: FAssetRegistry took 0.0308 seconds to start up
+[2019.01.16-03.33.55:274][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.16-03.33.55:398][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.16-03.33.55:401][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.16-03.33.55:401][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.16-03.33.55:401][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.16-03.33.55:401][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.16-03.33.55:498][  0]LogNetVersion: BountyDash 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3339346427)
+[2019.01.16-03.33.56:390][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.101298 seconds
+[2019.01.16-03.33.56:396][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.01.16-03.33.56:396][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.01.16-03.33.56:396][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.16-03.33.58:828][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.16-03.33.58:841][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.16-03.33.59:958][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.01.16-03.33.59:958][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.01.16-03.33.59:959][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.01.16-03.33.59:960][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.01.16-03.34.00:122][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.16-03.34.00:162][  0]LogOcInput: OculusInput pre-init called
+[2019.01.16-03.34.00:306][  0]LogEngine: Initializing Engine...
+[2019.01.16-03.34.00:307][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.16-03.34.00:308][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.16-03.34.00:308][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.16-03.34.00:308][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.16-03.34.00:308][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.16-03.34.00:704][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.16-03.34.00:711][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.16-03.34.00:717][  0]LogInit: No audio devices found!
+[2019.01.16-03.34.00:718][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.16-03.34.00:912][  0]LogDerivedDataCache: Saved boot cache 0.19s 76MB C:/Users/user/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.16-03.34.00:936][  0]LogInit: Texture streaming: Enabled
+[2019.01.16-03.34.00:950][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.16-03.34.00:950][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={5B6C48BB-492F-D304-320D-9D9109337EB4}
+[2019.01.16-03.34.00:962][  0]LogInit: Transaction tracking system initialized
+[2019.01.16-03.34.00:977][  0]BlueprintLog: New page: 에디터 로드
+[2019.01.16-03.34.01:049][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2019.01.16-03.34.01:629][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/BountyDash/Content/' took 0.03s
+[2019.01.16-03.34.01:629][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.16-03.34.01:630][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.16-03.34.01:630][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.16-03.34.01:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.16-03.34.01:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.16-03.34.01:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.16-03.34.01:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.16-03.34.01:798][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.01.16-03.34.01:798][  0]Cmd: MAP LOAD FILE="C:/Users/user/Documents/Unreal Projects/BountyDash/Content/Levels/BountyDashMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.16-03.34.01:802][  0]LightingResults: New page: 라이팅 빌드
+[2019.01.16-03.34.01:803][  0]MapCheck: New page: 맵 체크
+[2019.01.16-03.34.01:803][  0]LightingResults: New page: 라이팅 빌드
+[2019.01.16-03.34.02:277][  0]LogAIModule: Creating AISystem for world BountyDashMap
+[2019.01.16-03.34.02:288][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.16-03.34.02:309][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.16-03.34.02:309][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.163ms.
+[2019.01.16-03.34.02:309][  0]LogFileHelpers: Loading map 'BountyDashMap' took 0.512
+[2019.01.16-03.34.02:439][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.16-03.34.02:445][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.16-03.34.02:451][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.16-03.34.02:457][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.16-03.34.02:468][  0]LogCollectionManager: Loaded 0 collections in 0.000887 seconds
+[2019.01.16-03.34.02:483][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/BountyDash/Saved/Collections/' took 0.01s
+[2019.01.16-03.34.02:483][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/BountyDash/Content/Developers/user/Collections/' took 0.00s
+[2019.01.16-03.34.02:483][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/BountyDash/Content/Collections/' took 0.00s
+[2019.01.16-03.34.02:483][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.16-03.34.02:491][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2658 classes and 622 folders.
+[2019.01.16-03.34.02:495][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.16-03.34.02:500][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:505][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:525][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:529][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:533][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:537][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:541][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:545][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:550][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:555][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:560][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:564][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:569][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:573][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:578][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:581][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:610][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:614][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:618][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:622][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:659][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:662][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:666][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:670][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:675][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:679][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.16-03.34.02:784][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.16-03.34.02:789][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.01.16-03.34.02:861][  0]LogSlate: Took 0.000361 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.16-03.34.02:876][  0]LogSlate: Took 0.014622 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.01.16-03.34.02:884][  0]LogSlate: Took 0.006517 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2019.01.16-03.34.02:884][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.16-03.34.02:892][  0]LogSlate: Took 0.004479 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.16-03.34.03:068][  0]LogRenderer: Reallocating scene render targets to support 1148x732 Format 10 NumSamples 1 (Frame:1).
+[2019.01.16-03.34.03:103][  0]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.16-03.34.03:180][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.16-03.34.03:180][  0]LogLoad: (Engine Initialization) Total time: 14.89 seconds
+[2019.01.16-03.34.03:180][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.16-03.34.03:192][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2019.01.16-03.34.03:255][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.16-03.34.03:295][  1]LogAssetRegistry: Asset discovery search completed in 8.3210 seconds
+[2019.01.16-03.34.03:297][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.16-03.34.03:297][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2019.01.16-03.34.06:009][277]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-03.34.06:118][288]Candidate modules for hot reload:
+[2019.01.16-03.34.06:118][288]  BountyDash
+[2019.01.16-03.34.06:119][288]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BountyDash,2552 Win64 Development -TargetType=Editor -Project="C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject" -canskiplink "C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject" ]
+[2019.01.16-03.34.06:157][288]Warning: Starting HotReload took  0.1s.
+[2019.01.16-03.34.14:186][201]CompilerResultsLog: New page: 컴파일 - 2019. 1. 16. 오후 9:34:14
+[2019.01.16-03.34.14:186][201]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Documents\Unreal Projects).
+[2019.01.16-03.34.14:186][201]CompilerResultsLog: Creating makefile for hot reloading BountyDashEditor (source directory changed)
+[2019.01.16-03.34.14:186][201]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.16-03.34.14:186][201]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.16-03.34.14:186][201]CompilerResultsLog: Building 3 actions with 6 processes...
+[2019.01.16-03.34.14:186][201]CompilerResultsLog:   [1/3] Obstacle.cpp
+[2019.01.16-03.34.14:186][201]CompilerResultsLog:   C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\Obstacle.cpp(27): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.01.16-03.34.14:186][201]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.01.16-03.34.14:186][201]CompilerResultsLog:   [2/3] UE4Editor-BountyDash-2552.lib
+[2019.01.16-03.34.14:186][201]CompilerResultsLog:      C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-2552.lib ???̺귯?? ?? C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-2552.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.01.16-03.34.14:186][201]CompilerResultsLog:   [3/3] UE4Editor-BountyDash-2552.dll
+[2019.01.16-03.34.14:186][201]CompilerResultsLog:      C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-2552.suppressed.lib ???̺귯?? ?? C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-2552.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.01.16-03.34.14:186][201]CompilerResultsLog: Total build time: 7.70 seconds (Parallel executor: 2.63 seconds)
+[2019.01.16-03.34.14:186][201]LogMainFrame: MainFrame: Module compiling took 8.069 seconds
+[2019.01.16-03.34.14:249][201]LogHotReload: Re-instancing BountyDashCharacter after hot-reload.
+[2019.01.16-03.34.14:312][201]LogContentBrowser: Native class hierarchy updated for 'BountyDash' in 0.0004 seconds. Added 7 classes and 2 folders.
+[2019.01.16-03.34.14:313][201]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2019.01.16-03.34.14:420][201]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2659 classes and 624 folders.
+[2019.01.16-03.34.14:420][201]Display: HotReload took  8.3s.
+[2019.01.16-03.34.16:677][468]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.16-03.34.16:689][468]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel.BountyDashMap' with GeneratedClass '/Game/Levels/BountyDashMap.BountyDashMap_C' with ClassGeneratedBy '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel.BountyDashMap'
+[2019.01.16-03.34.16:689][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.16-03.34.16:689][468]PIE: New page: PIE 세션: BountyDashMap (2019. 1. 16. 오후 9:34:16)
+[2019.01.16-03.34.16:701][468]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BountyDashMap
+[2019.01.16-03.34.16:705][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003910s)
+[2019.01.16-03.34.16:706][468]LogAIModule: Creating AISystem for world BountyDashMap
+[2019.01.16-03.34.16:706][468]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2019.01.16-03.34.16:706][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BountyDashMap.BountyDashMap to /Game/Levels/UEDPIE_0_BountyDashMap.BountyDashMap (0.004997s)
+[2019.01.16-03.34.16:773][468]LogLoad: Game class is 'BountyDashGameMode'
+[2019.01.16-03.34.16:775][468]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BountyDashMap.BountyDashMap up for play (max tick rate 0) at 2019.01.16-12.34.16
+[2019.01.16-03.34.16:775][468]LogWorld: Bringing up level for play took: 0.001113
+[2019.01.16-03.34.16:852][468]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2019.01.16-03.34.16:853][468]PIE: /Game/Levels/UEDPIE_0_BountyDashMap 에 대한 에디터에서 플레이 시작 시간: -0.054
+[2019.01.16-03.34.16:853][468]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel.BountyDashMap' with GeneratedClass '/Game/Levels/BountyDashMap.BountyDashMap_C' with ClassGeneratedBy '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel.BountyDashMap'
+[2019.01.16-03.34.20:163][862]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel.BountyDashMap' with GeneratedClass '/Game/Levels/BountyDashMap.BountyDashMap_C' with ClassGeneratedBy '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel.BountyDashMap'
+[2019.01.16-03.34.20:163][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.16-03.34.20:195][862]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.16-03.34.20:196][862]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel.BountyDashMap' with GeneratedClass '/Game/Levels/BountyDashMap.BountyDashMap_C' with ClassGeneratedBy '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel.BountyDashMap'
+[2019.01.16-03.34.20:218][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.16-03.34.20:263][867]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.01.16-03.34.32:319][586]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.16-03.34.32:325][586]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/RockObstacleBP.RockObstacleBP
+[2019.01.16-03.34.32:944][586]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 117 classes and 0 folders.
+[2019.01.16-03.34.36:393][864]LogSlate: Window 'RockObstacleBP' being destroyed
+[2019.01.16-03.34.36:454][864]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/RockObstacleBP.RockObstacleBP
+[2019.01.16-03.34.36:737][864]LogSlate: Took 0.021201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.16-03.34.45:683][873]LogSlate: Window 'RockObstacleBP' being destroyed
+[2019.01.16-03.34.45:685][873]LogSlate: Window 'RockObstacleBP' being destroyed
+[2019.01.16-03.34.47:248][ 49]LogSlate: Window '메시지 로그' being destroyed
+[2019.01.16-03.34.47:251][ 49]LogSlate: Window '메시지 로그' being destroyed
+[2019.01.16-03.35.41:191][255]Candidate modules for hot reload:
+[2019.01.16-03.35.41:191][255]  BountyDash
+[2019.01.16-03.35.41:191][255]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BountyDash,5041 Win64 Development -TargetType=Editor -Project="C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject" -canskiplink "C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject" ]
+[2019.01.16-03.35.41:215][255]Warning: Starting HotReload took  0.0s.
+[2019.01.16-03.35.59:163][190]CompilerResultsLog: New page: 컴파일 - 2019. 1. 16. 오후 9:35:59
+[2019.01.16-03.35.59:163][190]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Documents\Unreal Projects).
+[2019.01.16-03.35.59:163][190]CompilerResultsLog: Creating makefile for hot reloading BountyDashEditor (source directory changed)
+[2019.01.16-03.35.59:163][190]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.16-03.35.59:163][190]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.16-03.35.59:163][190]CompilerResultsLog: Parsing headers for BountyDashEditor
+[2019.01.16-03.35.59:163][190]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\user\Documents\Unreal Projects\BountyDash\BountyDash.uproject" "C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\BountyDashEditor\Development\BountyDashEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.16-03.35.59:163][190]CompilerResultsLog: Reflection code generated for BountyDashEditor in 9.6864339 seconds
+[2019.01.16-03.35.59:163][190]CompilerResultsLog: Building 6 actions with 6 processes...
+[2019.01.16-03.35.59:163][190]CompilerResultsLog:   [1/6] Obstacle.gen.cpp
+[2019.01.16-03.35.59:164][190]CompilerResultsLog:   [2/6] ObstacleSpawner.gen.cpp
+[2019.01.16-03.35.59:164][190]CompilerResultsLog:   [3/6] Obstacle.cpp
+[2019.01.16-03.35.59:164][190]CompilerResultsLog:   C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\Obstacle.cpp(27): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.01.16-03.35.59:164][190]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.01.16-03.35.59:164][190]CompilerResultsLog:   [4/6] ObstacleSpawner.cpp
+[2019.01.16-03.35.59:164][190]CompilerResultsLog:   [5/6] UE4Editor-BountyDash-5041.lib
+[2019.01.16-03.35.59:164][190]CompilerResultsLog:      C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-5041.lib ???̺귯?? ?? C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-5041.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.01.16-03.35.59:164][190]CompilerResultsLog:   [6/6] UE4Editor-BountyDash-5041.dll
+[2019.01.16-03.35.59:164][190]CompilerResultsLog:      C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-5041.suppressed.lib ???̺귯?? ?? C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-5041.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.01.16-03.35.59:164][190]CompilerResultsLog: Total build time: 17.46 seconds (Parallel executor: 3.10 seconds)
+[2019.01.16-03.35.59:164][190]LogMainFrame: MainFrame: Module compiling took 17.975 seconds
+[2019.01.16-03.35.59:221][190]LogHotReload: Re-instancing BountyDashCharacter after hot-reload.
+[2019.01.16-03.35.59:324][190]LogHotReload: Re-instancing Obstacle after hot-reload.
+[2019.01.16-03.35.59:553][190]LogContentBrowser: Native class hierarchy updated for 'BountyDash' in 0.0005 seconds. Added 7 classes and 2 folders.
+[2019.01.16-03.35.59:556][190]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2019.01.16-03.35.59:834][190]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2659 classes and 624 folders.
+[2019.01.16-03.35.59:834][190]Display: HotReload took 18.7s.
+[2019.01.16-03.36.31:947][297]Candidate modules for hot reload:
+[2019.01.16-03.36.31:947][297]  BountyDash
+[2019.01.16-03.36.31:947][297]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BountyDash,4770 Win64 Development -TargetType=Editor -Project="C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject" -canskiplink "C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject" ]
+[2019.01.16-03.36.31:976][297]Warning: Starting HotReload took  0.0s.
+[2019.01.16-03.36.49:405][289]CompilerResultsLog: New page: 컴파일 - 2019. 1. 16. 오후 9:36:49
+[2019.01.16-03.36.49:405][289]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Documents\Unreal Projects).
+[2019.01.16-03.36.49:406][289]CompilerResultsLog: Creating makefile for hot reloading BountyDashEditor (source directory changed)
+[2019.01.16-03.36.49:406][289]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.16-03.36.49:406][289]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.16-03.36.49:406][289]CompilerResultsLog: Parsing headers for BountyDashEditor
+[2019.01.16-03.36.49:406][289]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\user\Documents\Unreal Projects\BountyDash\BountyDash.uproject" "C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\BountyDashEditor\Development\BountyDashEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.16-03.36.49:406][289]CompilerResultsLog: Reflection code generated for BountyDashEditor in 9.6323661 seconds
+[2019.01.16-03.36.49:406][289]CompilerResultsLog: Building 6 actions with 6 processes...
+[2019.01.16-03.36.49:406][289]CompilerResultsLog:   [1/6] Obstacle.gen.cpp
+[2019.01.16-03.36.49:406][289]CompilerResultsLog:   [2/6] ObstacleSpawner.gen.cpp
+[2019.01.16-03.36.49:406][289]CompilerResultsLog:   [3/6] Obstacle.cpp
+[2019.01.16-03.36.49:406][289]CompilerResultsLog:   C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\Obstacle.cpp(27): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.01.16-03.36.49:406][289]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.01.16-03.36.49:406][289]CompilerResultsLog:   [4/6] ObstacleSpawner.cpp
+[2019.01.16-03.36.49:406][289]CompilerResultsLog:   [5/6] UE4Editor-BountyDash-4770.lib
+[2019.01.16-03.36.49:406][289]CompilerResultsLog:      C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-4770.lib ???̺귯?? ?? C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-4770.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.01.16-03.36.49:406][289]CompilerResultsLog:   [6/6] UE4Editor-BountyDash-4770.dll
+[2019.01.16-03.36.49:406][289]CompilerResultsLog:      C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-4770.suppressed.lib ???̺귯?? ?? C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-4770.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.01.16-03.36.49:406][289]CompilerResultsLog: Total build time: 17.14 seconds (Parallel executor: 3.06 seconds)
+[2019.01.16-03.36.49:406][289]LogMainFrame: MainFrame: Module compiling took 17.461 seconds
+[2019.01.16-03.36.49:492][289]LogHotReload: Re-instancing BountyDashCharacter after hot-reload.
+[2019.01.16-03.36.49:611][289]LogContentBrowser: Native class hierarchy updated for 'BountyDash' in 0.0004 seconds. Added 7 classes and 2 folders.
+[2019.01.16-03.36.49:614][289]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2019.01.16-03.36.49:907][289]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2659 classes and 624 folders.
+[2019.01.16-03.36.49:907][289]Display: HotReload took 18.0s.
+[2019.01.16-03.42.32:726][419]Candidate modules for hot reload:
+[2019.01.16-03.42.32:726][419]  BountyDash
+[2019.01.16-03.42.32:727][419]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BountyDash,9171 Win64 Development -TargetType=Editor -Project="C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject" -canskiplink "C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject" ]
+[2019.01.16-03.42.32:743][419]Warning: Starting HotReload took  0.0s.
+[2019.01.16-03.42.49:979][461]CompilerResultsLog: New page: 컴파일 - 2019. 1. 16. 오후 9:42:49
+[2019.01.16-03.42.49:979][461]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Documents\Unreal Projects).
+[2019.01.16-03.42.49:979][461]CompilerResultsLog: Creating makefile for hot reloading BountyDashEditor (source directory changed)
+[2019.01.16-03.42.49:979][461]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.16-03.42.49:979][461]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.16-03.42.49:979][461]CompilerResultsLog: Parsing headers for BountyDashEditor
+[2019.01.16-03.42.49:979][461]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\user\Documents\Unreal Projects\BountyDash\BountyDash.uproject" "C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\BountyDashEditor\Development\BountyDashEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.16-03.42.49:979][461]CompilerResultsLog: Reflection code generated for BountyDashEditor in 9.7581441 seconds
+[2019.01.16-03.42.49:979][461]CompilerResultsLog: Building 9 actions with 6 processes...
+[2019.01.16-03.42.49:979][461]CompilerResultsLog:   [1/9] RockPool.cpp
+[2019.01.16-03.42.49:979][461]CompilerResultsLog:    C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\RockPool.cpp(47) : error C2768: 'ARockPool::Spawn': ?????? ???ø? ?μ??? ?߸? ?????Ͽ????ϴ?.
+[2019.01.16-03.42.49:979][461]CompilerResultsLog:   C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\RockPool.cpp(48): fatal error C1075: '{': ??ġ?ϴ? ??ū?? ã?? ?? ?????ϴ?.
+[2019.01.16-03.42.49:979][461]CompilerResultsLog:   [2/9] Obstacle.gen.cpp
+[2019.01.16-03.42.49:979][461]CompilerResultsLog:   [3/9] BountyDash.init.gen.cpp
+[2019.01.16-03.42.49:979][461]CompilerResultsLog:   [4/9] RockPool.gen.cpp
+[2019.01.16-03.42.49:979][461]CompilerResultsLog:   [5/9] ObstacleSpawner.gen.cpp
+[2019.01.16-03.42.49:979][461]CompilerResultsLog:   [6/9] Obstacle.cpp
+[2019.01.16-03.42.49:979][461]CompilerResultsLog:   C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\Obstacle.cpp(27): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.01.16-03.42.49:979][461]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.01.16-03.42.49:979][461]CompilerResultsLog:   [7/9] ObstacleSpawner.cpp
+[2019.01.16-03.42.49:979][461]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\user\Documents\Unreal Projects\BountyDash\Binaries\Win64\UE4Editor-BountyDash-9171.dll
+[2019.01.16-03.42.49:979][461]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.01.16-03.42.49:979][461]CompilerResultsLog: Total build time: 16.93 seconds (Parallel executor: 0.00 seconds)
+[2019.01.16-03.42.49:979][461]LogMainFrame: MainFrame: Module compiling took 17.255 seconds
+[2019.01.16-03.42.49:979][461]Warning: HotReload failed, recompile failed
+[2019.01.16-03.42.52:500][481]LogSlate: Took 0.049853 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.01.16-03.42.52:502][481]LogSlate: Took 0.001902 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.01.16-03.42.52:559][481]LogSlate: Took 0.053726 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2019.01.16-03.45.25:628][435]Candidate modules for hot reload:
+[2019.01.16-03.45.25:628][435]  BountyDash
+[2019.01.16-03.45.25:629][435]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BountyDash,3268 Win64 Development -TargetType=Editor -Project="C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject" -canskiplink "C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject" ]
+[2019.01.16-03.45.25:649][435]Warning: Starting HotReload took  0.0s.
+[2019.01.16-03.45.30:513][583]CompilerResultsLog: New page: 컴파일 - 2019. 1. 16. 오후 9:45:30
+[2019.01.16-03.45.30:513][583]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Documents\Unreal Projects).
+[2019.01.16-03.45.30:513][583]CompilerResultsLog: Creating makefile for hot reloading BountyDashEditor (source directory changed)
+[2019.01.16-03.45.30:513][583]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.16-03.45.30:514][583]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.16-03.45.30:514][583]CompilerResultsLog: Building 3 actions with 6 processes...
+[2019.01.16-03.45.30:514][583]CompilerResultsLog:   [1/3] RockPool.cpp
+[2019.01.16-03.45.30:514][583]CompilerResultsLog:   C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\RockPool.cpp(48): fatal error C1075: '{': ??ġ?ϴ? ??ū?? ã?? ?? ?????ϴ?.
+[2019.01.16-03.45.30:514][583]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\user\Documents\Unreal Projects\BountyDash\Binaries\Win64\UE4Editor-BountyDash-3268.dll
+[2019.01.16-03.45.30:514][583]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.01.16-03.45.30:514][583]CompilerResultsLog: Total build time: 4.40 seconds (Parallel executor: 0.00 seconds)
+[2019.01.16-03.45.30:514][583]LogMainFrame: MainFrame: Module compiling took 4.888 seconds
+[2019.01.16-03.45.30:514][583]Warning: HotReload failed, recompile failed
+[2019.01.16-03.46.19:985][198]Candidate modules for hot reload:
+[2019.01.16-03.46.19:985][198]  BountyDash
+[2019.01.16-03.46.19:985][198]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BountyDash,2336 Win64 Development -TargetType=Editor -Project="C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject" -canskiplink "C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject" ]
+[2019.01.16-03.46.20:002][198]Warning: Starting HotReload took  0.0s.
+[2019.01.16-03.46.26:927][ 19]CompilerResultsLog: New page: 컴파일 - 2019. 1. 16. 오후 9:46:26
+[2019.01.16-03.46.26:927][ 19]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Documents\Unreal Projects).
+[2019.01.16-03.46.26:927][ 19]CompilerResultsLog: Creating makefile for hot reloading BountyDashEditor (source directory changed)
+[2019.01.16-03.46.26:927][ 19]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.16-03.46.26:927][ 19]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.16-03.46.26:927][ 19]CompilerResultsLog: Building 3 actions with 6 processes...
+[2019.01.16-03.46.26:927][ 19]CompilerResultsLog:   [1/3] RockPool.cpp
+[2019.01.16-03.46.26:927][ 19]CompilerResultsLog:   [2/3] UE4Editor-BountyDash-2336.lib
+[2019.01.16-03.46.26:927][ 19]CompilerResultsLog:      C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-2336.lib ???̺귯?? ?? C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-2336.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.01.16-03.46.26:927][ 19]CompilerResultsLog:   [3/3] UE4Editor-BountyDash-2336.dll
+[2019.01.16-03.46.26:927][ 19]CompilerResultsLog:      C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-2336.suppressed.lib ???̺귯?? ?? C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-2336.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.01.16-03.46.26:927][ 19]CompilerResultsLog: Error:   ObstacleSpawner.cpp.obj : error LNK2019: "public: class AObstacle * __cdecl ARockPool::Spawn<class AObstacle>(class UClass *,struct FTransform const &)" (??$Spawn@VAObstacle@@@ARockPool@@QEAAPEAVAObstacle@@PEAVUClass@@AEBUFTransform@@@Z) ?ܺ? ??ȣ(???? ??ġ: "protected: void __cdecl AObstacleSpawner::SpawnObstacle(void)" (?SpawnObstacle@AObstacleSpawner@@IEAAXXZ) ?Լ?)???? Ȯ?????? ???߽??ϴ?.
+[2019.01.16-03.46.26:927][ 19]CompilerResultsLog: Error:   C:\Users\user\Documents\Unreal Projects\BountyDash\Binaries\Win64\UE4Editor-BountyDash-2336.dll : fatal error LNK1120: 1???? Ȯ???? ?? ???? ?ܺ? ?????Դϴ?.
+[2019.01.16-03.46.26:927][ 19]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\user\Documents\Unreal Projects\BountyDash\Binaries\Win64\UE4Editor-BountyDash-2336.dll
+[2019.01.16-03.46.26:927][ 19]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.01.16-03.46.26:927][ 19]CompilerResultsLog: Total build time: 6.62 seconds (Parallel executor: 0.00 seconds)
+[2019.01.16-03.46.26:927][ 19]LogMainFrame: MainFrame: Module compiling took 6.944 seconds
+[2019.01.16-03.46.26:927][ 19]Warning: HotReload failed, recompile failed
+[2019.01.16-03.53.31:310][568]Candidate modules for hot reload:
+[2019.01.16-03.53.31:310][568]  BountyDash
+[2019.01.16-03.53.31:310][568]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BountyDash,6401 Win64 Development -TargetType=Editor -Project="C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject" -canskiplink "C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject" ]
+[2019.01.16-03.53.31:338][568]Warning: Starting HotReload took  0.0s.
+[2019.01.16-03.53.46:139][676]CompilerResultsLog: New page: 컴파일 - 2019. 1. 16. 오후 9:53:46
+[2019.01.16-03.53.46:140][676]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Documents\Unreal Projects).
+[2019.01.16-03.53.46:140][676]CompilerResultsLog: Creating makefile for hot reloading BountyDashEditor (source directory changed)
+[2019.01.16-03.53.46:140][676]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.16-03.53.46:140][676]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.16-03.53.46:140][676]CompilerResultsLog: Parsing headers for BountyDashEditor
+[2019.01.16-03.53.46:140][676]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\user\Documents\Unreal Projects\BountyDash\BountyDash.uproject" "C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\BountyDashEditor\Development\BountyDashEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.16-03.53.46:140][676]CompilerResultsLog: Reflection code generated for BountyDashEditor in 8.2732704 seconds
+[2019.01.16-03.53.46:140][676]CompilerResultsLog: Building 8 actions with 6 processes...
+[2019.01.16-03.53.46:140][676]CompilerResultsLog:   [1/8] RockPool.gen.cpp
+[2019.01.16-03.53.46:140][676]CompilerResultsLog:   [2/8] RockPool.cpp
+[2019.01.16-03.53.46:140][676]CompilerResultsLog:    C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\RockPool.cpp(47) : error C2244: 'ARockPool::Spawn': ?Լ? ???Ǹ? ???? ?????? ??ġ??ų ?? ?????ϴ?.
+[2019.01.16-03.53.46:140][676]CompilerResultsLog:   C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\RockPool.cpp(46): note: 'ARockPool::Spawn' ?????? ?????Ͻʽÿ?.
+[2019.01.16-03.53.46:140][676]CompilerResultsLog:   C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\RockPool.cpp(47): note: ????
+[2019.01.16-03.53.46:140][676]CompilerResultsLog:   C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\RockPool.cpp(47): note: 'T *ARockPool::Spawn(UClass *,const FTransform &)'
+[2019.01.16-03.53.46:140][676]CompilerResultsLog:   C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\RockPool.cpp(47): note: ???? ????
+[2019.01.16-03.53.46:140][676]CompilerResultsLog:   C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\RockPool.cpp(47): note: 'AActor *ARockPool::Spawn(UClass *,const FTransform &)'
+[2019.01.16-03.53.46:140][676]CompilerResultsLog:   [3/8] Obstacle.gen.cpp
+[2019.01.16-03.53.46:140][676]CompilerResultsLog:   [4/8] ObstacleSpawner.gen.cpp
+[2019.01.16-03.53.46:140][676]CompilerResultsLog:   [5/8] ObstacleSpawner.cpp
+[2019.01.16-03.53.46:140][676]CompilerResultsLog:    C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\ObstacleSpawner.cpp(76) : error C2275: 'AObstacle': ?? ?????? ?????? ?߸? ?????߽??ϴ?.
+[2019.01.16-03.53.46:140][676]CompilerResultsLog:   c:\users\user\documents\unreal projects\bountydash\source\bountydash\Obstacle.h(14): note: 'AObstacle' ?????? ?????Ͻʽÿ?.
+[2019.01.16-03.53.46:140][676]CompilerResultsLog:   [6/8] Obstacle.cpp
+[2019.01.16-03.53.46:140][676]CompilerResultsLog:   C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\Obstacle.cpp(27): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.01.16-03.53.46:140][676]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.01.16-03.53.46:140][676]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\user\Documents\Unreal Projects\BountyDash\Binaries\Win64\UE4Editor-BountyDash-6401.dll
+[2019.01.16-03.53.46:140][676]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.01.16-03.53.46:140][676]CompilerResultsLog: Total build time: 14.21 seconds (Parallel executor: 0.00 seconds)
+[2019.01.16-03.53.46:140][676]LogMainFrame: MainFrame: Module compiling took 14.832 seconds
+[2019.01.16-03.53.46:140][676]Warning: HotReload failed, recompile failed
+[2019.01.16-03.53.57:015][982]Candidate modules for hot reload:
+[2019.01.16-03.53.57:015][982]  BountyDash
+[2019.01.16-03.53.57:015][982]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BountyDash,5215 Win64 Development -TargetType=Editor -Project="C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject" -canskiplink "C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject" ]
+[2019.01.16-03.53.57:039][982]Warning: Starting HotReload took  0.0s.
+[2019.01.16-03.54.03:243][690]CompilerResultsLog: New page: 컴파일 - 2019. 1. 16. 오후 9:54:03
+[2019.01.16-03.54.03:243][690]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Documents\Unreal Projects).
+[2019.01.16-03.54.03:244][690]CompilerResultsLog: Creating makefile for hot reloading BountyDashEditor (source directory changed)
+[2019.01.16-03.54.03:244][690]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.16-03.54.03:244][690]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.16-03.54.03:244][690]CompilerResultsLog: Building 4 actions with 6 processes...
+[2019.01.16-03.54.03:244][690]CompilerResultsLog:   [1/4] ObstacleSpawner.cpp
+[2019.01.16-03.54.03:244][690]CompilerResultsLog:    C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\ObstacleSpawner.cpp(76) : error C2275: 'AObstacle': ?? ?????? ?????? ?߸? ?????߽??ϴ?.
+[2019.01.16-03.54.03:244][690]CompilerResultsLog:   c:\users\user\documents\unreal projects\bountydash\source\bountydash\Obstacle.h(14): note: 'AObstacle' ?????? ?????Ͻʽÿ?.
+[2019.01.16-03.54.03:244][690]CompilerResultsLog:   [2/4] RockPool.cpp
+[2019.01.16-03.54.03:244][690]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\user\Documents\Unreal Projects\BountyDash\Binaries\Win64\UE4Editor-BountyDash-5215.dll
+[2019.01.16-03.54.03:244][690]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.01.16-03.54.03:244][690]CompilerResultsLog: Total build time: 5.89 seconds (Parallel executor: 0.00 seconds)
+[2019.01.16-03.54.03:244][690]LogMainFrame: MainFrame: Module compiling took 6.231 seconds
+[2019.01.16-03.54.03:244][690]Warning: HotReload failed, recompile failed
+[2019.01.16-03.59.13:334][101]Candidate modules for hot reload:
+[2019.01.16-03.59.13:334][101]  BountyDash
+[2019.01.16-03.59.13:334][101]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BountyDash,4468 Win64 Development -TargetType=Editor -Project="C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject" -canskiplink "C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject" ]
+[2019.01.16-03.59.13:351][101]Warning: Starting HotReload took  0.0s.
+[2019.01.16-03.59.29:517][301]CompilerResultsLog: New page: 컴파일 - 2019. 1. 16. 오후 9:59:29
+[2019.01.16-03.59.29:517][301]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Documents\Unreal Projects).
+[2019.01.16-03.59.29:517][301]CompilerResultsLog: Creating makefile for hot reloading BountyDashEditor (source directory changed)
+[2019.01.16-03.59.29:517][301]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.16-03.59.29:517][301]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.16-03.59.29:517][301]CompilerResultsLog: Parsing headers for BountyDashEditor
+[2019.01.16-03.59.29:517][301]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\user\Documents\Unreal Projects\BountyDash\BountyDash.uproject" "C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\BountyDashEditor\Development\BountyDashEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.16-03.59.29:517][301]CompilerResultsLog: Reflection code generated for BountyDashEditor in 8.0174239 seconds
+[2019.01.16-03.59.29:517][301]CompilerResultsLog: Building 8 actions with 6 processes...
+[2019.01.16-03.59.29:518][301]CompilerResultsLog:   [1/8] RockPool.gen.cpp
+[2019.01.16-03.59.29:518][301]CompilerResultsLog:   [2/8] Obstacle.gen.cpp
+[2019.01.16-03.59.29:518][301]CompilerResultsLog:   [3/8] ObstacleSpawner.gen.cpp
+[2019.01.16-03.59.29:518][301]CompilerResultsLog:   [4/8] RockPool.cpp
+[2019.01.16-03.59.29:518][301]CompilerResultsLog:   [5/8] Obstacle.cpp
+[2019.01.16-03.59.29:518][301]CompilerResultsLog:   C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\Obstacle.cpp(27): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.01.16-03.59.29:518][301]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: 'USceneComponent::AttachTo' ?????? ?????Ͻʽÿ?.
+[2019.01.16-03.59.29:518][301]CompilerResultsLog:   [6/8] ObstacleSpawner.cpp
+[2019.01.16-03.59.29:518][301]CompilerResultsLog:   [7/8] UE4Editor-BountyDash-4468.lib
+[2019.01.16-03.59.29:518][301]CompilerResultsLog:      C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-4468.lib ???̺귯?? ?? C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-4468.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.01.16-03.59.29:518][301]CompilerResultsLog:   [8/8] UE4Editor-BountyDash-4468.dll
+[2019.01.16-03.59.29:518][301]CompilerResultsLog:      C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-4468.suppressed.lib ???̺귯?? ?? C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-4468.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.01.16-03.59.29:518][301]CompilerResultsLog: Total build time: 15.55 seconds (Parallel executor: 3.31 seconds)
+[2019.01.16-03.59.29:518][301]LogMainFrame: MainFrame: Module compiling took 16.187 seconds
+[2019.01.16-03.59.29:593][301]LogClass: Could not find existing class ObstacleSpawner in package /Script/BountyDash for HotReload, assuming new class
+[2019.01.16-03.59.29:600][301]LogHotReload: Re-instancing BountyDashCharacter after hot-reload.
+[2019.01.16-03.59.29:719][301]LogHotReload: Re-instancing ObstacleSpawner after hot-reload.
+[2019.01.16-03.59.29:827][301]LogContentBrowser: Native class hierarchy updated for 'BountyDash' in 0.0005 seconds. Added 7 classes and 2 folders.
+[2019.01.16-03.59.29:830][301]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2019.01.16-03.59.30:113][301]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2659 classes and 624 folders.
+[2019.01.16-03.59.30:113][301]Display: HotReload took 16.8s.
+[2019.01.16-03.59.32:785][309]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.01.16-03.59.32:800][309]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel.BountyDashMap' with GeneratedClass '/Game/Levels/BountyDashMap.BountyDashMap_C' with ClassGeneratedBy '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel.BountyDashMap'
+[2019.01.16-03.59.32:801][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.16-03.59.32:801][309]PIE: New page: PIE 세션: BountyDashMap (2019. 1. 16. 오후 9:59:32)
+[2019.01.16-03.59.32:801][309]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BountyDashMap
+[2019.01.16-03.59.32:803][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002861s)
+[2019.01.16-03.59.32:803][309]LogAIModule: Creating AISystem for world BountyDashMap
+[2019.01.16-03.59.32:803][309]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2019.01.16-03.59.32:803][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BountyDashMap.BountyDashMap to /Game/Levels/UEDPIE_0_BountyDashMap.BountyDashMap (0.003572s)
+[2019.01.16-03.59.32:886][309]LogLoad: Game class is 'BountyDashGameMode'
+[2019.01.16-03.59.32:888][309]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BountyDashMap.BountyDashMap up for play (max tick rate 0) at 2019.01.16-12.59.32
+[2019.01.16-03.59.32:888][309]LogWorld: Bringing up level for play took: 0.001274
+[2019.01.16-03.59.32:901][309]PIE: /Game/Levels/UEDPIE_0_BountyDashMap 에 대한 에디터에서 플레이 시작 시간: -0.006
+[2019.01.16-03.59.32:901][309]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel.BountyDashMap' with GeneratedClass '/Game/Levels/BountyDashMap.BountyDashMap_C' with ClassGeneratedBy '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel.BountyDashMap'
+[2019.01.16-03.59.39:337][ 77]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel.BountyDashMap' with GeneratedClass '/Game/Levels/BountyDashMap.BountyDashMap_C' with ClassGeneratedBy '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel.BountyDashMap'
+[2019.01.16-03.59.39:338][ 77]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.16-03.59.39:376][ 77]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.16-03.59.39:376][ 77]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel.BountyDashMap' with GeneratedClass '/Game/Levels/BountyDashMap.BountyDashMap_C' with ClassGeneratedBy '/Game/Levels/BountyDashMap.BountyDashMap:PersistentLevel.BountyDashMap'
+[2019.01.16-03.59.39:410][ 77]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: === Critical error: ===
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: 
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: Fatal error!
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: 
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: 
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: [Callstack] 0x00007ffd45d7e00b UE4Editor-BountyDash-4468.dll!ARockPool::DespawnAll() [c:\users\user\documents\unreal projects\bountydash\source\bountydash\rockpool.cpp:67]
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: [Callstack] 0x00007ffd45d7ddf8 UE4Editor-BountyDash-4468.dll!ARockPool::`vector deleting destructor'() []
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: [Callstack] 0x00007ffd210dce10 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: [Callstack] 0x00007ffd2109fdd7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: [Callstack] 0x00007ffd2109f2e8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: [Callstack] 0x00007ffcf56423f1 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: [Callstack] 0x00007ffcf5072f12 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: [Callstack] 0x00007ffcf5992216 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: [Callstack] 0x00007ff683876225 UE4Editor.exe!UnknownFunction []
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: [Callstack] 0x00007ff68388596c UE4Editor.exe!UnknownFunction []
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: [Callstack] 0x00007ff6838859ea UE4Editor.exe!UnknownFunction []
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: [Callstack] 0x00007ff6838948da UE4Editor.exe!UnknownFunction []
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: [Callstack] 0x00007ff68389659a UE4Editor.exe!UnknownFunction []
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: [Callstack] 0x00007ffd50143034 KERNEL32.DLL!UnknownFunction []
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: [Callstack] 0x00007ffd50733691 ntdll.dll!UnknownFunction []
+[2019.01.16-03.59.40:610][ 77]LogWindows: Error: 
+[2019.01.16-03.59.40:620][ 77]LogExit: Executing StaticShutdownAfterError
+[2019.01.16-03.59.40:623][ 77]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.01.16-03.59.40:625][ 77]Log file closed, 01/16/19 12:59:40

@@ -14,9 +14,7 @@ UCLASS()
 class BOUNTYDASH_API AObstacle : public AActor
 {
 	GENERATED_BODY()
-
-	float KillPoint;
-
+		
 public:	
 	// Sets default values for this actor's properties
 	AObstacle();
@@ -24,22 +22,17 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	void SetPool(ARockPool* pool);
-	void SetKillPoint(float point);
-	float GetKillPoint();
-
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-protected:
-	UFUNCTION()
-	virtual void CustomOnActorOverlap(AActor* OverlappedActor, AActor* otherActor);
-
-	UFUNCTION()
-	virtual void CustomOnActorEndOverlap(AActor* OverlappedActor, AActor* otherActor);
-
 public:
+	void SetPool(ARockPool* pool);
+
+	void SetKillPoint(float point);
+
+	float GetKillPoint();
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	USphereComponent* Collider;
 
@@ -47,4 +40,18 @@ public:
 	UStaticMeshComponent* Mesh;
 
 	ARockPool* pooler;
+
+protected:
+	UFUNCTION(BlueprintNativeEvent)
+	void CustomOnActorOverlap(AActor* OverlappedActor, AActor* otherActor);
+	void CustomOnActorOverlap_Implementation(AActor* OverlappedActor, AActor* OtherActor);
+
+	// 오버랩 종료 수행
+	UFUNCTION(BlueprintNativeEvent)
+	void CustomOnActorEndOverlap(AActor* OverlappedActor, AActor* OtherActor);
+	void CustomOnActorEndOverlap_Implementation(AActor* OverlappedActor, AActor* OtherActor);
+
+
+private:
+	float killPoint;
 };

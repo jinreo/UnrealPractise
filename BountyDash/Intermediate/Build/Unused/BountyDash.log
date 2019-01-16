@@ -1,7 +1,26 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jinre\Desktop\Project\UnrealPractise).
-  Creating makefile for hot reloading BountyDashEditor (modules to compile have changed)
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Documents\Unreal Projects).
+  Creating makefile for hot reloading BountyDashEditor (source directory changed)
   Compiling game modules for hot reload
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Target is up to date
-  Deploying BountyDashEditor Win64 Development...
-  Total build time: 5.51 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Parsing headers for BountyDashEditor
+    Running UnrealHeaderTool "C:\Users\user\Documents\Unreal Projects\BountyDash\BountyDash.uproject" "C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\BountyDashEditor\Development\BountyDashEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for BountyDashEditor in 8.0764219 seconds
+  Building 8 actions with 6 processes...
+    [1/8] RockPool.gen.cpp
+    [2/8] Obstacle.gen.cpp
+    [3/8] ObstacleSpawner.gen.cpp
+    [4/8] RockPool.cpp
+    [5/8] Obstacle.cpp
+C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\Obstacle.cpp(27): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    D:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: 'USceneComponent::AttachTo' 선언을 참조하십시오.
+    [6/8] ObstacleSpawner.cpp
+    [7/8] UE4Editor-BountyDash-9264.lib
+       C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-9264.lib 라이브러리 및 C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-9264.exp 개체를 생성하고 있습니다.
+    [8/8] UE4Editor-BountyDash-9264.dll
+       C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-9264.suppressed.lib 라이브러리 및 C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-9264.suppressed.exp 개체를 생성하고 있습니다.
+ObstacleSpawner.cpp.obj : error LNK2019: "public: class AObstacle * __cdecl ARockPool::Spawn<class AObstacle>(class UClass *,struct FTransform const &)" (??$Spawn@VAObstacle@@@ARockPool@@QEAAPEAVAObstacle@@PEAVUClass@@AEBUFTransform@@@Z) 외부 기호(참조 위치: "protected: void __cdecl AObstacleSpawner::SpawnObstacle(void)" (?SpawnObstacle@AObstacleSpawner@@IEAAXXZ) 함수)에서 확인하지 못했습니다.
+C:\Users\user\Documents\Unreal Projects\BountyDash\Binaries\Win64\UE4Editor-BountyDash-9264.dll : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+UnrealBuildTool : error : UBT ERROR: Failed to produce item: C:\Users\user\Documents\Unreal Projects\BountyDash\Binaries\Win64\UE4Editor-BountyDash-9264.dll
+                          (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+  Total build time: 14.68 seconds (Parallel executor: 0.00 seconds)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: ""D:\Program Files\Epic Games\UE_4.21\Engine\Build\BatchFiles\Build.bat" BountyDashEditor Win64 Development "C:\Users\user\Documents\Unreal Projects\BountyDash\BountyDash.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 5). 이 명령을 실행할 권한이 있는지 확인하세요.

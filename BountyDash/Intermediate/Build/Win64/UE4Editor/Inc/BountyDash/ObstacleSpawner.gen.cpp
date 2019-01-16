@@ -55,9 +55,9 @@ void EmptyLinkFunctionForGeneratedCodeObstacleSpawner() {}
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_ObstaclesToSpawn;
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ObstaclesToSpawn_Inner;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_rockPool_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RockPool_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_rockPool;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_RockPool;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -103,12 +103,12 @@ void EmptyLinkFunctionForGeneratedCodeObstacleSpawner() {}
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_ObstaclesToSpawn = { UE4CodeGen_Private::EPropertyClass::Array, "ObstaclesToSpawn", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000005, 1, nullptr, STRUCT_OFFSET(AObstacleSpawner, ObstaclesToSpawn), METADATA_PARAMS(Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_ObstaclesToSpawn_MetaData, ARRAY_COUNT(Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_ObstaclesToSpawn_MetaData)) };
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_ObstaclesToSpawn_Inner = { UE4CodeGen_Private::EPropertyClass::Class, "ObstaclesToSpawn", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0004000000000000, 1, nullptr, 0, Z_Construct_UClass_AObstacle_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_rockPool_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_RockPool_MetaData[] = {
 		{ "Category", "ObstacleSpawner" },
 		{ "ModuleRelativePath", "ObstacleSpawner.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_rockPool = { UE4CodeGen_Private::EPropertyClass::Object, "rockPool", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AObstacleSpawner, rockPool), Z_Construct_UClass_ARockPool_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_rockPool_MetaData, ARRAY_COUNT(Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_rockPool_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_RockPool = { UE4CodeGen_Private::EPropertyClass::Object, "RockPool", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AObstacleSpawner, RockPool), Z_Construct_UClass_ARockPool_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_RockPool_MetaData, ARRAY_COUNT(Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_RockPool_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AObstacleSpawner_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_Scene,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_SpawnTimer,
@@ -116,7 +116,7 @@ void EmptyLinkFunctionForGeneratedCodeObstacleSpawner() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_SpawnTargets_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_ObstaclesToSpawn,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_ObstaclesToSpawn_Inner,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_rockPool,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AObstacleSpawner_Statics::NewProp_RockPool,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AObstacleSpawner_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AObstacleSpawner>::IsAbstract,
@@ -141,7 +141,7 @@ void EmptyLinkFunctionForGeneratedCodeObstacleSpawner() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AObstacleSpawner, 2412764009);
+	IMPLEMENT_CLASS(AObstacleSpawner, 3737495094);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AObstacleSpawner(Z_Construct_UClass_AObstacleSpawner, &AObstacleSpawner::StaticClass, TEXT("/Script/BountyDash"), TEXT("AObstacleSpawner"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AObstacleSpawner);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

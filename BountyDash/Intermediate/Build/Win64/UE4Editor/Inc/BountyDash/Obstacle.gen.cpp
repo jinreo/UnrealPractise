@@ -23,6 +23,22 @@ void EmptyLinkFunctionForGeneratedCodeObstacle() {}
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_AObstacle_CustomOnActorEndOverlap = FName(TEXT("CustomOnActorEndOverlap"));
+	void AObstacle::CustomOnActorEndOverlap(AActor* OverlappedActor, AActor* OtherActor)
+	{
+		Obstacle_eventCustomOnActorEndOverlap_Parms Parms;
+		Parms.OverlappedActor=OverlappedActor;
+		Parms.OtherActor=OtherActor;
+		ProcessEvent(FindFunctionChecked(NAME_AObstacle_CustomOnActorEndOverlap),&Parms);
+	}
+	static FName NAME_AObstacle_CustomOnActorOverlap = FName(TEXT("CustomOnActorOverlap"));
+	void AObstacle::CustomOnActorOverlap(AActor* OverlappedActor, AActor* otherActor)
+	{
+		Obstacle_eventCustomOnActorOverlap_Parms Parms;
+		Parms.OverlappedActor=OverlappedActor;
+		Parms.otherActor=otherActor;
+		ProcessEvent(FindFunctionChecked(NAME_AObstacle_CustomOnActorOverlap),&Parms);
+	}
 	void AObstacle::StaticRegisterNativesAObstacle()
 	{
 		UClass* Class = AObstacle::StaticClass();
@@ -34,12 +50,7 @@ void EmptyLinkFunctionForGeneratedCodeObstacle() {}
 	}
 	struct Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap_Statics
 	{
-		struct Obstacle_eventCustomOnActorEndOverlap_Parms
-		{
-			AActor* OverlappedActor;
-			AActor* otherActor;
-		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_otherActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OverlappedActor;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
@@ -47,10 +58,10 @@ void EmptyLinkFunctionForGeneratedCodeObstacle() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap_Statics::NewProp_otherActor = { UE4CodeGen_Private::EPropertyClass::Object, "otherActor", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(Obstacle_eventCustomOnActorEndOverlap_Parms, otherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap_Statics::NewProp_OtherActor = { UE4CodeGen_Private::EPropertyClass::Object, "OtherActor", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(Obstacle_eventCustomOnActorEndOverlap_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap_Statics::NewProp_OverlappedActor = { UE4CodeGen_Private::EPropertyClass::Object, "OverlappedActor", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(Obstacle_eventCustomOnActorEndOverlap_Parms, OverlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap_Statics::NewProp_otherActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap_Statics::NewProp_OtherActor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap_Statics::NewProp_OverlappedActor,
 	};
 #if WITH_METADATA
@@ -58,7 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeObstacle() {}
 		{ "ModuleRelativePath", "Obstacle.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AObstacle, "CustomOnActorEndOverlap", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00080400, sizeof(Obstacle_eventCustomOnActorEndOverlap_Parms), Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AObstacle, "CustomOnActorEndOverlap", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x08080C00, sizeof(Obstacle_eventCustomOnActorEndOverlap_Parms), Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -70,11 +81,6 @@ void EmptyLinkFunctionForGeneratedCodeObstacle() {}
 	}
 	struct Z_Construct_UFunction_AObstacle_CustomOnActorOverlap_Statics
 	{
-		struct Obstacle_eventCustomOnActorOverlap_Parms
-		{
-			AActor* OverlappedActor;
-			AActor* otherActor;
-		};
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_otherActor;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OverlappedActor;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
@@ -94,7 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeObstacle() {}
 		{ "ModuleRelativePath", "Obstacle.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AObstacle_CustomOnActorOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AObstacle, "CustomOnActorOverlap", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00080400, sizeof(Obstacle_eventCustomOnActorOverlap_Parms), Z_Construct_UFunction_AObstacle_CustomOnActorOverlap_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AObstacle_CustomOnActorOverlap_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AObstacle_CustomOnActorOverlap_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AObstacle_CustomOnActorOverlap_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AObstacle_CustomOnActorOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AObstacle, "CustomOnActorOverlap", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x08080C00, sizeof(Obstacle_eventCustomOnActorOverlap_Parms), Z_Construct_UFunction_AObstacle_CustomOnActorOverlap_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AObstacle_CustomOnActorOverlap_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AObstacle_CustomOnActorOverlap_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AObstacle_CustomOnActorOverlap_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AObstacle_CustomOnActorOverlap()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -132,8 +138,8 @@ void EmptyLinkFunctionForGeneratedCodeObstacle() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_BountyDash,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AObstacle_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap, "CustomOnActorEndOverlap" }, // 3309803825
-		{ &Z_Construct_UFunction_AObstacle_CustomOnActorOverlap, "CustomOnActorOverlap" }, // 622495708
+		{ &Z_Construct_UFunction_AObstacle_CustomOnActorEndOverlap, "CustomOnActorEndOverlap" }, // 2645229732
+		{ &Z_Construct_UFunction_AObstacle_CustomOnActorOverlap, "CustomOnActorOverlap" }, // 148202926
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AObstacle_Statics::Class_MetaDataParams[] = {
@@ -184,7 +190,7 @@ void EmptyLinkFunctionForGeneratedCodeObstacle() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AObstacle, 421231347);
+	IMPLEMENT_CLASS(AObstacle, 3192087930);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AObstacle(Z_Construct_UClass_AObstacle, &AObstacle::StaticClass, TEXT("/Script/BountyDash"), TEXT("AObstacle"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AObstacle);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
