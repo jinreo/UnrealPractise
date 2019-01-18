@@ -42,14 +42,14 @@ public:
 	ARockPool* pooler;
 
 protected:
-	UFUNCTION(BlueprintNativeEvent)
-	void CustomOnActorOverlap(AActor* OverlappedActor, AActor* otherActor);
-	void CustomOnActorOverlap_Implementation(AActor* OverlappedActor, AActor* OtherActor);
+	//UFUNCTION(BlueprintNativeEvent)
+	virtual void CustomOnActorOverlap(AActor* OverlappedActor, AActor* otherActor);
+	//void CustomOnActorOverlap_Implementation(AActor* OverlappedActor, AActor* OtherActor);
 
 	// 오버랩 종료 수행
-	UFUNCTION(BlueprintNativeEvent)
-	void CustomOnActorEndOverlap(AActor* OverlappedActor, AActor* OtherActor);
-	void CustomOnActorEndOverlap_Implementation(AActor* OverlappedActor, AActor* OtherActor);
+	//UFUNCTION(BlueprintNativeEvent)
+	virtual void CustomOnActorEndOverlap(AActor* OverlappedActor, AActor* OtherActor);
+	//void CustomOnActorEndOverlap_Implementation(AActor* OverlappedActor, AActor* OtherActor);
 
 
 private:

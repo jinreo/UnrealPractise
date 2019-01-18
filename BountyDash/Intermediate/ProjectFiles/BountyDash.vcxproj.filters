@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BountyDash.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BF19C94D-D760-43EE-8313-6C8849938C6B}</UniqueIdentifier>
+      <UniqueIdentifier>{CAF80351-8DDA-4FF9-85F6-49DCEDF64E49}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BountyDash.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{35C90A22-B1B3-46E9-85F2-18BA170134C6}</UniqueIdentifier>
+      <UniqueIdentifier>{8732911D-A084-4B1A-8E3A-FF962071A32C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BountyDash">
-      <UniqueIdentifier>{08EA5A60-B1DF-421F-AE66-55B649A9EA6A}</UniqueIdentifier>
+      <UniqueIdentifier>{ED546743-12EE-4E94-AAC9-DC76C829C6DA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BountyDash\BountyDash.Build.cs">
       <Filter>Source\BountyDash</Filter>
@@ -74,11 +74,21 @@
     <ClInclude Include="..\..\Source\BountyDash\RockPool.h">
       <Filter>Source\BountyDash</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\BountyDash\RockPoolInstance.cpp">
-      <Filter>Source\BountyDash</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\BountyDash\RockPoolInstance.h">
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\BountyDash\Coin.h">
       <Filter>Source\BountyDash</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\BountyDash\CoinSpawner.h">
+      <Filter>Source\BountyDash</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BountyDash\Coin.cpp">
+      <Filter>Source\BountyDash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BountyDash\CoinSpawner.cpp">
+      <Filter>Source\BountyDash</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

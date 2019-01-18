@@ -8,74 +8,13 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class AActor;
 #ifdef BOUNTYDASH_Obstacle_generated_h
 #error "Obstacle.generated.h already included, missing '#pragma once' in Obstacle.h"
 #endif
 #define BOUNTYDASH_Obstacle_generated_h
 
-#define BountyDash_Source_BountyDash_Obstacle_h_16_RPC_WRAPPERS \
-	virtual void CustomOnActorEndOverlap_Implementation(AActor* OverlappedActor, AActor* OtherActor); \
-	virtual void CustomOnActorOverlap_Implementation(AActor* OverlappedActor, AActor* otherActor); \
- \
-	DECLARE_FUNCTION(execCustomOnActorEndOverlap) \
-	{ \
-		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->CustomOnActorEndOverlap_Implementation(Z_Param_OverlappedActor,Z_Param_OtherActor); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execCustomOnActorOverlap) \
-	{ \
-		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
-		P_GET_OBJECT(AActor,Z_Param_otherActor); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->CustomOnActorOverlap_Implementation(Z_Param_OverlappedActor,Z_Param_otherActor); \
-		P_NATIVE_END; \
-	}
-
-
-#define BountyDash_Source_BountyDash_Obstacle_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execCustomOnActorEndOverlap) \
-	{ \
-		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->CustomOnActorEndOverlap_Implementation(Z_Param_OverlappedActor,Z_Param_OtherActor); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execCustomOnActorOverlap) \
-	{ \
-		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
-		P_GET_OBJECT(AActor,Z_Param_otherActor); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->CustomOnActorOverlap_Implementation(Z_Param_OverlappedActor,Z_Param_otherActor); \
-		P_NATIVE_END; \
-	}
-
-
-#define BountyDash_Source_BountyDash_Obstacle_h_16_EVENT_PARMS \
-	struct Obstacle_eventCustomOnActorEndOverlap_Parms \
-	{ \
-		AActor* OverlappedActor; \
-		AActor* OtherActor; \
-	}; \
-	struct Obstacle_eventCustomOnActorOverlap_Parms \
-	{ \
-		AActor* OverlappedActor; \
-		AActor* otherActor; \
-	};
-
-
-#define BountyDash_Source_BountyDash_Obstacle_h_16_CALLBACK_WRAPPERS
+#define BountyDash_Source_BountyDash_Obstacle_h_16_RPC_WRAPPERS
+#define BountyDash_Source_BountyDash_Obstacle_h_16_RPC_WRAPPERS_NO_PURE_DECLS
 #define BountyDash_Source_BountyDash_Obstacle_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAObstacle(); \
@@ -119,16 +58,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AObstacle); \
 
 
 #define BountyDash_Source_BountyDash_Obstacle_h_16_PRIVATE_PROPERTY_OFFSET
-#define BountyDash_Source_BountyDash_Obstacle_h_13_PROLOG \
-	BountyDash_Source_BountyDash_Obstacle_h_16_EVENT_PARMS
-
-
+#define BountyDash_Source_BountyDash_Obstacle_h_13_PROLOG
 #define BountyDash_Source_BountyDash_Obstacle_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	BountyDash_Source_BountyDash_Obstacle_h_16_PRIVATE_PROPERTY_OFFSET \
 	BountyDash_Source_BountyDash_Obstacle_h_16_RPC_WRAPPERS \
-	BountyDash_Source_BountyDash_Obstacle_h_16_CALLBACK_WRAPPERS \
 	BountyDash_Source_BountyDash_Obstacle_h_16_INCLASS \
 	BountyDash_Source_BountyDash_Obstacle_h_16_STANDARD_CONSTRUCTORS \
 public: \
@@ -140,7 +75,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	BountyDash_Source_BountyDash_Obstacle_h_16_PRIVATE_PROPERTY_OFFSET \
 	BountyDash_Source_BountyDash_Obstacle_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	BountyDash_Source_BountyDash_Obstacle_h_16_CALLBACK_WRAPPERS \
 	BountyDash_Source_BountyDash_Obstacle_h_16_INCLASS_NO_PURE_DECLS \
 	BountyDash_Source_BountyDash_Obstacle_h_16_ENHANCED_CONSTRUCTORS \
 private: \

@@ -74,13 +74,23 @@ void AObstacle::SetPool(ARockPool* pool)
 {
 	pooler = pool;
 }
+//
+//void AObstacle::CustomOnActorOverlap_Implementation(AActor* OverlappedActor, AActor* otherActor)
+//{
+//
+//}
+//
+//void AObstacle::CustomOnActorEndOverlap_Implementation(AActor* OverlappedActor, AActor* otherActor)
+//{
+//
+//}
 
-void AObstacle::CustomOnActorOverlap_Implementation(AActor* OverlappedActor, AActor* otherActor)
+void AObstacle::CustomOnActorOverlap(AActor* OverlappedActor, AActor* otherActor)
 {
 
 }
 
-void AObstacle::CustomOnActorEndOverlap_Implementation(AActor* OverlappedActor, AActor* otherActor)
+void AObstacle::CustomOnActorEndOverlap(AActor* OverlappedActor, AActor* otherActor)
 {
 
 }
