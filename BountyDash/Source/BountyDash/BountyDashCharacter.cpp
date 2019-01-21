@@ -4,6 +4,7 @@
 #include "BountyDash.h"
 #include "BountyDashGameMode.h"
 #include "ConstructorHelpers.h"
+#include "Obstacle.h"
 
 #include "Animation/AnimInstance.h"
 #include "Animation/AnimBlueprint.h"
@@ -154,5 +155,16 @@ void ABountyDashCharacter::MyOnComponentEndOverlap(UPrimitiveComponent * Overlap
 
 void ABountyDashCharacter::MyOnComponentOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* otherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult&SweepResult)
 {
+	if (OtherActor->GetClass()->IsChildOf(AObstacle::StaticClass()))
+	{
+		FVector vecBetween = OtherActor->GetActorLocation() - GetActorLocation();
+		float AngleBetween = FMath::Acos(FVector::DotProduct(vecBetween.GetSafeNormal(), GetActorForwardVector().GetSafeNormal()));
 
+		AngleBetween *= (180 / PI);
+
+		if (AngleBetween < 60.0f)
+		{
+			bBeingPushed = true;
+		}
+	}
 }

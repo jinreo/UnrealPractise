@@ -30,3 +30,8 @@ void ACoin::CustomOnActorOverlap(AActor* OverlappedActor, AActor* OtherActor)
 		}
 	}
 }
+
+void ACoin::SetPool(ARockPool* pool)
+{
+	pooler = pool;
+}
