@@ -2,14 +2,15 @@
   Creating makefile for hot reloading BountyDashEditor (source directory changed)
   Compiling game modules for hot reload
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for BountyDashEditor
-    Running UnrealHeaderTool "C:\Users\user\Documents\Unreal Projects\BountyDash\BountyDash.uproject" "C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\BountyDashEditor\Development\BountyDashEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BountyDashEditor in 8.9980086 seconds
   Building 3 actions with 6 processes...
-    [1/3] BountyDash.init.gen.cpp
-    [2/3] UE4Editor-BountyDash-8384.lib
-       C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-8384.lib 라이브러리 및 C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-8384.exp 개체를 생성하고 있습니다.
-    [3/3] UE4Editor-BountyDash-8384.dll
-       C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-8384.suppressed.lib 라이브러리 및 C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-8384.suppressed.exp 개체를 생성하고 있습니다.
+    [1/3] BountyDashCharacter.cpp
+C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\BountyDashCharacter.cpp(52): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    D:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: 'USceneComponent::AttachTo' 선언을 참조하십시오.
+C:\Users\user\Documents\Unreal Projects\BountyDash\Source\BountyDash\BountyDashCharacter.cpp(58): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    D:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: 'USceneComponent::AttachTo' 선언을 참조하십시오.
+    [2/3] UE4Editor-BountyDash-2708.lib
+       C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-2708.lib 라이브러리 및 C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-2708.exp 개체를 생성하고 있습니다.
+    [3/3] UE4Editor-BountyDash-2708.dll
+       C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-2708.suppressed.lib 라이브러리 및 C:\Users\user\Documents\Unreal Projects\BountyDash\Intermediate\Build\Win64\UE4Editor\Development\BountyDash\UE4Editor-BountyDash-2708.suppressed.exp 개체를 생성하고 있습니다.
   Deploying BountyDashEditor Win64 Development...
-  Total build time: 124.22 seconds (Parallel executor: 74.68 seconds)
+  Total build time: 6.82 seconds (Parallel executor: 2.85 seconds)

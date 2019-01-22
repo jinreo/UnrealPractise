@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-9508CB4644C8851239EFB3A4EAAF6344_0000</CrashGUID>
+		<ProcessId>3432</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<GameName>UE4-BountyDash</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<Symbols>**UE4*Release-4.21-CL-4613538-Win64-Development</Symbols>
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.21.1-4613538+++UE4+Release-4.21</EngineVersion>
+		<CommandLine>&quot;C:/Users/user/Documents/Unreal Projects/BountyDash/BountyDash.uproject&quot;</CommandLine>
+		<LanguageLCID>1042</LanguageLCID>
+		<AppDefaultLocale>ko-KR</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.21-CL-4613538</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>user</UserName>
+		<BaseDir>D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>D:/Program Files/Epic Games/UE_4.21/</RootDir>
+		<MachineId>50625EDB47A7268C77073488E0608E2B</MachineId>
+		<LoginId>50625edb47a7268c77073488e0608e2b</LoginId>
+		<EpicAccountId>7f43d58c1277444caf8b50d9bee346ac</EpicAccountId>
+		<CallStack />
+		<PCallStack>UE4Editor-BountyDash-5432 0x0000000024680000 + de2c UE4Editor-BountyDash-5432 0x0000000024680000 + e30d UE4Editor-CoreUObject 0x000000001b270000 + 148973 UE4Editor-CoreUObject 0x000000001b270000 + 148614 UE4Editor-CoreUObject 0x000000001b270000 + 42f788 UE4Editor-CoreUObject 0x000000001b270000 + 40fe2f UE4Editor-CoreUObject 0x000000001b270000 + 14e977 UE4Editor-Core 0x000000001a870000 + 11ca7e UE4Editor-Core 0x000000001a870000 + 2d9e66 UE4Editor-Projects 0x000000001f6e0000 + 1cfec UE4Editor-Projects 0x000000001f6e0000 + 1d2d4 UE4Editor 0x0000000014750000 + 183a1 UE4Editor 0x0000000014750000 + 1dc6b UE4Editor 0x0000000014750000 + 15783 UE4Editor 0x0000000014750000 + 159ea UE4Editor 0x0000000014750000 + 248da UE4Editor 0x0000000014750000 + 2659a KERNEL32 0x0000000050130000 + 13034 ntdll 0x00000000506c0000 + 73691</PCallStack>
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint />
+		<ErrorMessage>Ensure condition failed: this-&gt;IsBound() [File:D:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl] [Line: 1095] Unable to bind delegate to &apos;CustomOnActorOverlap&apos; (function might not be marked as a UFUNCTION or object may be pending kill)</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>6</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>6</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1050</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<GameStateName />
+		<MemoryStats.TotalPhysical>17096851456</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>11707035648</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140731635130368</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>661037056</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>662454272</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>678969344</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>679723008</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636837234483410000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>

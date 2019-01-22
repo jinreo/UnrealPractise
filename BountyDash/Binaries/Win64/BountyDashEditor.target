@@ -18,11 +18,11 @@
 	"Launch": "$(EngineDir)/Binaries/Win64/UE4Editor.exe",
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-BountyDash-8384.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-BountyDash-2708.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-BountyDash-8384.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-BountyDash-2708.pdb",
 			"Type": "SymbolFile"
 		},
 		{

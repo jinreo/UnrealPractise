@@ -61,7 +61,7 @@ protected:
 		class UCameraComponent* FollowCam;
 
 	UPROPERTY(BlueprintReadOnly)
-		int32 Scroe;
+		int32 Score;
 
 private:
 	bool bBeingPushed;

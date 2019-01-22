@@ -100,6 +100,12 @@ void ABountyDashCharacter::Tick(float DeltaTime)
 			SetActorLocation(FMath::Lerp(actorLoc, targetLoc, CharSpeed * DeltaTime));
 		}
 	}
+
+	if (bBeingPushed)
+	{
+		float moveSpeed = GetCustomGameMode<ABountyDashGameMode>(GetWorld())->GetInvGameSpeed();
+		AddActorLocalOffset(FVector(moveSpeed, 0.0f, 0.0f));
+	}
 }
 
 // Called to bind functionality to input
@@ -116,7 +122,8 @@ void ABountyDashCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInpu
 
 void ABountyDashCharacter::ScoreUp()
 {
-
+	Score++;
+	GetCustomGameMode<ABountyDashGameMode>(GetWorld())->CharScoreUp(Score);
 }
 
 void ABountyDashCharacter::MoveRight()
@@ -151,6 +158,10 @@ void ABountyDashCharacter::MoveLeft()
 
 void ABountyDashCharacter::MyOnComponentEndOverlap(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex)
 {
+	if (OtherActor->GetClass()->IsChildOf(AObstacle::StaticClass()))
+	{
+		bBeingPushed = false;
+	}
 }
 
 void ABountyDashCharacter::MyOnComponentOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* otherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult&SweepResult)
