@@ -4,6 +4,7 @@
 #include "Engine/TargetPoint.h" 
 #include "Coin.h" 
 #include "Floor.h" 
+#include "PoolManager.h"
 
 #include "Runtime/Engine/Public/EngineUtils.h"
 #include "Runtime/Engine/Public/TimerManager.h"
@@ -82,10 +83,9 @@ void ACoinSpawner::SpawnCoin()
 	FTransform coinTransform = SpawnTransforms[TargetLoc]->GetTransform();
 
 	coinTransform.SetLocation(FVector(SpawnPoint, coinTransform.GetLocation().Y, coinTransform.GetLocation().Z));
-
-	//ACoin* spawnedCoin = GetWorld()->SpawnActor<ACoin>(CoinObject, coinTransform, spawnParams);
-	ACoin* spawnedCoin = Cast<ACoin>(RockPool->Spawn(CoinObject, coinTransform));
-
+	//ACoin* spawnedCoin = Cast<ACoin>(RockPool->Spawn(CoinObject, coinTransform));
+	ACoin* spawnedCoin = APoolManager::Get()->Spawn<ACoin>(GetWorld(), CoinObject, coinTransform);
+		
 	if (spawnedCoin)
 	{
 		USphereComponent* coinSphere = Cast<USphereComponent>(spawnedCoin->GetComponentByClass(USphereComponent::StaticClass()));

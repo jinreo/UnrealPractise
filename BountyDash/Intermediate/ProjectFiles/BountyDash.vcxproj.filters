@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BountyDash.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{45F37A0C-9293-4B2F-868A-2A446B65FACF}</UniqueIdentifier>
+      <UniqueIdentifier>{5FB54277-FED7-4F57-9B3E-D720902921C7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BountyDash.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{842E5805-940E-431E-9E3D-70346528EA33}</UniqueIdentifier>
+      <UniqueIdentifier>{DD2694CD-D123-413F-81BE-FBCE49227D6A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BountyDash">
-      <UniqueIdentifier>{C5C5C94E-20A5-4302-9918-0A5EBF39E3D6}</UniqueIdentifier>
+      <UniqueIdentifier>{1DCA813E-ED49-4605-8A68-B2D79D634B5A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BountyDash\BountyDash.Build.cs">
       <Filter>Source\BountyDash</Filter>
@@ -78,6 +78,12 @@
       <Filter>Source\BountyDash</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BountyDash\ObstacleSpawner.h">
+      <Filter>Source\BountyDash</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BountyDash\PoolManager.cpp">
+      <Filter>Source\BountyDash</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BountyDash\PoolManager.h">
       <Filter>Source\BountyDash</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\BountyDash\RockPool.cpp">

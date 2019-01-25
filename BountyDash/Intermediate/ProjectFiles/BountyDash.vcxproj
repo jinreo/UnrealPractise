@@ -523,6 +523,8 @@
     <ClInclude Include="..\..\Source\BountyDash\Obstacle.h"/>
     <ClCompile Include="..\..\Source\BountyDash\ObstacleSpawner.cpp"/>
     <ClInclude Include="..\..\Source\BountyDash\ObstacleSpawner.h"/>
+    <ClCompile Include="..\..\Source\BountyDash\PoolManager.cpp"/>
+    <ClInclude Include="..\..\Source\BountyDash\PoolManager.h"/>
     <ClCompile Include="..\..\Source\BountyDash\RockPool.cpp"/>
     <ClInclude Include="..\..\Source\BountyDash\RockPool.h"/>
     <ClCompile Include="..\..\Source\BountyDash\Test.cpp"/>

@@ -12,7 +12,8 @@ AActor* ARockPool::Spawn(UClass* uclass, const FTransform &transform)
 	if (waitList.Num() == 0)
 	{
 		FActorSpawnParameters SpawnInfo;
-		actor = GetWorld()->SpawnActor<AActor>(uclass, transform, SpawnInfo);
+		UWorld* world = GetWorld();
+		actor = world->SpawnActor<AActor>(uclass, transform, SpawnInfo);
 
 		spawnList.AddTail(actor);
 	}

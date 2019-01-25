@@ -2,6 +2,7 @@
 
 #include "Coin.h"
 #include "BountyDash.h"
+#include "PoolManager.h"
 #include "BountyDashCharacter.h"
 #include "BountyDashGameMode.h"
 #include "Components/StaticMeshComponent.h"
@@ -33,7 +34,8 @@ void ACoin::CustomOnActorOverlap(AActor* OverlappedActor, AActor* OtherActor)
 	{
 		ABountyDashCharacter* character = Cast< ABountyDashCharacter>(OtherActor);
 		character->ScoreUp();
-		pooler->Despawn(this);
+
+		APoolManager::Get()->Despawn(this);
 	}
 }
 
