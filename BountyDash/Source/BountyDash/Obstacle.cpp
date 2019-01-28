@@ -4,7 +4,7 @@
 #include "BountyDash.h"
 #include "BountyDashGameMode.h"
 #include "ObstacleSpawner.h"
-#include "RockPool.h"
+#include "PoolManager.h"
 
 #include <EngineGlobals.h>
 #include "Components/StaticMeshComponent.h"
@@ -56,7 +56,7 @@ void AObstacle::Tick(float DeltaTime)
 
 	if (GetActorLocation().X < killPoint)
 	{
-		pooler->Despawn(this);
+		APoolManager::Get()->Despawn(this);
 	}
 }
 
@@ -68,11 +68,6 @@ void AObstacle::SetKillPoint(float point)
 float AObstacle::GetKillPoint()
 {
 	return killPoint;
-}
-
-void AObstacle::SetPool(ARockPool* pool)
-{
-	pooler = pool;
 }
 //
 //void AObstacle::CustomOnActorOverlap_Implementation(AActor* OverlappedActor, AActor* otherActor)

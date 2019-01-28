@@ -23,7 +23,4 @@ class BOUNTYDASH_API ACoin : public AObstacle
 	UFUNCTION()
 	void CustomOnActorOverlap(AActor* OverlappedActor, AActor* otherActor) override;
 	//void CustomOnActorOverlap_Implementation(AActor* OverlappedActor, AActor* OtherActor) override;
-
-public:
-	void SetPool(ARockPool* pool);
 };

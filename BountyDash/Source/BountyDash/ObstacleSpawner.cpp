@@ -5,6 +5,7 @@
 #include "BountyDashGameMode.h" 
 #include "Engine/TargetPoint.h" 
 #include "Floor.h" 
+#include "PoolManager.h"
 #include "Obstacle.h" 
 //#include "RockPooler.h"
 
@@ -72,13 +73,11 @@ void AObstacleSpawner::SpawnObstacle()
 		FTransform myTrans = SpawnTargets[spawner]->GetTransform();
 		myTrans.SetLocation(FVector(spawnPoint, myTrans.GetLocation().Y, myTrans.GetLocation().Z));
 
-		AActor* actor = RockPool->Spawn(ObstaclesToSpawn[obstical], myTrans);
-		AObstacle* newObs = Cast<AObstacle>(actor);
+		AObstacle* newObs = APoolManager::Get()->Spawn<AObstacle>(GetWorld(), ObstaclesToSpawn[obstical], myTrans);
 
 		if (newObs)
 		{
 			newObs->SetKillPoint(killPoint);
-			newObs->SetPool(RockPool);
 
 			USphereComponent* obsSphere = Cast<USphereComponent>(newObs->GetComponentByClass(USphereComponent::StaticClass()));
 

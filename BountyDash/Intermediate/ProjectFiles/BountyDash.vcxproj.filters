@@ -99,4 +99,14 @@
       <Filter>Source\BountyDash</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\BountyDash\BountyDashObject.h">
+      <Filter>Source\BountyDash</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BountyDash\BountyDashObject.cpp">
+      <Filter>Source\BountyDash</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

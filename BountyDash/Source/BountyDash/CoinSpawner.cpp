@@ -94,7 +94,6 @@ void ACoinSpawner::SpawnCoin()
 		{
 			float offset = coinSphere->GetUnscaledSphereRadius();
 			spawnedCoin->AddActorLocalOffset(FVector(0.0f, 0.0f, offset));
-			spawnedCoin->SetPool(RockPool);
 		}
 
 		NumCoinsToSpawn--;

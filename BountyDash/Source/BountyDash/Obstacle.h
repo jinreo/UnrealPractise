@@ -27,8 +27,6 @@ protected:
 	virtual void BeginPlay() override;
 
 public:
-	void SetPool(ARockPool* pool);
-
 	void SetKillPoint(float point);
 
 	float GetKillPoint();

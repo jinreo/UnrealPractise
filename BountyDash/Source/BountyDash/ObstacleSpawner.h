@@ -5,7 +5,6 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Obstacle.h" 
-#include "RockPool.h"
 #include "ObstacleSpawner.generated.h"
 
 UCLASS()
@@ -26,10 +25,7 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-	UPROPERTY(EditAnywhere)
-	ARockPool* RockPool;
-
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<TSubclassOf<AObstacle>> ObstaclesToSpawn;
 

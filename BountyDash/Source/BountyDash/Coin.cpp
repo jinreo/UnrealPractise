@@ -38,8 +38,3 @@ void ACoin::CustomOnActorOverlap(AActor* OverlappedActor, AActor* OtherActor)
 		APoolManager::Get()->Despawn(this);
 	}
 }
-
-void ACoin::SetPool(ARockPool* pool)
-{
-	pooler = pool;
-}

@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BOUNTYDASH_ObstacleSpawner_generated_h
 
-#define BountyDash_Source_BountyDash_ObstacleSpawner_h_14_RPC_WRAPPERS
-#define BountyDash_Source_BountyDash_ObstacleSpawner_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define BountyDash_Source_BountyDash_ObstacleSpawner_h_14_INCLASS_NO_PURE_DECLS \
+#define BountyDash_Source_BountyDash_ObstacleSpawner_h_13_RPC_WRAPPERS
+#define BountyDash_Source_BountyDash_ObstacleSpawner_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define BountyDash_Source_BountyDash_ObstacleSpawner_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAObstacleSpawner(); \
 	friend struct Z_Construct_UClass_AObstacleSpawner_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AObstacleSpawner)
 
 
-#define BountyDash_Source_BountyDash_ObstacleSpawner_h_14_INCLASS \
+#define BountyDash_Source_BountyDash_ObstacleSpawner_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesAObstacleSpawner(); \
 	friend struct Z_Construct_UClass_AObstacleSpawner_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AObstacleSpawner)
 
 
-#define BountyDash_Source_BountyDash_ObstacleSpawner_h_14_STANDARD_CONSTRUCTORS \
+#define BountyDash_Source_BountyDash_ObstacleSpawner_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AObstacleSpawner(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AObstacleSpawner) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define BountyDash_Source_BountyDash_ObstacleSpawner_h_14_ENHANCED_CONSTRUCTORS \
+#define BountyDash_Source_BountyDash_ObstacleSpawner_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AObstacleSpawner(AObstacleSpawner&&); \
@@ -57,26 +57,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AObstacleSpawner); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AObstacleSpawner)
 
 
-#define BountyDash_Source_BountyDash_ObstacleSpawner_h_14_PRIVATE_PROPERTY_OFFSET
-#define BountyDash_Source_BountyDash_ObstacleSpawner_h_11_PROLOG
-#define BountyDash_Source_BountyDash_ObstacleSpawner_h_14_GENERATED_BODY_LEGACY \
+#define BountyDash_Source_BountyDash_ObstacleSpawner_h_13_PRIVATE_PROPERTY_OFFSET
+#define BountyDash_Source_BountyDash_ObstacleSpawner_h_10_PROLOG
+#define BountyDash_Source_BountyDash_ObstacleSpawner_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BountyDash_Source_BountyDash_ObstacleSpawner_h_14_PRIVATE_PROPERTY_OFFSET \
-	BountyDash_Source_BountyDash_ObstacleSpawner_h_14_RPC_WRAPPERS \
-	BountyDash_Source_BountyDash_ObstacleSpawner_h_14_INCLASS \
-	BountyDash_Source_BountyDash_ObstacleSpawner_h_14_STANDARD_CONSTRUCTORS \
+	BountyDash_Source_BountyDash_ObstacleSpawner_h_13_PRIVATE_PROPERTY_OFFSET \
+	BountyDash_Source_BountyDash_ObstacleSpawner_h_13_RPC_WRAPPERS \
+	BountyDash_Source_BountyDash_ObstacleSpawner_h_13_INCLASS \
+	BountyDash_Source_BountyDash_ObstacleSpawner_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define BountyDash_Source_BountyDash_ObstacleSpawner_h_14_GENERATED_BODY \
+#define BountyDash_Source_BountyDash_ObstacleSpawner_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BountyDash_Source_BountyDash_ObstacleSpawner_h_14_PRIVATE_PROPERTY_OFFSET \
-	BountyDash_Source_BountyDash_ObstacleSpawner_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	BountyDash_Source_BountyDash_ObstacleSpawner_h_14_INCLASS_NO_PURE_DECLS \
-	BountyDash_Source_BountyDash_ObstacleSpawner_h_14_ENHANCED_CONSTRUCTORS \
+	BountyDash_Source_BountyDash_ObstacleSpawner_h_13_PRIVATE_PROPERTY_OFFSET \
+	BountyDash_Source_BountyDash_ObstacleSpawner_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	BountyDash_Source_BountyDash_ObstacleSpawner_h_13_INCLASS_NO_PURE_DECLS \
+	BountyDash_Source_BountyDash_ObstacleSpawner_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
