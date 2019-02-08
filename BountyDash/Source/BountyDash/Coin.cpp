@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Coin.h"
+#include "Obstacle.h"
 #include "BountyDash.h"
 #include "PoolManager.h"
 #include "BountyDashCharacter.h"
@@ -9,8 +10,25 @@
 
 ACoin::ACoin()
 {
+	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
+	check(Mesh);
+	Mesh->AttachTo(RootComponent);
+	Mesh->SetCollisionProfileName("OverlapAllDynamic");
 
+	OnActorBeginOverlap.AddDynamic(this, &ACoin::MyOnActorOverlap);
 }
+
+// Called when the game starts or when spawned
+void ACoin::BeginPlay()
+{
+	Super::BeginPlay();
+
+	if (OnActorBeginOverlap.GetAllObjects().Num() == 0)
+	{
+		OnActorBeginOverlap.AddDynamic(this, &ACoin::MyOnActorOverlap);
+	}
+}
+
 
 void ACoin::Tick(float DeltaTime)
 {
@@ -18,7 +36,7 @@ void ACoin::Tick(float DeltaTime)
 	Mesh->AddLocalRotation(FRotator(5.0f, 0.0f, 0.0f));
 }
 
-void ACoin::CustomOnActorOverlap(AActor* OverlappedActor, AActor* OtherActor)
+void ACoin::MyOnActorOverlap(AActor* OverlappedActor, AActor* OtherActor)
 {
 	if (OtherActor->GetClass()->IsChildOf(AObstacle::StaticClass()))
 	{

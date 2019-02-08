@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "BountyDash.h"
 #include "BountyDashObject.h"
+#include "BountyDash.h"
 #include "BountyDashGameMode.h"
 #include "PoolManager.h"
 
@@ -16,16 +16,6 @@ ABountyDashObject::ABountyDashObject()
 
 	RootComponent = Collider;
 	Collider->SetCollisionProfileName("OverlapAllDynamic");
-
-	OnActorBeginOverlap.AddDynamic(this, &ABountyDashObject::CustomOnActorOverlap);
-	OnActorEndOverlap.AddDynamic(this, &ABountyDashObject::CustomOnActorOverlapEnd);
-}
-
-// Called when the game starts or when spawned
-void ABountyDashObject::BeginPlay()
-{
-	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -41,16 +31,6 @@ void ABountyDashObject::Tick(float DeltaTime)
 	{
 		APoolManager::Get()->Despawn(this);
 	}
-}
-
-void ABountyDashObject::CustomOnActorOverlap(AActor* OverlappedActor, AActor* otherActor)
-{
-
-}
-
-void ABountyDashObject::CustomOnActorOverlapEnd(AActor* OverlappedActor, AActor* otherActor)
-{
-
 }
 
 void ABountyDashObject::SetKillPoint(float point)

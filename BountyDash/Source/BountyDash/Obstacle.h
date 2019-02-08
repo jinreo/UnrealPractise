@@ -6,12 +6,12 @@
 #include "GameFramework/Actor.h"
 #include "Components/SphereComponent.h"
 
-#include "RockPool.h"
+#include "BountyDashObject.h"
 
 #include "Obstacle.generated.h"
 
-UCLASS()
-class BOUNTYDASH_API AObstacle : public AActor
+UCLASS(BluePrintType)
+class BOUNTYDASH_API AObstacle : public ABountyDashObject
 {
 	GENERATED_BODY()
 		
@@ -19,37 +19,17 @@ public:
 	// Sets default values for this actor's properties
 	AObstacle();
 
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-protected:
-	// Called when the game starts or when spawned
+	// 게임이 시작되거나 스폰되었을 때 호출됨 
 	virtual void BeginPlay() override;
 
 public:
-	void SetKillPoint(float point);
-
-	float GetKillPoint();
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	USphereComponent* Collider;
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UStaticMeshComponent* Mesh;
 
-	ARockPool* pooler;
-
 protected:
-	//UFUNCTION(BlueprintNativeEvent)
-	virtual void CustomOnActorOverlap(AActor* OverlappedActor, AActor* otherActor);
-	//void CustomOnActorOverlap_Implementation(AActor* OverlappedActor, AActor* OtherActor);
+	UFUNCTION()
+		virtual void MyOnActorOverlap(AActor* OverlappedActor, AActor* otherActor);
 
-	// 오버랩 종료 수행
-	//UFUNCTION(BlueprintNativeEvent)
-	virtual void CustomOnActorEndOverlap(AActor* OverlappedActor, AActor* OtherActor);
-	//void CustomOnActorEndOverlap_Implementation(AActor* OverlappedActor, AActor* OtherActor);
-
-
-private:
-	float killPoint;
+	UFUNCTION()
+		virtual void MyOnActorEndOverlap(AActor* OverlappedActor, AActor* otherActor);
 };

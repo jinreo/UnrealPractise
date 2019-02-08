@@ -11,31 +11,21 @@ UCLASS()
 class BOUNTYDASH_API ABountyDashObject : public AActor
 {
 	GENERATED_BODY()
-
-	float KillPoint;
-
-public:	
-	// Sets default values for this actor's properties
+		
+public:
+	// 이 액터의 속성 기본값을 설정함
 	ABountyDashObject();
-	
+
+	// 매 프레임 호출됨
+	virtual void Tick(float DeltaSeconds) override;
+
 	void SetKillPoint(float point);
 	float GetKillPoint();
 
 protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
-	UFUNCTION()
-	virtual void CustomOnActorOverlap(AActor* OverlappedActor, AActor* otherActor);
-
-	UFUNCTION()
-	virtual void CustomOnActorOverlapEnd(AActor* OverlappedActor, AActor* otherActor);
 
 	UPROPERTY(EditAnywhere)
 	USphereComponent* Collider;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
+	float KillPoint;
 };

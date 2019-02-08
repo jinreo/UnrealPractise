@@ -3,24 +3,30 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Obstacle.h"
-#include "RockPool.h"
+#include "BountyDashObject.h" 
 #include "Coin.generated.h"
 
-/**
- * 
- */
 UCLASS()
-class BOUNTYDASH_API ACoin : public AObstacle
+class BOUNTYDASH_API ACoin : public ABountyDashObject
 {
 	GENERATED_BODY()
 
 	ACoin();
 
-	virtual void Tick(float DeltaTime) override;
 
-	//UFUNCTION(BlueprintNativeEvent)
+public:
+	bool BeingPulled;
+
+	// 게임이 시작되거나 스폰되었을 때 호출됨 
+	virtual void BeginPlay() override;
+
+protected:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UStaticMeshComponent* Mesh;
+
+	// 매 프레임 호출됨
+	virtual void Tick(float DeltaSeconds) override;
+
 	UFUNCTION()
-	void CustomOnActorOverlap(AActor* OverlappedActor, AActor* otherActor) override;
-	//void CustomOnActorOverlap_Implementation(AActor* OverlappedActor, AActor* OtherActor) override;
+	void MyOnActorOverlap(AActor* OverlappedActor, AActor* otherActor);
 };
