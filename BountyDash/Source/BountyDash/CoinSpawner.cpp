@@ -5,6 +5,8 @@
 #include "Coin.h" 
 #include "Floor.h" 
 #include "PoolManager.h"
+#include "BountyDashPowerUp.h"
+#include "Components/SphereComponent.h"
 
 #include "Runtime/Engine/Public/EngineUtils.h"
 #include "Runtime/Engine/Public/TimerManager.h"
@@ -59,6 +61,25 @@ void ACoinSpawner::Tick(float DeltaTime)
 
 }
 
+void ACoinSpawner::SpawnPowerUp()
+{
+	FTransform myTrans = SpawnTransforms[TargetLoc]->GetTransform();
+	myTrans.SetLocation(FVector(SpawnPoint, myTrans.GetLocation().Y, myTrans.GetLocation().Z));
+
+	ABountyDashPowerUp* newObs = APoolManager::Get()->Spawn<ABountyDashPowerUp>(GetWorld(), PowerUpObject, myTrans);
+	if (newObs)
+	{
+		newObs->SetKillPoint(KillPoint);
+		USphereComponent* powerUpSphere = Cast<USphereComponent>(newObs->GetComponentByClass(USphereComponent::StaticClass()));
+
+		if (powerUpSphere)
+		{
+			float offset = powerUpSphere->GetUnscaledSphereRadius();
+			newObs->AddActorLocalOffset(FVector(0.0f, 0.0f, offset));
+		}
+	}
+}
+
 void ACoinSpawner::SpawnCoinSet()
 {
 	NumCoinsToSpawn = FMath::RandRange(MinSetCoins, MaxSetCoins);
@@ -78,31 +99,37 @@ void ACoinSpawner::MoveSpawner()
 
 void ACoinSpawner::SpawnCoin()
 {
-	FActorSpawnParameters spawnParams;
-
-	FTransform coinTransform = SpawnTransforms[TargetLoc]->GetTransform();
-
-	coinTransform.SetLocation(FVector(SpawnPoint, coinTransform.GetLocation().Y, coinTransform.GetLocation().Z));
-	//ACoin* spawnedCoin = Cast<ACoin>(RockPool->Spawn(CoinObject, coinTransform));
-	ACoin* spawnedCoin = APoolManager::Get()->Spawn<ACoin>(GetWorld(), CoinObject, coinTransform);
-		
-	if (spawnedCoin)
+	if (FMath::Rand() % 100 < PowerUpChance)
 	{
-		USphereComponent* coinSphere = Cast<USphereComponent>(spawnedCoin->GetComponentByClass(USphereComponent::StaticClass()));
-
-		if (coinSphere)
-		{
-			float offset = coinSphere->GetUnscaledSphereRadius();
-			spawnedCoin->AddActorLocalOffset(FVector(0.0f, 0.0f, offset));
-		}
-
+		SpawnPowerUp();
 		NumCoinsToSpawn--;
 	}
-
-	if (NumCoinsToSpawn <= 0)
+	else
 	{
-		FTimerManager& worldTimeManager = GetWorld()->GetTimerManager();
-		worldTimeManager.SetTimer(CoinSetTimerHandle, this, &ACoinSpawner::SpawnCoinSet, CoinSetTimeInterval, false);
-		worldTimeManager.ClearTimer(CoinTimerHandle);
+		FTransform coinTransform = SpawnTransforms[TargetLoc]->GetTransform();
+
+		coinTransform.SetLocation(FVector(SpawnPoint, coinTransform.GetLocation().Y, coinTransform.GetLocation().Z));
+		//ACoin* spawnedCoin = Cast<ACoin>(RockPool->Spawn(CoinObject, coinTransform));
+		ACoin* spawnedCoin = APoolManager::Get()->Spawn<ACoin>(GetWorld(), CoinObject, coinTransform);
+
+		if (spawnedCoin)
+		{
+			USphereComponent* coinSphere = Cast<USphereComponent>(spawnedCoin->GetComponentByClass(USphereComponent::StaticClass()));
+
+			if (coinSphere)
+			{
+				float offset = coinSphere->GetUnscaledSphereRadius();
+				spawnedCoin->AddActorLocalOffset(FVector(0.0f, 0.0f, offset));
+			}
+
+			NumCoinsToSpawn--;
+		}
+
+		if (NumCoinsToSpawn <= 0)
+		{
+			FTimerManager& worldTimeManager = GetWorld()->GetTimerManager();
+			worldTimeManager.SetTimer(CoinSetTimerHandle, this, &ACoinSpawner::SpawnCoinSet, CoinSetTimeInterval, false);
+			worldTimeManager.ClearTimer(CoinTimerHandle);
+		}
 	}
 }

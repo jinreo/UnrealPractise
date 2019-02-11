@@ -10,33 +10,33 @@ public class PowerUpPlugin : ModuleRules
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
-				// ... add public include paths required here ...
-                "PowerUpPlugin/Public"
+				"PowerUpPlugin/Public"
+                // 필요한 다른 public include 경로를 여기에 추가한다  
 			}
-			);
+            );
 				
 		
 		PrivateIncludePaths.AddRange(
 			new string[] {
-				// ... add other private include paths required here ...
-                "PowerUpPlugin/Private"
-            }
-			);
+				"PowerUpPlugin/Private",
+                // 필요한 다른 private include 경로를 여기에 추가한다  
+			}
+            );
 			
 		
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
 				"Core",
-				// ... add other public dependencies that you statically link with here ...
+                "CoreUObject",
+                // ... 정적으로 링크된 다른 public 종속성을 추가한다 ... 
 			}
-			);
+            );
 			
 		
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
-                "Core",
 				"CoreUObject",
 				"Engine",
 				"Slate",

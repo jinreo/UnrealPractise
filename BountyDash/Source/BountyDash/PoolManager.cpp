@@ -32,6 +32,7 @@ AActor* APoolManager::Spawn(UWorld* world, UClass* uclass, const FTransform &tra
 	FString name = uclass->GetName();
 	AActor* actor = NULL;
 
+	UE_LOG(LogTemp, Warning, TEXT("%s"), *name);
 	if (waitActorMap.Num() != 0 && waitActorMap.Contains(name))
 	{
 		TQueue<AActor*>* waitQueue = waitActorMap[name];

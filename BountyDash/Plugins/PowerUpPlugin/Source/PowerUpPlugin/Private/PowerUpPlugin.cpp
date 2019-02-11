@@ -2,17 +2,19 @@
 
 #include "PowerUpPlugin.h"
 
+// 모듈의 private 헤더 파일을 여기에 include해야 한다. 
+// 모듈의 소스 파일의 대부분이 사용하는 헤더를 포함시키자
+
+#include "CoreUObject.h" 
+
 #define LOCTEXT_NAMESPACE "FPowerUpPluginModule"
 
 void FPowerUpPluginModule::StartupModule()
 {
-	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
 }
 
 void FPowerUpPluginModule::ShutdownModule()
 {
-	// This function may be called during shutdown to clean up your module.  For modules that support dynamic reloading,
-	// we call this function before unloading the module.
 }
 
 #undef LOCTEXT_NAMESPACE
