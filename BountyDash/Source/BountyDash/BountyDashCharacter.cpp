@@ -5,6 +5,7 @@
 #include "BountyDashGameMode.h"
 #include "ConstructorHelpers.h"
 #include "Obstacle.h"
+#include "Coin.h"
 
 #include "Animation/AnimInstance.h"
 #include "Animation/AnimBlueprint.h"
@@ -106,6 +107,36 @@ void ABountyDashCharacter::Tick(float DeltaTime)
 		float moveSpeed = GetCustomGameMode<ABountyDashGameMode>(GetWorld())->GetInvGameSpeed();
 		AddActorLocalOffset(FVector(moveSpeed, 0.0f, 0.0f));
 	}
+
+	if (CanMagnet)
+	{
+		CoinMagnet();
+	}
+}
+
+void ABountyDashCharacter::PowerUp(EPowerUp Type)
+{
+	switch (Type)
+	{
+	case EPowerUp::SPEED:
+		GetCustomGameMode<ABountyDashGameMode>(GetWorld())->ReduceGameSpeed();
+		break;
+
+	case EPowerUp::SMASH:
+		CanSmash = true;
+		FTimerHandle newTimer;
+		GetWorld()->GetTimerManager().SetTimer(newTimer, this, &ABountyDashCharacter::StopSmash, SmashTime, false);
+		break;
+
+	case EPowerUp::MAGNET:
+		CanMagnet = true;
+		FTimerHandle newTimer;
+		GetWorld()->GetTimerManager().SetTimer(newTimer, this, &ABountyDashCharacter::StopMagnet, MagnetTime, false);
+		break;
+
+	default:
+		break;
+	}
 }
 
 // Called to bind functionality to input
@@ -176,6 +207,30 @@ void ABountyDashCharacter::MyOnComponentOverlap(UPrimitiveComponent* OverlappedC
 		if (AngleBetween < 60.0f)
 		{
 			bBeingPushed = true;
+		}
+	}
+}
+
+void ABountyDashCharacter::StopSmash()
+{
+	CanSmash = false;
+}
+
+void ABountyDashCharacter::StopMagnet()
+{
+	CanMagnet = false;
+}
+
+void ABountyDashCharacter::CoinMagnet()
+{
+	for (TActorIterator<ACoin> coinIter(GetWorld()); coinIter; ++coinIter)
+	{
+		FVector between = GetActorLocation() - coinIter->GetActorLocation();
+		if (FMath::Abs(between.Size()) < MagnetReach)
+		{
+			FVector CoinPos = FMath::Lerp((*coinIter)->GetActorLocation(), GetActorLocation(), 0.2f);
+			(*coinIter)->SetActorLocation(CoinPos);
+			(*coinIter)->BeingPulled = true;
 		}
 	}
 }

@@ -5,24 +5,27 @@
 #include "CoreMinimal.h"
 #include "Components/AudioComponent.h"
 #include "GameFramework/Character.h"
+#include "PowerUpObject.h"
 #include "BountyDashCharacter.generated.h"
 
 UCLASS()
 class BOUNTYDASH_API ABountyDashCharacter : public ACharacter
 {
 	GENERATED_BODY()
-
-
-public:	
-	// Sets default values for this character's properties
-	ABountyDashCharacter();
-
+		
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 	void MoveRight();
 	void MoveLeft();
+	void CoinMagnet();
+
+	UFUNCTION()
+	void StopSmash();
+
+	UFUNCTION()
+	void StopMagnet();
 
 	UFUNCTION()
 	void MyOnComponentOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* otherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult&SweepResult);
@@ -30,7 +33,11 @@ protected:
 	UFUNCTION()
 	void MyOnComponentEndOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 	
-public:	
+public:
+	ABountyDashCharacter();
+
+	void PowerUp(EPowerUp Type);
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -39,8 +46,6 @@ public:
 
 	void ScoreUp();
 
-
-public:
 	UPROPERTY(EditAnyWhere, Category = Logic)
 		TArray<class ATargetPoint*> TargetArray;
 
@@ -53,6 +58,9 @@ public:
 	UPROPERTY(EditAnyWhere, Category = Sound)
 		UAudioComponent* dingSound;
 
+public:
+	bool BeingPulled;
+
 protected:
 	UPROPERTY(EditAnyWhere, BlueprintReadOnly, Category = Camera)
 		class USpringArmComponent* CameraBoom;
@@ -63,8 +71,19 @@ protected:
 	UPROPERTY(BlueprintReadOnly)
 		int32 Score;
 
+	UPROPERTY(EditAnywhere, Category = PowerUps)
+		float SmashTime;
+
+	UPROPERTY(EditAnywhere, Category = PowerUps)
+		float MagnetTime;
+
+	UPROPERTY(EditAnywhere, Category = PowerUps)
+		float MagnetReach;
+
 private:
 	bool bBeingPushed;
+	bool CanSmash;
+	bool CanMagnet;
 	short CurrentLocation;
 	FVector DesiredLocation;
 };
